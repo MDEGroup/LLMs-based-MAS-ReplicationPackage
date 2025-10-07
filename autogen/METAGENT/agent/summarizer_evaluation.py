@@ -1,0 +1,44 @@
+import os
+from string import Template
+from autogen_agentchat.agents import AssistantAgent
+from autogen_agentchat.messages import StructuredMessage, TextMessage
+from autogen_agentchat.ui import Console
+from autogen_core import CancellationToken
+from autogen_ext.models.openai import OpenAIChatCompletionClient
+
+
+class SummarizerEvaluationAgent():
+    """Agent for extracting information based on a prompt template."""
+
+    def __init__(self, name):
+        self.name = name
+        # Create an agent that uses the OpenAI GPT-4o model.
+        model_client = OpenAIChatCompletionClient(
+            model= "gpt-4o-mini",
+            api_key= os.getenv('OPENAI_API_KEY'),
+            temperature=0
+        )
+        
+        self.agent = AssistantAgent(
+            name=name,
+            model_client=model_client,
+            system_message="Use tools to solve tasks.",
+        )
+        
+    def _build_prompt(self, prompt: str, extracted_text: str) -> str:
+        prompt = Template(prompt)
+        return prompt.substitute(extracted_text=extracted_text)
+
+    async def run_agent(self, prompt: str, extracted_text) -> str:
+        """Creates a ChatCompletionAgent for extraction."""
+        # Create instruction  prompt
+        prompt = self._build_prompt(prompt, extracted_text)
+        # Send prompt to agent
+        response = await self.agent.on_messages(
+        [TextMessage(content=prompt, source="user")],
+        cancellation_token=CancellationToken(),
+        )
+        response_text = response.chat_message.content
+        print(f"[{self.name} sent]: {response_text}\n")
+        return response_text
+    

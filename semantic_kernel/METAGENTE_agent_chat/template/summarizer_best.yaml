@@ -1,0 +1,13 @@
+name: Summarizer
+template: |
+  Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository. Prioritize using any existing tagline, functional description, purpose statement, or overview from the beginning of the text. The output should include only a short term/phrase introducing the repository. 
+  <EXTRACTED_README>  
+  {{$extracted_text}}  
+  </EXTRACTED_README>
+
+template_format: semantic-kernel
+description: A function that generates summaries of README files.
+input_variables:
+  - name: extracted_text
+    description: README file to be summarized.
+    is_required: true

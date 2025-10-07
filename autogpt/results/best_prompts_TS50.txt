@@ -1,0 +1,299 @@
+Extractor Prompt 0:Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository:
+&amp;lt;EXTRACTED_README&amp;gt;
+{{value}}
+&amp;lt;/EXTRACTED_README&amp;gt;
+ 
+The output should include only a short term/phrase introducing the repository.
+
+Extractor Prompt 1:Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository:
+&amp;lt;EXTRACTED_README&amp;gt;
+{{value}}
+&amp;lt;/EXTRACTED_README&amp;gt;
+ 
+The output should include only a short term/phrase introducing the repository.
+
+Extractor Prompt 2:Summarize the following extracted text from a Github repository README into a concise term/phrase introducing the repository. If a clear tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it as the description. Ensure that key concepts related to &amp;#39;Natural Language Processing&amp;#39; and &amp;#39;Ruby&amp;#39; are highlighted:
+
+&amp;amp;amp;lt;EXTRACTED_README&amp;amp;amp;gt;  
+{{value}}  
+&amp;amp;amp;lt;/EXTRACTED_README&amp;amp;amp;gt;
+
+The output should include only a short term/phrase introducing the repository.
+
+Extractor Prompt 3:Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept, purpose, or primary functionality of the repository. If a tagline, functional description, purpose statement, or overview appears prominently at the beginning of the extracted text and accurately reflects the repository&amp;#39;s purpose, prioritize using it in the output. Ensure that the main programming languages (Java, C++, JavaScript) and core functionalities such as parsing, formatting, and validating international phone numbers are clearly highlighted in the output phrase if these elements are present. Make sure the phrasing is consistent with how it appears in the extracted text when it accurately captures these aspects.
+
+&amp;lt;EXTRACTED_README&amp;gt;
+{{value}}
+&amp;lt;/EXTRACTED_README&amp;gt;
+
+The output should be a concise term or phrase introducing the repository.
+
+Extractor Prompt 4:&amp;#34;&amp;#34;
+
+Extractor Prompt 5:&amp;#34;&amp;#34;
+
+Extractor Prompt 6:Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository:
+&amp;lt;EXTRACTED_README&amp;gt;
+{{value}}
+&amp;lt;/EXTRACTED_README&amp;gt;
+ 
+The output should include only a short term/phrase introducing the repository.
+
+Extractor Prompt 7:Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository:
+&amp;lt;EXTRACTED_README&amp;gt;
+{{value}}
+&amp;lt;/EXTRACTED_README&amp;gt;
+ 
+The output should include only a short term/phrase introducing the repository.
+
+Extractor Prompt 8:Summarize the following extracted text from a GitHub repository README into a short term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview appears at the beginning of the extracted text and succinctly captures the main idea and aligns with the repository&amp;#39;s core concept, use it exactly as it appears. Emphasize capturing the key concept related to resources for data science with Python.
+
+&amp;lt;EXTRACTED_README&amp;gt;
+{{value}}
+&amp;lt;/EXTRACTED_README&amp;gt;
+
+The output should be a concise term/phrase that effectively introduces the essence of the repository.
+
+Extractor Prompt 9:Summarize the following extracted text from a GitHub repository README into a short term/phrase introducing the repository. Prioritize using any existing tagline, functional description, purpose statement, or overview from the text if it effectively represents the repository’s main idea. Ensure that any such statement is incorporated in the summary, particularly if it emphasizes &amp;#34;easy-to-use&amp;#34; or &amp;#34;developer-friendly.&amp;#34; Consider &amp;#34;easy-to-use and developer-friendly enterprise CMS powered by Django&amp;#34; as key focuses for the summary. Emphasize elements related to usability, ease of use, and developer-friendliness when crafting the summary. If the extracted text already contains a concise and relevant purpose statement or overview, prioritize it as the basis for the term/phrase:
+
+&amp;lt;EXTRACTED_README&amp;gt;
+{{value}}
+&amp;lt;/EXTRACTED_README&amp;gt;
+
+The output should be a precise term/phrase encapsulating the essence of the repository.
+
+Extractor Prompt 10:Summarize the following extracted text from a GitHub repository README into a short term/phrase introducing the repository. If a precise and functional description or overview is present at the beginning of the extracted text and directly aligns with the repository&amp;#39;s purpose, prioritize using it as the generated summary. Ensure the generated term/phrase closely reflects the original wording and essence of any existing tagline or description present at the beginning.
+
+&amp;amp;lt;EXTRACTED_README&amp;amp;gt;
+{{value}}
+&amp;amp;lt;/EXTRACTED_README&amp;amp;gt;
+
+The output should include only a short term/phrase introducing the repository.
+
+Extractor Prompt 11:&amp;#34;&amp;#34;
+
+Extractor Prompt 12:&amp;#34;&amp;#34;
+
+Extractor Prompt 13:Summarize the following extracted text from a GitHub repository README into a short term/phrase that captures the existing tagline, functional description, purpose statement, or overview, if available, to introduce the repository:
+
+&amp;amp;lt;EXTRACTED_README&amp;amp;gt; {{value}} &amp;amp;lt;/EXTRACTED_README&amp;amp;gt;
+
+The output should include only a concise term/phrase introducing the repository, prioritizing any explicit tagline, functional description, or name of the repository present at the start of the extracted text.
+
+Extractor Prompt 14:Summarize the following extracted text from a Github repository README into a concise term or phrase describing the repository. If the exact purpose statement, functional description, or overview appears near the beginning of the text, prioritize using that exact phrasing in the summary. Ensure that the summary is concise and accurately reflects the main functionality or purpose of the repository:
+
+&amp;lt;EXTRACTED_README&amp;gt; {{value}} &amp;lt;/EXTRACTED_README&amp;gt;
+
+The output should consist solely of a short term or phrase introducing the repository. Ensure the summary captures the repository&amp;#39;s primary functionality or purpose as described, using the exact phrasing where applicable to accurately maintain alignment with the original intent.
+
+Extractor Prompt 15:Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository:
+&amp;lt;EXTRACTED_README&amp;gt;
+{{value}}
+&amp;lt;/EXTRACTED_README&amp;gt;
+ 
+The output should include only a short term/phrase introducing the repository.
+
+Extractor Prompt 16:Summarize the following extracted text from a GitHub repository README into a short term/phrase that accurately reflects the key concept or purpose of the repository. Prioritize using any existing tagline, functional description, purpose statement, or overview from the beginning of the text exactly as the summary if it closely matches the repository&amp;#39;s focus.
+
+&amp;amp;amp;amp;lt;EXTRACTED_README&amp;amp;amp;amp;gt;
+{{value}}
+&amp;amp;amp;amp;lt;/EXTRACTED_README&amp;amp;amp;amp;gt;
+
+The output should be a concise term/phrase introducing the repository, ensuring it maintains the central theme and purpose.
+
+Extractor Prompt 17:Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository:
+&amp;lt;EXTRACTED_README&amp;gt;
+{{value}}
+&amp;lt;/EXTRACTED_README&amp;gt;
+ 
+The output should include only a short term/phrase introducing the repository.
+
+Extractor Prompt 18:Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository. If the beginning of the extracted text contains a tagline, functional description, purpose statement, or overview, prioritize using it as the description. 
+
+&amp;amp;lt;EXTRACTED_README&amp;amp;gt;
+{{value}}
+&amp;amp;lt;/EXTRACTED_README&amp;amp;gt;
+
+The output should include only a short term/phrase introducing the repository.
+
+Extractor Prompt 19:&amp;#34;&amp;#34;
+
+Extractor Prompt 20:&amp;#34;&amp;#34;
+
+Extractor Prompt 21:Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository. If a tagline or purpose statement appears at the beginning of the text, prioritize using it exactly as it appears in the output.
+
+&amp;amp;lt;EXTRACTED_README&amp;amp;gt;  
+{{value}}  
+&amp;amp;lt;/EXTRACTED_README&amp;amp;gt;  
+
+The output should include only a short term/phrase introducing the repository.
+
+Extractor Prompt 22:Summarize the following extracted text from a GitHub repository README into a short term/phrase introducing the repository. If an overview, tagline, or functional description exists at the beginning of the extracted text, prioritize using it exactly as it appears. The output should include only a short term/phrase introducing the repository.
+
+&amp;amp;lt;EXTRACTED_README&amp;amp;gt;
+{{value}}
+&amp;amp;lt;/EXTRACTED_README&amp;amp;gt;
+
+Extractor Prompt 23:Summarize the following extracted text from a GitHub repository README into a concise term/phrase introducing the repository. If an existing tagline or purpose statement appears in the text, prioritize using it.
+
+&amp;amp;lt;EXTRACTED_README&amp;amp;gt;
+{{value}}
+&amp;amp;lt;/EXTRACTED_README&amp;amp;gt;
+
+The output should be a brief term/phrase highlighting the repository&amp;#39;s primary concept or functionality.
+
+Extractor Prompt 24:Summarize the following extracted text from a GitHub repository README into a short term/phrase introducing the repository. If the repository name or an existing tagline, functional description, purpose statement, or overview is present at the beginning of the text, use it exactly as it appears, prioritizing the first match you find, even if it is only the repository name or part of the name. If no such description is present, capture the key concept or idea in a concise manner:
+
+&amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;EXTRACTED_README&amp;amp;amp;amp;amp;amp;amp;amp;amp;gt; {{value}} &amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/EXTRACTED_README&amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+
+The output should include only a short term/phrase introducing the repository.
+
+Extractor Prompt 25:Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository. Prioritize using any tagline or purpose statement found at the beginning of the text, especially if it matches a common description format:
+
+&amp;amp;amp;lt;EXTRACTED_README&amp;amp;amp;gt;
+{{value}}
+&amp;amp;amp;lt;/EXTRACTED_README&amp;amp;amp;gt;
+
+The output should include only a short term/phrase introducing the repository.
+
+Extractor Prompt 26:&amp;#34;&amp;#34;
+
+Extractor Prompt 27:Summarize the following extracted text from a GitHub repository README into a short term or phrase that captures the key concept or purpose of the repository. If an existing tagline, functional description, purpose statement, or overview is found, especially at the beginning of the text, prioritize using it verbatim as the description:
+
+&amp;amp;amp;lt;EXTRACTED_README&amp;amp;amp;gt;
+{{value}}
+&amp;amp;amp;lt;/EXTRACTED_README&amp;amp;amp;gt;
+
+The output should include only a short term or phrase introducing the repository.
+
+Extractor Prompt 28:Summarize the following extracted text from a Github repository README into a short term/phrase that accurately captures the key concept or idea of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it directly in the output without modification:
+
+&amp;amp;amp;lt;EXTRACTED_README&amp;amp;amp;gt;  
+{{value}}  
+&amp;amp;amp;lt;/EXTRACTED_README&amp;amp;amp;gt;
+
+Ensure the output is concise, focusing solely on a short term/phrase introducing the repository. Avoid over-elaboration or rephrasing if the original text sufficiently captures the essence.
+
+Extractor Prompt 29:&amp;#34;&amp;#34;
+
+Extractor Prompt 30:Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository:
+
+- If a tagline or functional description appears at the beginning of the text, prioritize using it in the summary.
+
+&amp;amp;lt;EXTRACTED_README&amp;amp;gt;  
+{{value}}  
+&amp;amp;lt;/EXTRACTED_README&amp;amp;gt;  
+
+The output should include only a short term/phrase introducing the repository.
+
+Extractor Prompt 31:Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository:
+&amp;lt;EXTRACTED_README&amp;gt;
+{{value}}
+&amp;lt;/EXTRACTED_README&amp;gt;
+ 
+The output should include only a short term/phrase introducing the repository.
+
+Extractor Prompt 32:Summarize the following extracted text from a GitHub repository README into a concise term/phrase introducing the repository. Use the tagline, functional description, purpose statement, or overview from the beginning of the extracted text if it exists, exactly as it appears. Ensure to capture any specific keywords or unique identifiers present:
+
+&amp;amp;lt;EXTRACTED_README&amp;amp;gt;
+{{value}}
+&amp;amp;lt;/EXTRACTED_README&amp;amp;gt;
+
+The output should incorporate only a brief term/phrase that introduces the repository, prioritizing any existing overviews or summaries from the beginning of the text.
+
+Extractor Prompt 33:Summarize the following extracted text from a GitHub repository README into a short term/phrase that captures the key concept, prioritizing any existing tagline, functional description, purpose statement, or overview if present at the beginning of the text. Focus on key features and functionality, ensuring to include cross-language and cross-platform capabilities, but exclude deprecated status:
+
+&amp;lt;EXTRACTED_README&amp;gt;
+{{value}}
+&amp;lt;/EXTRACTED_README&amp;gt;
+
+The output should prioritize terms or phrases from the beginning of the text, especially if they align closely with key concepts in the description.
+
+Extractor Prompt 34:&amp;#34;&amp;#34;
+
+Extractor Prompt 35:Summarize the following extracted text from a GitHub repository README into a short term/phrase introducing the repository. If the text includes a clear tagline, functional description, or purpose statement at the beginning that fully represents the key concept of the repository, use it directly as the output. Include specific features, technologies, or unique characteristics mentioned in the text only if they add significant value and are not already covered by the initial statement. For this repository, prioritize using the tagline or purpose statement from the beginning of the extracted text.
+
+&amp;amp;lt;EXTRACTED_README&amp;amp;gt;  
+{{value}}  
+&amp;amp;lt;/EXTRACTED_README&amp;amp;gt;
+
+The output should include only a short term/phrase introducing the repository.
+
+Extractor Prompt 36:Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository by prioritizing any existing taglines, functional descriptions, purpose statements, or overview present at the beginning of the text. If such elements exist, they should be used as the foundation for the summary:
+
+&amp;lt;EXTRACTED_README&amp;gt;
+{{value}}
+&amp;lt;/EXTRACTED_README&amp;gt;
+
+The output should include only a short term/phrase introducing the repository.
+
+Extractor Prompt 37:Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository:
+&amp;lt;EXTRACTED_README&amp;gt;
+{{value}}
+&amp;lt;/EXTRACTED_README&amp;gt;
+ 
+The output should include only a short term/phrase introducing the repository.
+
+Extractor Prompt 38:Summarize the following extracted text from a GitHub repository README into a concise term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview exists at the beginning of the text, prioritize using it in the summary. Ensure to emphasize specific outputs, such as clean JSON data or distinctive interface styles, such as block-style:
+
+&amp;lt;EXTRACTED_README&amp;gt;  
+{{value}}  
+&amp;lt;/EXTRACTED_README&amp;gt;
+
+The output should be a brief term/phrase that effectively encapsulates the repository&amp;#39;s primary features and unique elements.
+
+Extractor Prompt 39:Summarize the following extracted text from a GitHub repository README into a short term/phrase that introduces the repository. Ensure the summary captures the key concept or idea of the repository. If the extracted text includes a tagline, functional description, purpose statement, or overview at the beginning, always use it verbatim as the summary:
+
+&amp;amp;amp;lt;EXTRACTED_README&amp;amp;amp;gt;
+{{value}}
+&amp;amp;amp;lt;/EXTRACTED_README&amp;amp;amp;gt;
+
+The output should include only a short term/phrase introducing the repository.
+
+Extractor Prompt 40:&amp;#34;&amp;#34;
+
+Extractor Prompt 41:&amp;#34;&amp;#34;
+
+Extractor Prompt 42:Summarize the following extracted text from a GitHub repository README into a short term/phrase introducing the repository, prioritizing any existing tagline, functional description, purpose statement, or overview that may be present in the text. 
+
+&amp;amp;lt;EXTRACTED_README&amp;amp;gt;  
+{{value}}  
+&amp;amp;lt;/EXTRACTED_README&amp;amp;gt;  
+
+The output should include only a short term/phrase introducing the repository.
+
+Extractor Prompt 43:Summarize the following extracted text from a GitHub repository README into a concise term or phrase introducing the repository. Prioritize using the tagline, functional description, purpose statement, or overview if it appears early in the text and matches the key concepts of the repository. Be especially attentive to phrases that describe a community-curated aspect or specify projects, apps, tools, and services. Ensure the description effectively conveys the original purpose:
+
+&amp;amp;amp;lt;EXTRACTED_README&amp;amp;amp;gt;
+{{value}}
+&amp;amp;amp;lt;/EXTRACTED_README&amp;amp;amp;gt;
+
+The output should be a brief, descriptive term or phrase that introduces the repository.
+
+Extractor Prompt 44:Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository. If the extracted text includes a tagline, functional description, purpose statement, or overview already present in the text, prioritize using it in the summary.
+
+&amp;amp;lt;EXTRACTED_README&amp;amp;gt; {{value}} &amp;amp;lt;/EXTRACTED_README&amp;amp;gt;
+
+The output should include only a short term/phrase introducing the repository.
+
+Extractor Prompt 45:&amp;#34;&amp;#34;
+
+Extractor Prompt 46:&amp;#34;&amp;#34;
+
+Extractor Prompt 47:&amp;#34;&amp;#34;
+
+Extractor Prompt 48:Summarize the following extracted text from a GitHub repository README into a short term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the extracted text, prioritize using it verbatim if it matches the intended description of the repository. Ensure that the description aligns closely with terms or phrases already used in the README text:
+
+&amp;amp;amp;amp;amp;amp;lt;EXTRACTED_README&amp;amp;amp;amp;amp;amp;gt;
+{{value}}
+&amp;amp;amp;amp;amp;amp;lt;/EXTRACTED_README&amp;amp;amp;amp;amp;amp;gt;
+
+The output should include only a short term/phrase introducing the repository.
+
+Extractor Prompt 49:Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository, prioritizing any existing tagline, functional description, purpose statement, or overview found at the beginning of the text. If the text includes terms such as &amp;#34;structured,&amp;#34; &amp;#34;contextual,&amp;#34; &amp;#34;extensible,&amp;#34; or &amp;#34;composable,&amp;#34; ensure they are considered for inclusion:
+
+&amp;amp;amp;lt;EXTRACTED_README&amp;amp;amp;gt;  
+{{value}}  
+&amp;amp;amp;lt;/EXTRACTED_README&amp;amp;amp;gt;  
+
+The output should include only a concise term/phrase that represents the key concept or idea of the repository.
