@@ -1,0 +1,43 @@
+Summarize the following extracted text from a GitHub repository README into a short term/phrase introducing the repository. If the extracted text contains a clear tagline, functional description, purpose statement, or overview at the beginning, prioritize using it word-for-word as the summary. If no clear tagline or description is present, generate a concise and relevant term/phrase based on the content.
+
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+
+The output should include only a short term/phrase introducing the repository.
+
+Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository:
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+ 
+The output should include only a short term/phrase introducing the repository.
+
+Summarize the following extracted text from a GitHub repository README into a short term or phrase introducing the repository. Prioritize using any existing tagline, functional description, purpose statement, or overview found at the beginning of the text as the description. If a suitable tagline or description is present at the start of the text, use it directly to ensure accuracy and completeness. Ensure the description captures key concepts and maintains the original wording of the tagline or description if it effectively introduces the repository. Focus on preserving essential details that convey the repository's purpose.
+
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+
+The output should include only a short term or phrase introducing the repository.
+
+Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository:
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+ 
+The output should include only a short term/phrase introducing the repository.
+
+Summarize the following extracted text from a Github repository README into a short term/phrase that introduces the repository. If the extracted text contains a tagline, functional description, purpose statement, or overview at the beginning, prioritize using the exact wording as the description. Ensure the description aligns closely with the original text.
+
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+
+The output should include only a short term/phrase introducing the repository.
+Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it exactly as the description:  
+<EXTRACTED_README>  
+$extracted_text  
+</EXTRACTED_README>  
+  
+The output should include only a short term/phrase introducing the repository.

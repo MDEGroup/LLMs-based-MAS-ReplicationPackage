@@ -1,0 +1,866 @@
+Description,Generated About,ROUGE-1,ROUGE-2,ROUGE-L
+"Bolts is a collection of low-level libraries designed to make developing mobile apps easier.","Bolts: Simplifying Mobile App Development with Low-Level Libraries",0.5833333333333334,0.2727272727272727,0.33333333333333337
+"A curated list of awesome computer vision resources","Curated Computer Vision Resources",0.6666666666666666,0.4,0.6666666666666666
+"SpecuCheck is a Windows utility for checking the state of the software mitigations and hardware against  CVE-2017-5754 (Meltdown), CVE-2017-5715 (Spectre v2), CVE-2018-3260 (Foreshadow), and CVE-2018-3639 (Spectre v4)","SpecuCheck: A Windows utility for checking hardware and software mitigations against Meltdown and Spectre vulnerabilities.",0.5599999999999999,0.20833333333333334,0.48000000000000004
+"CLI for the Apple Dev Center","&amp;#34;Automate administrative tasks for the Apple Dev Center&amp;#34;",0.7142857142857143,0.6666666666666666,0.7142857142857143
+"Community-based GPL-licensed network monitoring system","LibreNMS: Auto-discovering network monitoring tool for diverse hardware and operating systems.",0.3157894736842105,0.11764705882352942,0.3157894736842105
+"A flexible framework of neural networks for deep learning","Chainer: A flexible deep learning framework",0.6666666666666667,0.3076923076923077,0.5333333333333333
+"Easily craft fast Neural Networks on iOS! Use TensorFlow models. Metal under the hood.","Bender: An abstraction layer for executing pretrained neural networks on iOS using MetalPerformanceShaders.",0.3703703703703704,0.32,0.3703703703703704
+"markdown preview plugin for (neo)vim","Markdown Preview for (Neo)vim",0.9090909090909091,0.6666666666666665,0.9090909090909091
+"A chat server with OAuth2 authentication, persistent and searchable history, video and audio, markdown formatting, private and public rooms, stars, votes, embedded games, and many other features","Miaou: A feature-rich chat server with authentication and persistent history",0.4736842105263157,0.1111111111111111,0.368421052631579
+"Polycode is a cross-platform framework for creative code.","Cross-platform framework for creative coding with C++ and Lua.",0.631578947368421,0.5882352941176471,0.631578947368421
+"An express-based Node.js web application bootstrapping module.","Kraken.js: Environment-aware dynamic configuration and advanced middleware capabilities.",0.10526315789473685,0.0,0.10526315789473685
+"E2E test framework for Angular apps","Protractor: End-to-end test framework for Angular applications.",0.5333333333333333,0.4615384615384615,0.5333333333333333
+"Simple JSON Object mapping written in Swift","ObjectMapper: Swift framework for easy JSON object conversion.",0.39999999999999997,0.15384615384615383,0.26666666666666666
+"A Python Interpreter written in Rust","RustPython: A Python 3 Interpreter Written in Rust",0.8571428571428571,0.6666666666666666,0.8571428571428571
+"A Python package for interactive mapping and geospatial analysis  with minimal coding in a Jupyter environment","Interactive Mapping and Geospatial Analysis in Python",0.6086956521739131,0.3809523809523809,0.5217391304347825
+"A set of Ansible playbooks to build and maintain your own private cloud: email, calendar, contacts, file sync, IRC bouncer, VPN, and more.","Sovereign: Build and maintain your own services with open source playbooks.",0.3529411764705882,0.25000000000000006,0.29411764705882354
+"A pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files","pypdf: A pure-Python library for reading, editing, and splitting PDF files.",0.5517241379310345,0.2222222222222222,0.4827586206896552
+"jQuery form validation plugin","jQuery.validationEngine: A JavaScript plugin for validating form fields in the browser.",0.5,0.0,0.25
+"Data entry can be beautiful","Beautiful grid-based forms for web applications.",0.16666666666666666,0.0,0.16666666666666666
+"Jupyter metapackage for installation, docs and chat","Jupyter metapackage for installation and documents",0.7692307692307692,0.5454545454545454,0.7692307692307692
+"Game written in Ruby for learning Ruby and artificial intelligence.","Ruby Warrior: A game to learn Ruby and AI through interactive challenges.",0.45454545454545453,0.19999999999999998,0.3636363636363636
+"beego is an open-source, high-performance web framework for the Go programming language.","Rapid development framework for enterprise applications in Go",0.2727272727272727,0.1,0.2727272727272727
+"Making large AI models cheaper, faster and more accessible","Colossal-AI: Making large AI models cheaper, faster, and more accessible.",0.9,0.888888888888889,0.9
+"This SDK is deprecated.  Find the new SDK here: https://github.com/facebook/facebook-php-sdk-v4","Facebook PHP SDK for App Social Integration (Deprecated)",0.31999999999999995,0.17391304347826086,0.24
+"Free Introduction to Bash Scripting eBook","Open-source guide to Bash scripting for automation.",0.42857142857142855,0.3333333333333333,0.42857142857142855
+"Extract prominent colors from an image. JS port of Android&amp;#39;s Palette.","Vibrant.js: Extract prominent colors from an image (deprecated)",0.6666666666666666,0.5263157894736842,0.5714285714285715
+"Project: M36 Relational Algebra Engine","M36 Relational Algebra Engine in Haskell",0.7272727272727272,0.6666666666666665,0.7272727272727272
+"CSS Basics ( CSS-3 )","CSS Basics: An Introduction to Cascading Style Sheets for Web Design",0.26666666666666666,0.15384615384615383,0.26666666666666666
+"An enterprise-grade Cloud-Native application platform for Kubernetes.","Erda: An open-source platform for microservice application development with multi-cloud management and DevOps capabilities.",0.39999999999999997,0.08695652173913045,0.24000000000000005
+".NET library to instrument your code with Prometheus metrics",".NET library for exporting metrics to Prometheus",0.6250000000000001,0.14285714285714288,0.5
+"Awesome Trainings from Cloud Native Computing Foundation Projects and Kubernetes related software","Awesome Cloud Native Trainings for Certification and Career Advancement",0.4761904761904762,0.10526315789473685,0.380952380952381
+"Generate types and converters from JSON, Schema, and GraphQL","Strongly-typed models and serializers from JSON and TypeScript.",0.5555555555555556,0.125,0.5555555555555556
+"CFD Python: 12 steps to Navier-Stokes","CFD Python: 12 Steps to Navier-Stokes Progress",0.9333333333333333,0.923076923076923,0.9333333333333333
+"Open source code for the idevrecipes.com blog","Source code for recreating iOS app features and UI.",0.35294117647058826,0.26666666666666666,0.35294117647058826
+"An open source code editor for the web, written in JavaScript, HTML and CSS.","Brackets: A modern open-source code editor for HTML, CSS, and JavaScript.",0.6923076923076924,0.33333333333333337,0.5384615384615384
+"Instant messaging platform. Backend in Go. Clients: Swift iOS, Java Android, JS webapp, scriptable command line; chatbots","Tinode Instant Messaging Server: A modern open platform for federated instant messaging.",0.20689655172413793,0.07407407407407407,0.20689655172413793
+"High-quality QR Code generator library in Java, TypeScript/JavaScript, Python, Rust, C++, C.","Flexible QR Code Generator Library in Multiple Languages",0.45454545454545453,0.4,0.45454545454545453
+"A javascript library for multi-touch gestures :// You can touch this","A JavaScript library for detecting touch gestures.",0.6666666666666665,0.5,0.6666666666666665
+"YapDB is a collection/key/value store with a plugin architecture. It&amp;#39;s built atop sqlite, for Swift &amp;amp; objective-c developers.","YapDatabase: A powerful key/value store built on SQLite for Swift &amp;amp; Objective-C developers.",0.6285714285714286,0.4242424242424242,0.6285714285714286
+"Objective-C JSON","A Very High Performance Objective-C JSON Library",0.5454545454545454,0.4444444444444445,0.5454545454545454
+"Stetho is a debug bridge for Android applications, enabling the powerful Chrome Developer Tools and much more.","Sophisticated debug bridge for Android applications",0.4347826086956522,0.38095238095238093,0.4347826086956522
+"Syntax highlighting files shipped with Sublime Text and Sublime Merge","Sublime Text Syntax Definition Packages",0.4,0.15384615384615383,0.26666666666666666
+"Highcharts JS, the JavaScript charting framework","Highcharts JS: A JavaScript charting library based on SVG and canvas/WebGL.",0.4444444444444444,0.25000000000000006,0.4444444444444444
+"A fast, light-weight proxy for memcached and redis","Fast and lightweight proxy for distributed caching architectures",0.47058823529411764,0.13333333333333333,0.35294117647058826
+"This repo is no longer supported. Please visit a https://github.com/KakaoCup/Kakao","Kakao: A Nice and Simple DSL for Espresso in Kotlin",0.16666666666666666,0.0,0.08333333333333333
+"A framework for building native applications using React","Build mobile apps with React Native: Learn once, write anywhere.",0.33333333333333326,0.0,0.22222222222222224
+":point_up_2: Convenient UITableViewCell subclass that implements a swippable content to trigger actions (similar to the Mailbox app).","MCSwipeTableViewCell: Implementing swipeable UITableViewCell behaviors inspired by the Mailbox app.",0.3448275862068966,0.14814814814814814,0.27586206896551724
+"A Realtime API Gateway used with NATS to build REST, real time, and RPC APIs, where all your clients are synchronized seamlessly.","Realtime API Gateway for Seamless Client Synchronization",0.3448275862068965,0.14814814814814814,0.3448275862068965
+"Open Brush is the open source, community led evolution of Tilt Brush! Forked from https://github.com/googlevr/tilt-brush","Open Brush - Tilt Brush Evolved: A community-led, free fork of Tilt Brush for modern XR development.",0.5405405405405405,0.2857142857142857,0.37837837837837834
+"Kubernetes-native system managing the full lifecycle of conformant Kubernetes clusters as a service on Alicloud, AWS, Azure, GCP, OpenStack, vSphere, KubeVirt, Hetzner, EquinixMetal, MetalStack, and OnMetal with minimal TCO.","Automated Cluster Management as a Service for Kubernetes",0.31578947368421056,0.1111111111111111,0.2105263157894737
+"Click effect inspired by Google&amp;#39;s Material Design","Waves: Click effect inspired by Google&amp;#39;s Material Design.",0.9411764705882353,0.9333333333333333,0.9411764705882353
+"Tutorial on building an angular application.","AngularJS Phone Catalog Tutorial Application",0.3636363636363636,0.0,0.3636363636363636
+"a MVP library for Android favoring a stateful Presenter","ThirtyInch - MVP library for Android (Deprecated)",0.5333333333333333,0.4615384615384615,0.5333333333333333
+":book: A creative-commons book on Backbone.js for beginners and advanced users alike","Open-source book on developing Backbone.js applications",0.36363636363636365,0.2,0.36363636363636365
+"Control and manage Android devices from your browser.","Smartphone Test Farm: A web application for remote debugging of smartphones and gadgets.",0.09523809523809525,0.0,0.09523809523809525
+"A group of plugins for responsive tables.","Responsive tables plugins",0.6,0.25,0.4
+"A chaining API to generate and simplify the modification of Webpack configurations.","Chaining API for Simplifying Webpack 4 Configurations",0.5263157894736842,0.11764705882352942,0.5263157894736842
+"Node.js CMS and web app framework","Keystone Classic: Powerful Node.js CMS and Web App Framework",0.8235294117647058,0.8,0.8235294117647058
+"Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy","Fast and correct JSON library for Python",0.7058823529411764,0.13333333333333333,0.47058823529411764
+":camera: git-based selfies for software developers","git-based selfies for software developers",0.923076923076923,0.9090909090909091,0.923076923076923
+"Multifarious Scrapy examples. Spiders for alexa / amazon / douban / douyu / github / linkedin etc.","Scrapy examples with integrated proxies and agents",0.2105263157894737,0.11764705882352942,0.2105263157894737
+"High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP, AVIF and TIFF images. Uses the libvips library.","High-speed image resizing and processing for Node.js",0.45161290322580644,0.06896551724137931,0.2580645161290322
+"Carbon Language&amp;#39;s main repository: documents, design, implementation, and related tools. (NOTE: Carbon Language is experimental; see README)","Carbon Language: An experimental successor to C++",0.24,0.08695652173913045,0.24
+"PasswordSafe - popular secure and convenient password manager","Password Safe: A Simple, Secure, Open Source Password Database Utility",0.23529411764705882,0.0,0.23529411764705882
+"Face recognition with deep neural networks.","Free and open source face recognition with deep neural networks.",0.7499999999999999,0.7142857142857143,0.7499999999999999
+":dash: Writing Fast Ruby :heart_eyes: -- Collect Common Ruby idioms.","Fast Ruby: Documenting speed idioms for Ruby code optimization.",0.4210526315789474,0.11764705882352941,0.3157894736842105
+"Sandboxie Plus &amp;amp; Classic","Sandboxie Plus / Classic: Isolation software for secure program testing on Windows.",0.42857142857142855,0.33333333333333337,0.42857142857142855
+"The engine used in the Socket.IO JavaScript server, which manages the low-level transports such as HTTP long-polling and WebSocket.","Engine.IO: the realtime engine for reliable bi-directional communication",0.18749999999999997,0.0,0.18749999999999997
+"A library to imitate the iOS 10 Maps UI.","Pulley: Easy-to-use drawer library mimicking iOS Maps app.",0.4210526315789474,0.0,0.3157894736842105
+"A sketch extractor for anime/illustration.","Anime2Sketch: A Sketch Extractor for Anime and Manga Art",0.6666666666666667,0.6153846153846154,0.6666666666666667
+"Visualizations for machine learning datasets","Visualizations for Analyzing Machine Learning Datasets",0.9090909090909091,0.6666666666666665,0.9090909090909091
+"A multi-platform library for OpenGL, OpenGL ES, Vulkan, window and input","Open Source Multi-Platform Library for OpenGL and Vulkan Development",0.6363636363636365,0.39999999999999997,0.5454545454545454
+"HTTP load testing tool and library. It&amp;#39;s over 9000!","Vegeta: A versatile HTTP load testing tool.",0.47058823529411764,0.4,0.47058823529411764
+"Form framework for BackboneJS with nested forms, editable lists and validation","A flexible, customisable form framework for Backbone.js applications.",0.3,0.22222222222222224,0.3
+"Marlin is an optimized firmware for RepRap 3D printers based on the Arduino platform. Many commercial 3D printers come with Marlin installed. Check with your vendor if you need source code for your specific machine.","Marlin 3D Printer Firmware",0.20512820512820512,0.05405405405405406,0.15384615384615383
+"Service orchestration and management tool.","Decentralized service discovery and orchestration solution.",0.5454545454545454,0.0,0.3636363636363636
+"A scalable, event-driven JavaScript architecture for developing component-based applications.","Aura: An event-driven architecture for scalable applications with reusable components.",0.6363636363636364,0.20000000000000004,0.45454545454545453
+"A fun to play quiz that showcases material design on Android","Topeka for Android: A fun quiz showcasing material design principles.",0.6666666666666666,0.3157894736842105,0.5714285714285713
+"A curated list of awesome Kubernetes tools and resources.","Awesome Kubernetes Resources",0.5,0.2,0.5
+"MlFinLab helps portfolio managers and traders who want to leverage the power of machine learning by providing reproducible, interpretable, and easy to use tools.","Machine Learning Toolbox for Financial Research",0.13333333333333333,0.07142857142857142,0.13333333333333333
+"DISCONTINUED REPO: This project has been restructured -&amp;gt;","AngularUI - Enhancing AngularJS applications",0.0,0.0,0.0
+"Google&amp;#39;s Material Design in XAML &amp;amp; WPF, for C# &amp;amp; VB.Net.","Material Design In XAML Toolkit: A comprehensive library for Material Design themes and controls in Windows desktop applications.",0.3448275862068966,0.22222222222222224,0.3448275862068966
+"This library provides a simple way to add a draggable sliding up panel (popularized by Google Music and Google Maps) to your Android application. Brought to you by Umano.","Android Sliding Up Panel Library",0.29411764705882354,0.125,0.17647058823529413
+"The easy PHP Library for calculating holidays","Yasumi: A lightweight PHP library for retrieving holiday dates and names globally.",0.4210526315789474,0.23529411764705885,0.4210526315789474
+"Documentation that simply works","A powerful documentation framework on top of MkDocs",0.16666666666666666,0.0,0.16666666666666666
+"Fast and powerful CSV (delimited text) parser that gracefully handles large files and malformed input","Papa Parse: Fastest In-Browser CSV Parser for JavaScript",0.16666666666666669,0.0,0.16666666666666669
+"A lightweight online game framework","nnSkynet: A multi-user Lua framework supporting the actor model.",0.26666666666666666,0.0,0.26666666666666666
+"SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files! Blob store has O(1) disk seek, cloud tiering. Filer supports Cloud Drive, cross-DC active-active replication, Kubernetes, POSIX FUSE mount, S3 API, S3 Gateway, Hadoop, WebDAV, encryption, Erasure Coding.","SeaweedFS: A simple and highly scalable distributed file system designed for fast file access and massive storage capacity.",0.2985074626865672,0.0,0.208955223880597
+"A library for functional programming in Rust","A library for functional programming in Rust.",1.0,1.0,1.0
+"JSPatch bridge Objective-C and Javascript using the Objective-C runtime. You can call any Objective-C class and method in JavaScript by just including a small engine. JSPatch is generally used to hotfix iOS App.","JSPatch: Bridging Objective-C and JavaScript for dynamic app updates.",0.30434782608695654,0.22727272727272727,0.30434782608695654
+"Material Design Floating Action Button in liquid state","LiquidFloatingActionButton: A liquid state floating action button component.",0.625,0.42857142857142855,0.375
+"Universal Reddit Scraper - A comprehensive Reddit scraping/archival command-line tool.","Universal Reddit Scraper - A comprehensive Reddit scraping tool in Python.",0.761904761904762,0.631578947368421,0.761904761904762
+"A sample Android app which showcases advanced usage of Dagger among other open source libraries.","A sample Android app showcasing advanced Dagger usage and debugging features.",0.6153846153846153,0.3333333333333333,0.5384615384615385
+"Serialize Java objects to XML and back again.","XStream: Java to XML Serialization and back again.",0.875,0.42857142857142855,0.75
+"Beautiful JavaScript notifications with Web Notifications support.","PNotify: A JavaScript/TypeScript notification library for enhanced user experience.",0.23529411764705882,0.0,0.23529411764705882
+"An open source ChatGPT UI.","Open Source Chat UI for AI Models",0.5,0.2,0.5
+"An awesome README template to jumpstart your projects!","Best-README-Template: An awesome README template to jumpstart your projects!",0.8421052631578948,0.8235294117647058,0.8421052631578948
+"The TYPO3 Core - Enterprise Content Management System. Synchronized mirror of https://review.typo3.org/q/project:Packages/TYPO3.CMS","TYPO3: An Open Source Content Management Framework",0.23076923076923078,0.08333333333333333,0.23076923076923078
+"An Embedded Computer Vision &amp;amp; Machine Learning Library (CPU Optimized &amp;amp; IoT Capable)","Modern Cross-Platform Computer Vision Library for Embedded Systems",0.39999999999999997,0.11111111111111112,0.3
+"A Git-compatible DVCS that is both simple and powerful","Jujutsu: A powerful and user-friendly version control system for software projects.",0.2727272727272727,0.0,0.1818181818181818
+":flashlight: Improved incremental searching for Vim","Incremental search enhancement for Vim",0.7272727272727272,0.4444444444444445,0.7272727272727272
+"Realtime application framework (Node.JS server)","Real-time bidirectional communication with Socket.IO",0.0,0.0,0.0
+"Monkey testing library for web apps and Node.js","Gremlins.js: A monkey testing library for robust web application testing.",0.6,0.33333333333333326,0.5
+"Placing labels on a timeline without overlap.","Labella.js: Beautiful, Non-Overlapping Labels for 1D Timelines",0.375,0.0,0.25
+"Hummingbird compiles trained ML models into tensor computation for faster inference.","Hummingbird: Compile Traditional ML Models into Tensor Computations",0.7368421052631579,0.588235294117647,0.7368421052631579
+"HTTP proxy server,support HTTPS&amp;amp;websocket.MITM impl,intercept and tamper HTTPS traffic.","Proxyee: A Java HTTP Proxy Server Library for HTTP, HTTPS, and Websocket Protocols",0.5384615384615384,0.16666666666666666,0.38461538461538464
+"The Hypersistence Utils library (previously known as Hibernate Types) gives you Spring and Hibernate utilities that can help you get the most out of your data access layer.","General-Purpose Utilities for Spring and Hibernate",0.2285714285714286,0.12121212121212122,0.2285714285714286
+"An awesome, fully responsive jQuery slider plugin","Responsive jQuery Slider",0.6,0.5,0.6
+"Deprecated.","Glascow Teen Smoking Habits Research Data and Simulation Code",0.0,0.0,0.0
+"A tour of rust&amp;#39;s language features","Swift Introduction to Rust for Experienced Programmers",0.14285714285714285,0.0,0.14285714285714285
+"A tool for reading, displaying and saving data from the NanoVNA","Multiplatform tool for saving and analyzing NanoVNA data.",0.631578947368421,0.11764705882352941,0.4210526315789474
+"Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box.","Python-mode: A Python IDE for Vim",0.375,0.14285714285714288,0.25
+"Generate, parse, and enhance JavaScript stack traces in all web browsers","Generate and enhance JavaScript stack traces in all browsers.",0.9,0.6666666666666665,0.9
+"A fast and easy-to-use status bar","**Build beautiful and highly customizable status bars for your desktop environment**",0.3157894736842105,0.11764705882352941,0.3157894736842105
+"Web Push library for PHP","Web Push Library for PHP",1.0,1.0,1.0
+"Clone this repo to build Frida","Dynamic instrumentation toolkit for developers and researchers.",0.0,0.0,0.0
+"Not a theme, but a framework","Base16: A Framework for Building Styled Themes with Sixteen Colors",0.37499999999999994,0.14285714285714285,0.25
+"Get up and running with Jenkins on Google Kubernetes Engine","Build a Continuous Deployment Pipeline with Jenkins and Kubernetes",0.4210526315789474,0.11764705882352941,0.3157894736842105
+":books: A curated list of awesome resources: articles, books, videos, tools, podcasts about technical writing.","Awesome Technical Writing",0.33333333333333337,0.125,0.33333333333333337
+"Python Data Science Handbook: full text in Jupyter Notebooks","Free Jupyter Notebooks for the Python Data Science Handbook",0.6666666666666666,0.5,0.4444444444444444
+"Windows system utilities to maximize productivity","Microsoft PowerToys: Utilities for enhancing Windows productivity",0.4615384615384615,0.0,0.30769230769230765
+"Cubism.js: A JavaScript library for time series visualization.","Cubism.js: A plugin for visualizing time series in realtime dashboards.",0.7000000000000001,0.33333333333333326,0.6
+"Simplistic interactive filtering tool","Simplistic interactive filtering tool in Go",0.8,0.7499999999999999,0.8
+"Build tooling for Clojure.","Boot: A Clojure build framework and ad-hoc script evaluator.",0.28571428571428575,0.0,0.14285714285714288
+"A pytorch implementation of Detectron. Both training from scratch and inferring directly from pretrained Detectron weights are available.","Pytorch Implementation of Detectron for Model Training and Inference",0.5185185185185185,0.31999999999999995,0.5185185185185185
+"A PHP client library for accessing Google APIs","Google APIs Client Library for PHP",0.8571428571428571,0.5,0.42857142857142855
+"Visual profiler for Python","Interactive Visualizations for Python Program Characteristics",0.6,0.25,0.6
+"Mobile-first, accessible components for React Native &amp;amp; Web to build consistent UI across Android, iOS and Web.","&amp;#34;Mobile-first component library for React &amp;amp; React Native.&amp;#34;",0.48,0.26086956521739124,0.48
+"algorithms playground for common questions","Algorithms Playground for Ruby Interview Preparation",0.5454545454545454,0.4444444444444445,0.5454545454545454
+"A Minecraft Launcher which is multi-functional, cross-platform and popular","Cross-platform Minecraft launcher with mod management and customization features.",0.47619047619047616,0.2105263157894737,0.28571428571428564
+"The WP REST API has been merged into WordPress core. Please do not create issues or send pull requests. Submit support requests to the forums or patches to Trac (see README below for links).","WP REST API v2.0 - Easy HTTP REST API for WordPress Data Access",0.21276595744680854,0.08888888888888888,0.1702127659574468
+"[DISCONTINUED ] Attributes on Steroids for Plain Old Ruby Objects","Virtus: Attribute definition and coercion for Ruby classes and modules.",0.3157894736842105,0.0,0.3157894736842105
+"Object-based searching.","Easily add searching to your Rails application with Ransack.",0.16666666666666666,0.0,0.16666666666666666
+"Example of how to use cooling functions tabulated by Gnedin &amp;amp; Hollon (2012)","Example of how to use cooling functions by Gnedin &amp;amp; Hollon (2012)",0.9565217391304348,0.8571428571428572,0.9565217391304348
+"A minimal AMD API implementation for use after optimized builds","Almondnn: Minimal AMD Loader for Optimized JavaScript Bundles",0.4444444444444445,0.125,0.4444444444444445
+"A repository of notebooks that we use for data analysis","A repository of notebooks for data analysis.",0.8235294117647058,0.6666666666666667,0.8235294117647058
+"Unfancy JavaScript","nnCoffeeScript: A little language that compiles into JavaScript.",0.2,0.0,0.2
+"A project and package manager for Unity","Projeny: Project and Package Manager for Unity3D",0.7142857142857143,0.6666666666666666,0.7142857142857143
+"Text, samples and website for my &amp;#39;Effective Shell&amp;#39; series.","Effective Shell: An Online Book",0.2857142857142857,0.16666666666666666,0.2857142857142857
+"API first development platform","API first development platform for cloud services.",0.7272727272727273,0.6666666666666666,0.7272727272727273
+"A modern, Material Design UI for Java Swing","Modern Material Design UI for Java Swing",0.9333333333333333,0.923076923076923,0.9333333333333333
+"Lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono","Nancy: A lightweight framework for building HTTP-based services on .NET.",0.7500000000000001,0.6363636363636365,0.7500000000000001
+"2D physics engine for games","LiquidFun: A 2D physics engine with fluid and soft body simulation.",0.37499999999999994,0.28571428571428575,0.37499999999999994
+"This repository contains content which will be helpful in your journey as a front-end Web Developer","Open-source Front-end Development Learning Resource",0.25,0.09090909090909091,0.25
+"An open source re-implementation of Chris Sawyer&amp;#39;s Locomotion","Open-source re-implementation of Locomotion",0.7499999999999999,0.5714285714285714,0.7499999999999999
+"Sandstorm is a self-hostable web productivity suite. It&amp;#39;s implemented as a security-hardened web app package manager.","Sandstorm: A self-hostable web productivity suite",0.5384615384615384,0.4166666666666667,0.5384615384615384
+"SweetAlert for Android, a beautiful and clever alert dialog","SweetAlert for Android - A beautiful and clever alert dialog.",1.0,1.0,1.0
+"Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins &amp;amp; high speed","Markdown parser done right.",0.5,0.42857142857142855,0.5
+"Hybrid visual and textual functional programming.","Enso: An Interactive Programming Language for Visual and Textual Data Processing",0.4705882352941177,0.26666666666666666,0.3529411764705882
+"Simple JavaScript testing framework for browsers and node.js","Jasmine: A Behavior Driven Development Testing Framework for JavaScript",0.4444444444444444,0.25,0.3333333333333333
+"Predict Cryptocurrency Price with Deep Learning","Deep Learning for Cryptocurrency Price Prediction",0.8333333333333334,0.4000000000000001,0.3333333333333333
+"Quick tutorial of scientific computing with Python using a real physics application.","Quick tutorial on scientific computing with Python using basic physics examples.",0.6956521739130435,0.47619047619047616,0.6956521739130435
+"Colour schemes for a variety of editors created by Dayle Rees.","Visually Pleasing Colour Schemes for Text Editors",0.4444444444444444,0.25,0.4444444444444444
+"High performance, full-stack PHP framework delivered as a C extension.","Phalcon: High-performance PHP framework as a C extension",0.7999999999999999,0.5555555555555556,0.7999999999999999
+"CockroachDB - the open source, cloud-native distributed SQL database.","CockroachDB: A cloud-native distributed SQL database for modern applications.",0.631578947368421,0.47058823529411764,0.631578947368421
+"Certbot is EFF&amp;#39;s tool to obtain certs from Let&amp;#39;s Encrypt and (optionally) auto-enable HTTPS on your server.  It can also act as a client for any other CA that uses the ACME protocol.","&amp;#34;Automate HTTPS with Certbot and Let&amp;#39;s Encrypt&amp;#34;",0.27272727272727276,0.09523809523809522,0.1818181818181818
+"Free UI Kits built on Bootstrap for any developer that wants to build a cool looking and functional website. Enjoy!","PixelKit UI Kits - Create your site with pre-made design blocks.",0.12903225806451613,0.06896551724137931,0.12903225806451613
+"a mix of Python code that I&amp;#39;ve been working.","A mix of Python code.",0.6666666666666666,0.6153846153846153,0.6666666666666666
+"Parallel computing with task scheduling","Dask: A flexible parallel computing library for analytics.",0.3076923076923077,0.18181818181818182,0.3076923076923077
+"Creating delicious APIs for Django apps since 2010.","Delicious APIs for Django apps",0.7692307692307693,0.7272727272727273,0.7692307692307693
+"typeahead.js is a fast and fully-featured autocomplete library","Flexible JavaScript library for robust autocomplete experiences.",0.23529411764705882,0.0,0.11764705882352941
+"Simple animation libraries for delightful user interfaces","The animators toolbox",0.2,0.0,0.2
+"JavaScript&amp;#39;s utility _ belt","Underscore.js: Utility-belt library for JavaScript functions",0.5,0.2,0.3333333333333333
+"Node canvas is a Cairo backed Canvas implementation for NodeJS.","Node.js Canvas Implementation",0.4285714285714285,0.16666666666666666,0.4285714285714285
+"Yet Another Hook Framework for ART","YAHFA: A hook framework for Android ART enabling method hooking without root permissions.",0.42105263157894735,0.23529411764705882,0.42105263157894735
+"Awesome Docker Compose samples","Awesome Compose: A curated list of Docker Compose samples for local development.",0.5,0.28571428571428575,0.5
+"Analysis of open bikeshare data","Predicting Citi-Bike Routes Using NYC Data",0.16666666666666666,0.0,0.16666666666666666
+"YADR - The best vim,git,zsh plugins and the cleanest vimrc you&amp;#39;ve ever seen","Opinionated Dotfile Repo with Curated Vim and Zsh Plugins",0.33333333333333337,0.09090909090909091,0.25
+"QuickCheck for Swift","SwiftCheck: QuickCheck for Swift",0.8571428571428571,0.8,0.8571428571428571
+"A dynamic language and bytecode vm","Janet: A lightweight programming language for system scripting and embedding in C/C++ applications.",0.3,0.0,0.3
+"A smooth testing lib for F#. APIs made for humans! Strong testing methodologies for everyone!","Expecto: An advanced testing library for F#",0.27272727272727276,0.1,0.27272727272727276
+"Dockerfile to create a Docker container image for Squid proxy server","Caching Proxy for the Web",0.25000000000000006,0.0,0.12500000000000003
+"[DEPRECATED] RecyclerView made simple","TwoWayView: Simplifying RecyclerView Development",0.25,0.0,0.25
+"Kong is a command-line parser for Go","Kong: A command-line parser for Gonn that simplifies complex command-line structures.",0.5714285714285714,0.4210526315789474,0.5714285714285714
+"JavaScript library for one-directional scrolling with item based navigation support.","nnJavaScript: One-directional scrolling with item-based navigation support.",0.7999999999999999,0.7777777777777777,0.7999999999999999
+"Command line driven CI frontend and development task automation tool.","Automated testing and virtual environment management for Python",0.22222222222222224,0.0,0.11111111111111112
+"Cowrie SSH/Telnet Honeypot https://cowrie.readthedocs.io","Cowrie: A high-interaction SSH and Telnet honeypot for logging attacks",0.4210526315789474,0.11764705882352941,0.4210526315789474
+"Centreon is a network, system and application monitoring tool. Centreon is the only AIOps Platform Providing Holistic Visibility to Complex IT Workflows from Cloud to Edge.","Centreon - IT and Application Monitoring Software",0.3125,0.13333333333333333,0.25
+":triangular_ruler: Jekyll theme for building a personal site, blog, project documentation, or portfolio.","Minimal Mistakes: A flexible two-column Jekyll theme for personal sites, blogs, and portfolios.",0.5714285714285714,0.3076923076923077,0.5
+"Auto configurations for Language Server for vim-lsp","Auto configurations for Language Servers for Vim",0.9333333333333333,0.923076923076923,0.9333333333333333
+"TensorLy: Tensor Learning in Python.","TensorLy: Simplifying Tensor Learning in Python",0.9090909090909091,0.6666666666666665,0.9090909090909091
+"Prefect is a workflow orchestration tool empowering developers to build, observe, and react to data pipelines","Orchestrator for data-intensive workflows",0.2857142857142857,0.0,0.19047619047619047
+"IntelliJ IDEA Community Edition &amp;amp; IntelliJ Platform","Build IntelliJ IDEA Community Edition from source.",0.6153846153846153,0.5454545454545454,0.6153846153846153
+"A brief computer graphics / rendering course","Tiny Renderer: A Simplified OpenGL Clone in 500 Lines of Code",0.23529411764705885,0.0,0.11764705882352942
+"A simple Minecraft clone written in C using modern OpenGL (shaders).","CraftnnMinecraft: A cross-platform Minecraft clone with online multiplayer support and modern OpenGL graphics.",0.4,0.17391304347826086,0.4
+"The best Java open source crypto currency exchange platform, bitcoin exchange based on Java | BTC exchange | ETH exchange | digital currency exchange | trading platform | matching trading engine. This project is based on the development of Spring Cloud microservices and can be used to build and secondary development of digital currency exchanges. It has a complete source code for matching trading engines, back-end management (back-end + front-end), front-end (transaction page, activity page, personal center, etc.), Android APP source code, Apple APP source code, currency wallet RPC source code. Contact Email: 877070886@qq.com","Bitcoin and Ethereum Exchange Platform with Spring Cloud Microservices",0.13592233009708737,0.05940594059405941,0.11650485436893203
+"Incredibly fast crawler designed for OSINT.","Photon: Incredibly fast crawler designed for OSINT.",0.923076923076923,0.9090909090909091,0.923076923076923
+"Clear examples, explanations, and resources for RxJS","Clear examples and resources for learning RxJS and reactive programming.",0.7058823529411764,0.4,0.7058823529411764
+"Based on a true story","Hacker Scripts: Quirky automation scripts for everyday tasks",0.0,0.0,0.0
+"A full-stack framework for Laravel that takes the pain out of building dynamic UIs.","Livewire: A full-stack framework for dynamic UI components in Laravel.",0.5384615384615385,0.3333333333333333,0.4615384615384615
+"Rock, Paper, Scissors, Lizard, Spock - Sample Application","Rock, Paper, Scissors, Lizard, Spock - A Multilanguage Sample Application with Machine Learning",0.7368421052631579,0.5882352941176471,0.7368421052631579
+"Writing an OS in Rust","Writing an OS in Rust Series Source Code",0.7692307692307693,0.7272727272727273,0.7692307692307693
+"Share your terminal as a web application","GoTTY - Share your terminal as a web application",0.9333333333333333,0.923076923076923,0.9333333333333333
+"Waypoints is a library that makes it easy to execute a function whenever you scroll to an element.","Waypoints: Execute functions on element scroll events.",0.4,0.0,0.32
+"AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.","AutoGPT: Build &amp;amp; Use AI Agents",0.2285714285714286,0.0,0.1142857142857143
+"Graphs and Charts for Canvas in JavaScript.","Flotr2n: The Canvas Graphing Library",0.3333333333333333,0.0,0.16666666666666666
+"Simulating shitty network connections so you can build better systems.","Comcast: A tool for simulating network issues in distributed systems.",0.3,0.0,0.3
+"Using Word2Vec techniques and K-Mean method to classifies Rose-Hulman sharepoint emails based on its content","Magicmail: Classifying emails using Word2Vec and K-Means techniques.",0.6153846153846153,0.25,0.3846153846153846
+"Scriptable Headless Browser","Scriptable Headless WebKit for Testing and Automation",0.4,0.25,0.4
+"Watches files and records, or triggers actions, when they change.","Watchmann: A file watching service.",0.26666666666666666,0.0,0.13333333333333333
+"Faster user-land reimplementations for several common builtin native JavaScript functions.","Faster user-land reimplementations of native JavaScript functions.",0.7368421052631579,0.588235294117647,0.7368421052631579
+"Bolt is a simple CMS written in PHP. It is based on Silex and Symfony components, uses Twig and either SQLite, MySQL or PostgreSQL.","Bolt: A sophisticated, lightweight &amp;amp; simple CMS",0.26666666666666666,0.07142857142857142,0.26666666666666666
+"A TypeScript SDK for the Twitter API","TypeScript SDK for Twitter API V2",0.7692307692307692,0.5454545454545454,0.7692307692307692
+"Google Hangouts bot","Hangupsbot: A versatile chat bot for Google Hangouts with cross-chat and plugin support.",0.35294117647058826,0.13333333333333336,0.23529411764705882
+"Peace of mind from prototype to production","Peace of mind from prototype to production.",1.0,1.0,1.0
+"A recurrent neural network for generating little stories about images","&amp;#34;neural-storyteller: A RNN that generates stories from images&amp;#34;",0.5263157894736842,0.0,0.4210526315789474
+"A pure node.js JavaScript Client implementing the MySQL protocol.","Node.js MySQL Driver",0.4285714285714285,0.16666666666666666,0.4285714285714285
+"This project reproduces the book Dive Into Deep Learning (https://d2l.ai/), adapting the code from MXNet into PyTorch.","&amp;#34;PyTorch Adaptation of the Original MXnet Book&amp;#34;",0.3846153846153846,0.0,0.23076923076923078
+"Linux system exploration and troubleshooting tool with first class support for containers","Sysdig: Universal system visibility tool for containers",0.4210526315789474,0.11764705882352942,0.4210526315789474
+"Plugin for some git integration into sublime text","Sublime Text Plugin for Git Integration",0.8571428571428571,0.5,0.5714285714285715
+"Code repository for my Building Microservices YouTube series https://www.youtube.com/playlist?list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_","Building Microservices in Go",0.2,0.1111111111111111,0.2
+"PHP Object Oriented image manipulation library","Image manipulation library for PHP",0.7272727272727272,0.4444444444444445,0.5454545454545454
+"Quill is a modern WYSIWYG editor built for compatibility and extensibility.","Quill Rich Text Editor: A modern, extensible rich text editor.",0.47619047619047616,0.10526315789473685,0.380952380952381
+"Minimal implementation of the Mimblewimble protocol.","GrinnnGrin: An in-progress implementation of the Mimblewimble protocol.",0.6666666666666667,0.6153846153846154,0.6666666666666667
+"OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.","Open Assistant: Revolutionizing access to chat-based language models.",0.2580645161290322,0.06896551724137931,0.1290322580645161
+"Flask cookiecutter template for builing APIs with flask-restful, including JWT auth, cli, tests, swagger, docker and more","Cookiecutter template for Flask RESTful API development.",0.48,0.2608695652173913,0.4
+"This could take a while","Animated SVG Learning Example",0.0,0.0,0.0
+":star: Gulp Angular Starter using TypeScript (Updated to 4.4.3)","Angular Starter: A comprehensive setup for Angular development with complete workflow and tooling support.",0.16,0.08695652173913043,0.16
+"A complete daily plan for studying to become a machine learning engineer.","Top-Down Learning Path: Machine Learning for Software Engineers",0.380952380952381,0.10526315789473685,0.28571428571428575
+"Was an interactive continuous Python profiler.","Interactive Continuous Python Profiler",0.8,0.7499999999999999,0.8
+"Discover Your Attack Surface!","Intrigue Core: A comprehensive framework for discovering attack surface and security exposures.",0.375,0.14285714285714288,0.375
+":crystal_ball: File conversion, all from the menu bar","Open-source file converter with PDF merging support",0.11764705882352941,0.0,0.11764705882352941
+"The library for web and native user interfaces.","A JavaScript library for building user interfaces.",0.5333333333333333,0.30769230769230765,0.5333333333333333
+"Lecture materials for IBD4Health 2017 summer school","Lecture materials for IBD4Health 2017 summer school",1.0,1.0,1.0
+"A simple iOS photo and video browser with grid view, captions and selections.","A simple iOS photo and video browser with optional grid view, captions, and selections.",0.962962962962963,0.8799999999999999,0.962962962962963
+"Simple Online Realtime Tracking with a Deep Association Metric","Deep SORT: Real-time Object Tracking with Deep Appearance Descriptors",0.3157894736842105,0.11764705882352941,0.3157894736842105
+"Excersices and Data for Starting with Python Ver2 book","Exercises and Data for Starting with Python Ver2 book",0.8888888888888888,0.875,0.8888888888888888
+"A real-time, node-based video effects compositor for the web built with HTML5, Javascript and WebGL","Real-time video compositor for the web",0.5833333333333334,0.36363636363636365,0.5833333333333334
+"Workshop materials for Code4Lib 2016 pre-conference: http://2016.code4lib.org/workshops/Measuring-Your-Metadata","Measuring Your Metadata: Tools and Strategies for Assessment and Improvement",0.32,0.17391304347826086,0.24
+"Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure.","Terrascan: Static Code Analyzer for Infrastructure as Code",0.24,0.17391304347826086,0.24
+"This repo is used for servicing PR&amp;#39;s for .NET Core 2.1 and 3.1. Please visit us at https://github.com/dotnet/runtime",".NET Team GitHub Development Repository",0.13333333333333333,0.0,0.13333333333333333
+"A modern dialog library which is highly configurable and easy to style. #hubspot-open-source","&amp;#34;Highly Configurable Modern Dialog Library&amp;#34;",0.5,0.3333333333333333,0.3
+"How to train a TensorFlow Object Detection Classifier for multiple object detection on Windows","How To Train an Object Detection Classifier for Multiple Objects Using TensorFlow (GPU) on Windows 10",0.7999999999999999,0.5714285714285715,0.7333333333333334
+"A Keras implementation of YOLOv3 (Tensorflow backend)","Keras implementation of YOLOv3",0.7272727272727273,0.6666666666666666,0.7272727272727273
+"Library for OpenAPI 3 with spring-boot","Automated API Documentation Generation for Spring Boot",0.42857142857142855,0.16666666666666666,0.42857142857142855
+"Official mirror of Blender","Blender: Free and Open Source 3D Creation Suite",0.16666666666666666,0.0,0.16666666666666666
+"Interactive evaluation for Neovim (Clojure, Fennel, Janet, Racket, Hy, MIT Scheme, Guile)","Conjure: An interactive environment for evaluating code in running programs.",0.2727272727272727,0.0,0.1818181818181818
+"Course materials for Georgia Tech CS 4650 and 7650, &amp;#34;Natural Language&amp;#34;","Overview of modern data-driven techniques for natural language processing.",0.28571428571428564,0.10526315789473685,0.28571428571428564
+"Relay is a JavaScript framework for building data-driven React applications.","nnRelay: A JavaScript framework for building data-driven React applications.",0.8571428571428572,0.8421052631578948,0.8571428571428572
+"Rails Composer. The Rails generator on steroids for starter apps.","Rails application template generator",0.28571428571428575,0.0,0.28571428571428575
+"Lab materials for the Full Stack Deep Learning Course","Full Stack Deep Learning Labs: Build and deploy a handwriting recognition system.",0.4761904761904762,0.3157894736842105,0.380952380952381
+"A GraphQL client for Flutter, bringing all the features from a modern GraphQL client to one easy to use package.","GraphQL Flutter: A collection of packages for working with GraphQL servers in Dart and Flutter.",0.34285714285714286,0.0,0.2285714285714286
+"FlexyPool adds metrics and failover strategies to a given Connection Pool, allowing it to resize on demand.","FlexyPool: Dynamic Connection Pool Resizing and Metrics",0.5,0.09090909090909091,0.3333333333333333
+"List of Elixir books","Awesome Elixir Books: A Comprehensive Guide to Mastering Elixir for Application Development",0.25,0.14285714285714288,0.25
+"Parse CSS and add vendor prefixes to rules by Can I Use","Autoprefixer: A PostCSS plugin for automatic vendor prefixing in CSS.",0.2727272727272727,0.09999999999999999,0.1818181818181818
+"Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.","Markdown Here: Write and render emails in Markdown with ease.",0.42857142857142855,0.23076923076923078,0.2857142857142857
+"aria2 is a lightweight multi-protocol &amp;amp; multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.","aria2 - The ultra fast download utility",0.1935483870967742,0.06896551724137931,0.1935483870967742
+"Java wrapper for the popular chat &amp;amp; VOIP service: Discord https://discord.com","Java Discord API for creating Discord bots in Java.",0.380952380952381,0.0,0.28571428571428575
+"JavaScript Date Range, Date and Time Picker Component","Date Range Picker Component",0.6666666666666666,0.4,0.6666666666666666
+"College Basketball analytics software for analyzing trends in 5 man units and rosters","College Basketball Analytics Software",0.47058823529411764,0.4,0.47058823529411764
+"The official jQuery user interface library.","jQuery UI: A curated set of user interface interactions and widgets for web applications",0.3,0.1111111111111111,0.3
+"Python process launching","&amp;#34;sh: A subprocess replacement for Python that allows function-like command calls.&amp;#34;",0.13333333333333333,0.0,0.13333333333333333
+"Web based localization tool with tight version control integration.","Weblate: A web-based continuous localization system for libre projects.",0.3157894736842105,0.11764705882352941,0.3157894736842105
+"Pretrained Pytorch face detection (MTCNN) and facial recognition (InceptionResnet) models","Face Recognition with Pretrained Inception Resnet and MTCNN in Pytorch",0.6,0.0,0.20000000000000004
+"Fast computer vision library for SFM, calibration, fiducials, tracking,  image processing, and more.","Real-time computer vision library in Java",0.3,0.2222222222222222,0.3
+"A jQuery plugin for inflating web type","FitText.js: A jQuery plugin for flexible, responsive typography",0.5,0.42857142857142855,0.5
+"A curated list of awesome JavaFX libraries, books, frameworks, etc...","A curated list of awesome JavaFX resources.",0.7058823529411764,0.6666666666666667,0.7058823529411764
+"An example C program which contains vulnerable code for common types of vulnerabilities. It can be used to show fuzzing concepts.","Damn Vulnerable C Program: A C program demonstrating common security vulnerabilities.",0.31249999999999994,0.06666666666666667,0.25
+"Fast and low overhead web framework, for Node.js","Fast and efficient web framework with powerful plugin architecture",0.4444444444444444,0.25,0.4444444444444444
+"Create agents that monitor and act on your behalf.  Your agents are standing by!","Huginn: A system for building automated agents to perform tasks online.",0.08,0.0,0.08
+"Chaos engineering tool for simulating real-world distributed system failures","nnProxy for simulating real-world distributed system failures.",0.7777777777777777,0.75,0.7777777777777777
+"Crimes Reserach Masters Thesis","Crimes Research: Personal Data Science Code Repository",0.18181818181818182,0.0,0.18181818181818182
+"The AWS Serverless Application Model (AWS SAM) transform is a AWS CloudFormation macro that transforms SAM templates into CloudFormation templates.","AWS SAM Transform: Enhance Your CloudFormation Templates",0.37037037037037035,0.23999999999999996,0.37037037037037035
+"Speech and Vision Based Intelligent Personal Assistant","Lucida: An Intelligent Speech and Vision Personal Assistant",0.7999999999999999,0.4615384615384615,0.6666666666666666
+":bar_chart: A D3-based reusable chart library","D3-based reusable chart library for web applications.",0.625,0.5714285714285714,0.625
+"Active Merchant is a simple payment abstraction library extracted from Shopify. The aim of the project is to feel natural to Ruby users and to abstract as many parts as possible away from the user to offer a consistent interface across all supported gateways.","Active Merchant: Unified API for Payment Gateway Integration in Ruby",0.18518518518518517,0.038461538461538464,0.14814814814814814
+"Evmos is the first decentralized EVM chain on the Cosmos Network.  It&amp;#39;s implementing the first EVM stack focused on native, cross-chain applications. Evmos is the flagship implementation of Ethermint, an EVM library built for the Cosmos Network by the Evmos Core Developement Team.","Evmos: Scalable Proof-of-Stake EVM Blockchain Compatible with Ethereum",0.1090909090909091,0.0,0.1090909090909091
+"A JavaScript Sound API supporting MP3, MPEG4 and HTML5 audio + RTMP, providing reliable cross-browser/platform audio control in as little as 12 KB. BSD licensed.","SoundManager 2: JavaScript Sound for the Web",0.12121212121212123,0.06451612903225806,0.12121212121212123
+"Infrastructure As Code Tutorial. Covers Packer, Terraform, Ansible, Vagrant, Docker, Docker Compose, Kubernetes","Infrastructure As Code Tutorial: A hands-on guide to understanding and managing IaC concepts.",0.29629629629629634,0.24000000000000002,0.29629629629629634
+"Docker implemented in around 100 lines of bash","BockernDocker: A minimal Docker-like functionality implementation in bash.",0.47058823529411764,0.13333333333333333,0.47058823529411764
+"General Assembly&amp;#39;s 2015 Data Science course in Washington, DC","DAT8 Course Materials for Data Science and Python Programming",0.3157894736842105,0.11764705882352941,0.2105263157894737
+"A high performance HTTP proxy cache server and RESTful NoSQL cache server based on HAProxy","High-performance HTTP proxy and RESTful NoSQL cache server based on HAProxy.",0.888888888888889,0.8,0.888888888888889
+"Feature.js is a fast, simple and lightweight browser feature detection library in 1kb.","Fast and lightweight browser feature detection library.",0.6666666666666666,0.5263157894736842,0.6666666666666666
+"A UI/UX framework for creating beautiful applications.","UI/UX framework for creating beautiful applications",0.9333333333333333,0.923076923076923,0.9333333333333333
+"Pre-Built Vulnerable Environments Based on Docker-Compose","Vulhub: Pre-built vulnerable Docker environments for testing",0.625,0.2857142857142857,0.5
+"A distribution of Nginx with some advanced features","Tengine: A high-performance, open-source web server based on nginx with advanced features.",0.45454545454545453,0.2,0.45454545454545453
+"An extensible framework for interacting with tests within NeoVim.","Neotest: A framework for interacting with tests within NeoVim.",0.7777777777777778,0.75,0.7777777777777778
+"A Markdown parser for javascript","Markdown Parser for JavaScript",0.888888888888889,0.8571428571428571,0.888888888888889
+"Python training for business analysts and traders","Python Training for JPMorgan Analysts and Traders",0.8571428571428571,0.6666666666666666,0.8571428571428571
+"Top 100 Hacking &amp;amp; Security E-Books (Free Download)","Top 100 Hacking &amp;amp; Security E-Books (Free Download)",1.0,1.0,1.0
+"One-click screenshots, video recordings, app installation for iOS and Android","One-click Android tool for Mac",0.4705882352941177,0.13333333333333333,0.3529411764705882
+"Swipe is the most accurate touch slider.","Swipe: A simple and adaptable touch slider for web browsers",0.3529411764705882,0.13333333333333333,0.3529411764705882
+"Numenta Platform for Intelligent Computing is an implementation of Hierarchical Temporal Memory (HTM), a theory of intelligence based strictly on the neuroscience of the neocortex.","NuPIC: Machine Intelligence Platform for Hierarchical Temporal Memory",0.36363636363636365,0.19354838709677416,0.30303030303030304
+"A starter theme from WebDevStudios.","Versatile WordPress Starter Theme from WebDevStudios",0.7272727272727272,0.6666666666666665,0.7272727272727272
+"Empower your website frontends with layouts, meta-data, pre-processors (markdown, jade, coffeescript, etc.), partials, skeletons, file watching, querying, and an amazing plugin system. DocPad will streamline your web development process allowing you to craft powerful static sites quicker than ever before.","DocPad: Streamlined web development.",0.17391304347826084,0.04545454545454545,0.17391304347826084
+"This is all my project of Udacity Deep Learning Nanodegree starts in May 25","Udacity Deep Learning Nanodegree Projects",0.5263157894736842,0.3529411764705882,0.4210526315789473
+"Static Type Checker for Python","Static Type Checker for Python",1.0,1.0,1.0
+"A CSS preprocessor that acts like a polyfill for future versions of the spec.","Myth: A CSS preprocessor for future-proof styles without browser worries.",0.4,0.2608695652173913,0.4
+"Classier solution for file uploads for Rails, Sinatra and other Ruby web frameworks","Simple and flexible file uploader for Ruby applications.",0.4761904761904762,0.2105263157894737,0.380952380952381
+"Data and analysis supporting portions of the BuzzFeed News article, &amp;#34;Fake News, Real Ads,&amp;#34; published April 4, 2017.","Fake News Ad Trackers Analysis",0.2608695652173913,0.09523809523809523,0.1739130434782609
+"OpenCore bootloader","OpenCore Bootloader with UEFI Development SDK",0.5,0.33333333333333337,0.5
+"NeuralTalk is a Python+numpy project for learning Multimodal Recurrent Neural Networks that describe images with sentences.","NeuralTalk: Deprecated Image Captioning with Recurrent Neural Networks",0.48,0.17391304347826086,0.31999999999999995
+"ObsPy: A Python Toolbox for seismology/seismological observatories.","ObsPy: Python framework for processing seismological data",0.5333333333333333,0.0,0.5333333333333333
+"Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library,  for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Dask, Flink and DataFlow","Optimized Distributed Gradient Boosting Library",0.2352941176470588,0.125,0.2352941176470588
+"Redefined chart library built with React and D3","Recharts: A Redefined chart library for React and D3.",0.7058823529411765,0.5333333333333333,0.7058823529411765
+"Simple BDD for iOS","Kiwi: Simple BDD for iOS Development",0.8,0.7499999999999999,0.8
+"Tool for parsing GC logs","GCToolkit: A Java GC log analysis toolkit for optimized memory management.",0.37499999999999994,0.14285714285714288,0.25000000000000006
+"Image-to-Image Translation in PyTorch","PyTorch implementations of CycleGAN and pix2pix for image-to-image translation",0.5882352941176471,0.4,0.4705882352941177
+"A layout engine for Android that decouples layouts from the View containers that manage scrolling and view recycling. FreeFlow makes it really easy to create custom layouts and beautiful transition animations as data and layouts change","FreeFlow: A Flexible Layout Engine for Android Applications",0.27272727272727276,0.14285714285714285,0.2272727272727273
+"Application Kernel for Containers","gVisor: A secure application kernel for sandboxed containers",0.6666666666666666,0.4,0.6666666666666666
+":notes: Turn Google Play Music into a separate, beautiful application that integrates with your Mac.","Radiant Player for Google Play Music (Deprecated)",0.27272727272727276,0.2,0.27272727272727276
+"This is a code repository for the corresponding video tutorial. In this video, we&amp;#39;re going to build a fully functional eCommerce application using commerce.js.","Fully Functional E-Commerce Application with React and Stripe",0.2285714285714286,0.06060606060606061,0.17142857142857146
+"A Ruby static code analyzer and formatter, based on the community Ruby style guide.","RuboCop: Ruby static code analyzer and formatter",0.5714285714285714,0.5263157894736842,0.5714285714285714
+"The binary distribution of openHAB","Universal Home Automation Integration Platform",0.0,0.0,0.0
+"An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.","Interactive SSL/TLS-capable intercepting proxy with console interface",0.4545454545454546,0.2,0.4545454545454546
+"The unofficial WWDC app for macOS","Unofficial WWDC app for macOS",0.9090909090909091,0.888888888888889,0.9090909090909091
+"Automated Machine Learning with scikit-learn","Automated machine learning toolkit",0.6,0.5,0.6
+"30 Days of React Content and Source Code","30 Days of React: An Introduction to React - in 30 Bite-Size Morsels",0.380952380952381,0.3157894736842105,0.380952380952381
+"An HTTP client and server for Julia","HTTP.jlnn: A client and server side implementation of HTTP for Julia.",0.631578947368421,0.3529411764705882,0.631578947368421
+"WordPress boilerplate with Composer, easier configuration, and an improved folder structure","Bedrock: A WordPress boilerplate for modern development practices.",0.2105263157894737,0.11764705882352941,0.2105263157894737
+"Awesome materials about database development.","Awesome Database Development Resources",0.6666666666666665,0.28571428571428575,0.6666666666666665
+"Rust implementation of {t,n}-threshold ECDSA (elliptic curve digital signature algorithm).","Rust implementation of multi-party ECDSA for threshold signatures.",0.5714285714285715,0.2105263157894737,0.4761904761904762
+"Everything about note management. All in Zotero.","Better Notes for Zotero: Streamline your note management workflows.",0.375,0.14285714285714288,0.25
+"A single-header ANSI C gui library","Minimal State Immediate Mode GUI Toolkit in ANSI C",0.375,0.14285714285714288,0.25
+"Dive into our 7-month web development program covering HTML, CSS, Javascript, Node, and React!","HackYourFuture Curriculum Overview",0.0,0.0,0.0
+"Linux tool to show progress for cp, mv, dd, ... (formerly known as cv)","Coreutils Progress Viewer",0.125,0.0,0.125
+"One of the &amp;#39;BEST&amp;#39; markdown preview extensions for Atom editor!","Markdown Preview Enhanced: An extension for enhanced Markdown editing with features like scroll sync and PDF export.",0.29629629629629634,0.16,0.29629629629629634
+"Model framework for Cocoa and Cocoa Touch","Mantle: Simplifying Model Layer Development for Cocoa Applications",0.39999999999999997,0.15384615384615383,0.39999999999999997
+"Awesome pre-trained models toolkit based on PaddlePaddle. (400+ models including Image, Text, Audio, Video and Cross-Modal with Easy Inference &amp;amp; Serving)","&amp;#34;400+ High-Quality AI Models with Easy Integration&amp;#34;",0.26666666666666666,0.07142857142857142,0.26666666666666666
+"Responsive navigation plugin without library dependencies and with fast touch screen support.","Responsive navigation plugin with fast touch screen support",0.8,0.6666666666666665,0.8
+"Code and tools for plotting time series using Bokeh.","Plotting Time Series with Bokeh",0.5714285714285714,0.3333333333333333,0.5714285714285714
+"Microsoft Build Accelerator","BuildXL: Microsoft Build Accelerator for Scalable Builds",0.6,0.5,0.6
+"Application Architecture for Building User Interfaces","Archived React application architecture with unidirectional data flow.",0.28571428571428575,0.16666666666666666,0.28571428571428575
+"Python package built to ease deep learning on graph, on top of existing DL frameworks.","DGL: A High-Performance Python Package for Deep Learning on Graphs",0.4615384615384615,0.3333333333333333,0.4615384615384615
+"Integrate React.js with Rails views and controllers, the asset pipeline, or webpacker.","React-Rails: A flexible tool for integrating React with Rails applications.",0.33333333333333337,0.1818181818181818,0.33333333333333337
+"Theano was a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It is being continued as aesara: www.github.com/pymc-devs/aesara","Aesara: The Forked and Actively Developed Project from Theano",0.14634146341463417,0.0,0.04878048780487805
+"Tensorforce: a TensorFlow library for applied reinforcement learning","Tensorforce: A modular TensorFlow library for applied reinforcement learning",0.9411764705882353,0.7999999999999999,0.9411764705882353
+"Transmits AM radio on computers without radio transmitting hardware.","System Bus Radio: Transmit Radio Without Hardware on Air-Gapped Devices",0.6,0.11111111111111112,0.39999999999999997
+"OpenFaaS - Serverless Functions Made Simple","OpenFaaS® - Serverless Functions Made Simple",1.0,1.0,1.0
+"A simple Flask boilerplate app with SQLAlchemy, Redis, User Authentication, and more.","Flask application template with boilerplate code.",0.3333333333333333,0.0,0.2222222222222222
+"Javascript library for headtracking via webcam and WebRTC/getUserMedia","Real-time face and head tracking JavaScript library",0.35294117647058826,0.13333333333333333,0.23529411764705882
+"A platform for community discussion. Free, open, simple.","Discourse: An Open Source Community Platform",0.42857142857142855,0.0,0.14285714285714288
+"Lightweight, cross-browser and highly customizable animated scrolling with jQuery","Lightweight, customizable animated scrolling with jQuery.",0.7499999999999999,0.5714285714285714,0.7499999999999999
+"A deployment automation tool built on Ruby, Rake, and SSH.","Capistrano: A deployment automation tool built on Ruby, Rake, and SSH.",0.9523809523809523,0.9473684210526316,0.9523809523809523
+"The purpose of our research is to study reinforcement learning approaches to building a movie recommender system. We formulate the problem of interactive recommendation as a contextual multi-armed bandit.","Reinforcement Learning for Movie Recommendation System",0.2777777777777778,0.17647058823529413,0.2777777777777778
+"Tom&amp;#39;s Obvious, Minimal Language","TOML: A minimal, easy-to-read configuration file format.",0.14285714285714285,0.0,0.14285714285714285
+"The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL renderer.","PixiJS — The HTML5 Creation Engine for fast, interactive 2D graphics and games.",0.35714285714285715,0.23076923076923075,0.35714285714285715
+"Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty","Cabot: A Free, Open-Source Self-Hosted Infrastructure Monitoring Platform",0.3636363636363636,0.09999999999999999,0.2727272727272727
+"Captfencoder is opensource a rapid cross platform network security tool suite, providing network security related code conversion, classical cryptography, cryptography, asymmetric encryption, miscellaneous tools, and aggregating all kinds of online tools.","CaptfEncoder: An Open-Source Network Security Tool Suite in Rust",0.24390243902439024,0.15384615384615383,0.24390243902439024
+"An Android Animation library which easily add itemanimator to RecyclerView items.","RecyclerView Animators: Easily add animations to RecyclerView in Android.",0.6,0.22222222222222224,0.5
+"Scribe is a server for aggregating log data streamed in real time from a large number of servers.","Scribe: A scalable real-time log data aggregation server",0.5925925925925926,0.15999999999999998,0.3703703703703704
+"I&amp;#39;m playing at defining classes","OOP Class Definition Playground",0.2,0.0,0.2
+"A python interface for interacting with the Ethereum blockchain and ecosystem.","Python library for Ethereum interaction",0.5000000000000001,0.0,0.37499999999999994
+"Moved to https://github.com/aquasecurity/trivy-operator","Kubernetes-native security toolkit for identifying and managing security issues in workloads and infrastructure.",0.0,0.0,0.0
+"Curated list of resources on testing distributed systems","Curated Resources for Testing Distributed Systems",0.7142857142857143,0.3333333333333333,0.7142857142857143
+"HackerNews clone built with Vue 2.0, vue-router &amp;amp; vuex, with server-side rendering","Server-side rendered HackerNews clone with Vue 2.0",0.782608695652174,0.5714285714285714,0.5217391304347826
+"The Rust package manager","Cargonn: Cargo for managing Rust project dependencies and compilation.",0.30769230769230765,0.0,0.15384615384615383
+"A curated list of resources for learning about application security","Curated resources for learning application security",0.7499999999999999,0.42857142857142855,0.7499999999999999
+"Dates and times made easy in iOS","DateTools: Streamlined date and time handling for iOS.",0.5333333333333333,0.30769230769230765,0.5333333333333333
+"A decentralization of GitHub using BitTorrent and Bitcoin","Decentralized Git repository sharing over BitTorrent.",0.28571428571428575,0.0,0.28571428571428575
+":zap: A Fast, Extensible Progress Bar for Python and CLI","Smart Progress Meter for Python Loops",0.37499999999999994,0.14285714285714285,0.37499999999999994
+"Yii 2: The Fast, Secure and Professional PHP Framework","Yii 2: A modern and flexible PHP framework",0.5882352941176471,0.26666666666666666,0.5882352941176471
+"Extract &amp;amp; Inline Critical-path CSS in HTML pages","Extracts &amp;amp; inlines critical-path CSS from HTML",0.7999999999999999,0.6153846153846153,0.7999999999999999
+"a react native charts wrapper (support android &amp;amp; iOS)","React Native wrapper for native charting library",0.5333333333333333,0.30769230769230765,0.39999999999999997
+"Self-hosted chat app for small teams","Self-hosted chat app for small teams",1.0,1.0,1.0
+"Official Zend Framework repository","Zend Framework 3.0 Metapackage",0.4444444444444445,0.28571428571428575,0.4444444444444445
+"Your new Jekyll default theme.","Basically Basic Jekyll Theme",0.4444444444444445,0.0,0.4444444444444445
+"Kubernetes application deployments for restricted, regulated or remote environments.","Gravity: An open source toolkit for creating reproducible Kubernetes cluster images.",0.19999999999999998,0.0,0.09999999999999999
+"A splendid route-matching, block-based way to handle your deep links.","DeepLink Kit: Simplified deep link handling with route-matching and block-based navigation.",0.5599999999999999,0.2608695652173913,0.32
+"Google DeepMind&amp;#39;s software stack for physics-based simulation and Reinforcement Learning environments, using MuJoCo.","Google DeepMind Infrastructure for Physics-Based Simulation",0.5454545454545455,0.4,0.5454545454545455
+"open-source jailbreaking tool for many iOS devices","Open-source iOS jailbreaking tool using the unpatchable checkm8 exploit",0.5555555555555556,0.25,0.4444444444444445
+"Associate users with roles and permissions","User Permissions and Roles Management for Laravel",0.6153846153846153,0.0,0.30769230769230765
+"An extension for Apple&amp;#39;s xcodebuild that makes it easier to test iOS and macOS apps.","xctoolnn: Enhanced Testing for iOS and Mac with xcodebuild",0.39999999999999997,0.08695652173913045,0.24000000000000005
+"Laravel Pint is an opinionated PHP code style fixer for minimalists.","Laravel Pint: An opinionated PHP code style fixer for minimalists.",0.9523809523809523,0.8421052631578948,0.9523809523809523
+"JSON Schema Based Editor","JSON Editor: Generate HTML forms from JSON Schema",0.5,0.2,0.3333333333333333
+":octocat: A collection of APIs","A collection of AWESOME APIs for developers.",0.6666666666666666,0.4,0.6666666666666666
+"Apache Solr open-source search software","Apache Solr: Blazing fast open source search platform",0.7142857142857143,0.5,0.7142857142857143
+"A curated list of awesome Android packages and resources.","A curated list of awesome Android libraries and tools.",0.7777777777777778,0.625,0.7777777777777778
+"rlcourse-march-10-hugobb created by GitHub Classroom","Automatic Discovery of Subgoals Using Diverse Density",0.0,0.0,0.0
+"A Virtual DOM and diffing algorithm","Efficient re-rendering with a virtual DOM representation.",0.42857142857142855,0.3333333333333333,0.42857142857142855
+"Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.","REST Client - Simple DSL for HTTP and REST resources",0.5217391304347826,0.2857142857142857,0.34782608695652173
+"A JavaScript implementation of Git.","JS-Git: A collection of modules for implementing git-powered applications in JavaScript.",0.5555555555555556,0.0,0.33333333333333337
+"A terminal emulator for the 21st century.","Upterm: An Intelligent Terminal Emulator and Interactive Shell",0.26666666666666666,0.15384615384615383,0.26666666666666666
+"30 Days of  React challenge is a step by step guide to learn React in 30 days.  These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw","30 Days of React Challenge: Learn and Master React Development",0.3684210526315789,0.2222222222222222,0.3684210526315789
+"Remote network and data debugging for your native iOS app using Chrome Developer Tools","PonyDebugger: A remote debugging toolset for iOS applications.",0.36363636363636365,0.0,0.36363636363636365
+"An easy-to-use mixed reality library for building HoloLens and VR applications with C# and OpenXR!","StereoKit: An easy-to-use open source mixed reality library for HoloLens and VR applications.",0.7500000000000001,0.6000000000000001,0.7500000000000001
+"Manage your Ruby application&amp;#39;s gem dependencies","Bundler: a gem to bundle gems",0.15384615384615383,0.0,0.15384615384615383
+"A curated list of awesome things related to Ruby on Rails","Awesome things related to Ruby on Rails",0.7777777777777778,0.7499999999999999,0.7777777777777778
+"Dopamine is a research framework for fast prototyping of reinforcement learning algorithms.","Dopamine: A research framework for fast prototyping of reinforcement learning algorithms.",0.9565217391304348,0.8571428571428572,0.9565217391304348
+"Automated Red Team Infrastructure deployement using Docker","Redcloud: A user-friendly toolbox for deploying Red Team Infrastructure with Docker.",0.5263157894736842,0.23529411764705885,0.4210526315789474
+"Zipkin is a distributed tracing system","Distributed Tracing System for Analyzing Latency in Service Architectures",0.4,0.3076923076923077,0.4
+"GitLab CE Mirror | Please open new issues in our issue tracker on GitLab.com","Open source software to collaborate on code.",0.19047619047619047,0.0,0.19047619047619047
+"Open Source real-time strategy game engine for early Westwood games such as Command &amp;amp; Conquer: Red Alert written in C# using SDL and OpenGL. Runs on Windows, Linux, *BSD and Mac OS X.","OpenRAnnA: A Libre Real Time Strategy Game Engine for Classic Westwood Games",0.3555555555555555,0.27906976744186046,0.3555555555555555
+"Replicating and improving the lightbox module seen on Medium with fluid transitions.","Fluidbox: A lightweight plugin for fluid image lightbox functionality.",0.1904761904761905,0.0,0.09523809523809525
+"ClojureScript interface to Facebook&amp;#39;s React","Om: Snapshotable and undoable UIs with minimal complexity.",0.0,0.0,0.0
+"General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.","General-purpose programming language and toolchain for robust software.",0.8181818181818181,0.6,0.8181818181818181
+"Generic automation framework for acceptance testing and RPA","Robot Framework: A generic open source automation framework for acceptance testing and robotic process automation.",0.608695652173913,0.4761904761904762,0.608695652173913
+"Functional programming in Swift","nSwiftz: A Swift library for functional programming.",0.5454545454545454,0.2222222222222222,0.36363636363636365
+"An XMPP Framework in Objective-C for Mac and iOS","XMPP Framework for Objective-C on Mac and iOS",0.8421052631578948,0.47058823529411764,0.7368421052631577
+":calendar: Customizable date (and time) picker. Opt-in UI, no jQuery!","Customizable date and time picker without jQuery",0.6666666666666665,0.5,0.6666666666666665
+"Free and Open source Web Builder Framework. Next generation tool for building templates without coding","GrapesJS: A Free Open Source Web Builder Framework for Fast HTML Template Creation",0.5714285714285715,0.30769230769230765,0.5714285714285715
+"SQL data analysis &amp;amp; visualization projects using MySQL, PostgreSQL, SQLite, Tableau, Apache Spark and pySpark.","SQL Data Analysis &amp;amp; Data Visualization Projects Collection",0.4761904761904762,0.3157894736842105,0.4761904761904762
+"The Crystal Programming Language","Crystal: A statically typed programming language with Ruby-like syntax and efficient native code compilation.",0.31578947368421056,0.11764705882352941,0.31578947368421056
+"Mutation testing for .NET core and .NET framework!","Mutation testing for .NET projects",0.6153846153846154,0.5454545454545454,0.6153846153846154
+"A collection of git utilities, useful extra git scripts, tutorials and other useful articles.","ZSH plugin for extra Git helper scripts",0.2857142857142857,0.10526315789473684,0.2857142857142857
+"Build highly concurrent, distributed, and resilient message-driven applications on the JVM","Akka: Simplifying the creation of resilient and scalable concurrent applications using the Actor Model.",0.3846153846153846,0.0,0.23076923076923075
+"A Swift Autolayout DSL for iOS &amp;amp; OS X","nnSnapKit: A DSL for Easy Auto Layout on iOS and OS X.",0.6,0.2222222222222222,0.6
+"Stanford NLP Python library for tokenization, sentence segmentation, NER, and parsing of many human languages","nnStanza: A Python NLP Library for Many Human Languages",0.5833333333333334,0.2727272727272727,0.5
+"Simple, unobtrusive authentication for Node.js.","Middleware for authentication with extensible strategies.",0.3333333333333333,0.0,0.16666666666666666
+"Enable Self-Service Operations: Give specific users access to your existing tools, services, and scripts","Rundeck: Open Source Automation Service",0.1,0.0,0.1
+"PRML algorithms implemented in Python","Codes for Algorithms in Pattern Recognition and Machine Learning",0.2857142857142857,0.0,0.2857142857142857
+"The source code that powers readthedocs.org","Continuous Documentation for the Open Source Community",0.2857142857142857,0.0,0.2857142857142857
+"A Content Editor for GitHub.","Beautifully simple content authoring for GitHub.",0.5454545454545454,0.22222222222222224,0.5454545454545454
+"Local MOOSE repo holding common functionalities that in the future should be put in a MOOSE module","MOOSE: A Multiphysics Object-Oriented Simulation Environment",0.16666666666666666,0.0,0.16666666666666666
+":globe_with_meridians: List of all countries with names and ISO 3166-1 codes in all languages and data formats.","Comprehensive Country List with ISO Codes",0.3846153846153846,0.0,0.30769230769230765
+"Cross-browser storage for all use cases, used across the web.","Cross-browser storage solution for web applications.",0.5555555555555556,0.25,0.5555555555555556
+"Window.js is an open-source Javascript runtime for desktop graphics programming.","Open-source JavaScript runtime for desktop graphics programming",0.8,0.7777777777777778,0.8
+"All the free parts of  Popcorn Time","Butter-next-gen: Easy Torrent Streaming for Movies",0.0,0.0,0.0
+"A cross-platform, linkable library implementation of Git that you can use in your application.","libgit2 - A portable C library for integrating Git functionalities into applications",0.30769230769230765,0.0,0.30769230769230765
+"An educational software system of a tiny self-compiling C compiler, a tiny self-executing RISC-V emulator, and a tiny self-hosting RISC-V hypervisor.","Selfie: An educational platform for teaching programming languages and systems engineering.",0.21621621621621623,0.05714285714285714,0.16216216216216214
+"Kimai is a web-based multi-user time-tracking application. Works great for everyone: freelancers, companies, organizations - everyone can track their times, generate reports, create invoices and do so much more. SaaS version available at https://www.kimai.cloud","Kimai: A professional-grade, open-source time-tracking application.",0.20833333333333334,0.08695652173913043,0.20833333333333334
+"Example scripts and code fragments for data analysis and management in Python","Example scripts for data analysis in Python",0.7368421052631579,0.4705882352941177,0.7368421052631579
+"Swift Language Weather is an iOS weather app developed in Swift 4.","iOS Weather App in Swift 4",0.6666666666666666,0.5000000000000001,0.6666666666666666
+"A methodology for documenting CSS and generating styleguides.","Knyle Style Sheets: A methodology for maintainable, documented CSS.",0.5882352941176471,0.39999999999999997,0.5882352941176471
+"Attractive JavaScript charts for jQuery","JavaScript plotting library for engineering and scientific applications.",0.3076923076923077,0.0,0.3076923076923077
+"A Python Package to Tackle the Curse of Imbalanced Datasets in Machine Learning","scikit-learn: A Python library for machine learning with tools for imbalanced datasets.",0.46153846153846156,0.25,0.3076923076923077
+"Deploy workloads from Git to large fleets of Kubernetes clusters","GitOps at Scale with Fleet",0.13333333333333333,0.0,0.13333333333333333
+"A powerful Date/time picker widget.","Powerful JavaScript Date/Time Picker",0.7272727272727272,0.4444444444444445,0.7272727272727272
+"Defeating Windows User Account Control","UACMen: Defeating Windows User Account Control Using AutoElevate",0.7692307692307693,0.7272727272727273,0.7692307692307693
+"An NLP library for building bots, with entity extraction, sentiment analysis, automatic language identify, and so more","NLP.js: A comprehensive natural language utility for Node.js",0.22222222222222224,0.0,0.14814814814814817
+"An open source data gateway","Stargate: An Open-Source Data API Gateway for Apache Cassandra",0.6666666666666666,0.46153846153846156,0.6666666666666666
+"Accelerated deep learning R&amp;amp;D","Accelerated Deep Learning R&amp;amp;D with Catalyst",0.8333333333333333,0.8,0.8333333333333333
+"A web interface for Docker, formerly known as DockerUI. This repo is not maintained","UI For Docker: A web interface for the Docker Remote API",0.4,0.34782608695652173,0.4
+"Humbug is a Mutation Testing framework for PHP to measure the real effectiveness of your test suites and assist in their improvement. It eats Code Coverage for breakfast.","Humbug: Mutation Testing Framework for PHP",0.35294117647058826,0.25,0.35294117647058826
+"Example based guide to mastering GNU awk","CLI text processing with GNU awk",0.30769230769230765,0.1818181818181818,0.30769230769230765
+"Natural Language Processing Tasks and References","A Guide to Natural Language Processing Tasks and References",0.8,0.7692307692307693,0.8
+"Country Code Picker (CCP) is an android library which provides an easy way to search and select country or international phone code. Also supports Android EditText phone mask and international phone validation.","Country Code Picker Library for Android",0.2631578947368421,0.1111111111111111,0.2631578947368421
+"A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other resources.  Featuring the Fiery Meter of AWSome.","A curated list of awesome AWS resources.",0.45161290322580644,0.27586206896551724,0.45161290322580644
+"PyTorch image models, scripts, pretrained weights -- ResNet, ResNeXT, EfficientNet, NFNet, Vision Transformer (ViT), MobileNet-V3/V2, RegNet, DPN, CSPNet, Swin Transformer, MaxViT, CoAtNet, ConvNeXt, and more","Collections of SOTA Image Models and Utilities for PyTorch",0.2285714285714286,0.06060606060606061,0.17142857142857146
+"MicroK8s is a small, fast, single-package Kubernetes for datacenters and the edge.","The smallest, fastest Kubernetes",0.23529411764705882,0.0,0.11764705882352941
+"TensorFlow Tutorial and Examples for Beginners (support TF v1 &amp;amp; v2)","TensorFlow Examples: Clear and concise tutorials for beginners with TF v1 &amp;amp; v2.",0.8181818181818182,0.3,0.6363636363636365
+"Free Bootstrap Admin Template","Free Bootstrap Admin Template for Dashboard UI Design",0.6666666666666666,0.6,0.6666666666666666
+"The React Framework","Next.js: Preferred by leading companies worldwide.",0.0,0.0,0.0
+"Preview GitHub README.md files locally before committing them.","Grip -- GitHub Readme Instant Preview",0.42857142857142855,0.16666666666666666,0.2857142857142857
+"An AngularJS module that gives you access to the browsers local storage with cookie fallback","Angular module for browser local storage access",0.4545454545454545,0.2,0.36363636363636365
+"Use this to learn React Native","Learn React Native Tutorials",0.6,0.5,0.6
+"Custom UIView for iOS that pops up an animated &amp;#34;bubble&amp;#34; pointing at a button or other view. Useful for popup tips.","CMPopTipView: A customizable popover view for iOS that points to UI elements.",0.36363636363636365,0.12903225806451613,0.24242424242424246
+"A library of fragment shaders you can use in any SpriteKit project.","ShaderKit: Easy-to-understand fragment shaders for SpriteKit games",0.28571428571428575,0.10526315789473685,0.28571428571428575
+"A curated list of amazingly awesome PHP libraries, resources and shiny things.","A curated list of amazingly awesome PHP libraries and resources.",0.9090909090909091,0.7000000000000001,0.8181818181818182
+"Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:","D3: A flexible JavaScript library for data visualization",0.08333333333333333,0.0,0.08333333333333333
+"Exercises for the UBC Scientific Software Seminar","Exercises for the UBC Scientific Software Seminar",1.0,1.0,1.0
+"OpenSpiel is a collection of environments and algorithms for research in general reinforcement learning and search/planning in games.","OpenSpiel: A Framework for Reinforcement Learning in Games",0.5185185185185185,0.16,0.5185185185185185
+"A concise stack-based golfing language","05AB1E: A general-purpose golfing language for code golfing challenges.",0.37499999999999994,0.14285714285714285,0.37499999999999994
+"Hyperledger Fabric is an enterprise-grade permissioned distributed ledger framework for developing solutions and applications. Its modular and versatile design satisfies a broad range of industry use cases. It offers a unique approach to consensus that enables performance at scale while preserving privacy.","Hyperledger Fabric: A Modular Platform for Distributed Ledger Solutions",0.3076923076923077,0.08,0.19230769230769232
+"web based file server","HFS (HTTP File Server) - Easy File Sharing Using Web Technology",0.4285714285714285,0.16666666666666666,0.28571428571428575
+"A Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming.","Automated Machine Learning Tool using Genetic Programming",0.6666666666666666,0.5263157894736842,0.6666666666666666
+"The main repository for the TrueBlocks system","&amp;#34;Improving access to blockchain data for EVM-compatible chains.&amp;#34;",0.125,0.0,0.125
+"Machine Learning University: Accelerated Natural Language Processing Class","Accelerated Natural Language Processing Class - Machine Learning University",1.0,0.8571428571428571,0.625
+"Android library project for cropping images","Deprecated Android Image Cropping Library",0.7272727272727272,0.0,0.3636363636363636
+"A free shopping cart system. OpenCart is an open source PHP-based online e-commerce solution.","OpenCart: A free open source ecommerce platform for online merchants.",0.4615384615384615,0.16666666666666669,0.38461538461538464
+"Minimal templating on steroids.","Semantic templating made easy with Handlebars.js",0.18181818181818182,0.0,0.18181818181818182
+"Deep Learning Toolkit for Medical Image Analysis","Deep Learning Toolkit (DLTK) for Medical Imaging",0.8571428571428571,0.6666666666666666,0.8571428571428571
+"A fluid and flexible grid Sass framework","A lightweight and flexible Sass grid",0.7692307692307692,0.1818181818181818,0.6153846153846153
+"A Compiler Writing Journey","A Compiler Writing Journey: Documenting the creation of a self-compiling C language compiler.",0.4444444444444445,0.375,0.4444444444444445
+"GraphicsMagick for node","GraphicsMagick and ImageMagick for Node.",0.7499999999999999,0.3333333333333333,0.7499999999999999
+"Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin","One Page Scroll: Create Apple-like one page scroll websites.",0.6923076923076923,0.4166666666666667,0.4615384615384615
+"An interactive indicator to navigate between the different pages of a ViewPager","Interactive paging indicator for Android.",0.35294117647058826,0.0,0.23529411764705882
+"EditText in Material Design","MaterialEditText: Enhanced Material Design EditText for Android",0.5454545454545454,0.2222222222222222,0.36363636363636365
+"A simple, secure, and scalable PHP application framework","Opulence: A PHP web application framework for secure and scalable websites.",0.7368421052631579,0.3529411764705882,0.4210526315789474
+"Turn any program that uses STDIN/STDOUT into a WebSocket server. Like inetd, but for WebSockets.","WebSocket command-line tool for easy server creation",0.25,0.0,0.16666666666666666
+"This repository contains  Machine learning projects I have been working on.Currently it contains projects from Udacity Nanodegree.","Machine Learning Projects Repository",0.3636363636363636,0.2,0.27272727272727276
+"A collection of well-documented iOS classes for making life easier","SSToolkit: A collection of independent iOS libraries and UI components.",0.380952380952381,0.2105263157894737,0.380952380952381
+"R package for thematic maps","tmap: Thematic maps in R",0.6,0.25,0.4000000000000001
+"A Python package for interactive geospaital analysis and visualization with Google Earth Engine.","Interactive Geospatial Analysis and Visualization with Google Earth Engine in Python",0.7500000000000001,0.5454545454545454,0.6666666666666667
+"Solr-powered search for Ruby objects","Sunspot: A Ruby library for expressive interaction with the Solr search engine.",0.4444444444444444,0.0,0.2222222222222222
+"The most scalable open-source MQTT broker for IoT, IIoT, and connected vehicles","EMQX: Scalable Open-Source MQTT Message Broker for 100M+ IoT Devices",0.5833333333333334,0.3636363636363636,0.5833333333333334
+"Repository for any code for the deep learning meetups","Deep Learning Meetup Dublin: Intro to Neural Nets",0.35294117647058826,0.26666666666666666,0.35294117647058826
+"A quick and easy way to setup a RESTful JSON API","A quick and easy way to set up a RESTful JSON API.",0.8695652173913043,0.761904761904762,0.8695652173913043
+"Py2/py3 script that can download macOS components direct from Apple","macOS Component Downloader and Internet Recovery USB Builder for Windows",0.28571428571428564,0.10526315789473685,0.1904761904761905
+"jQuery plugin to fire events when user&amp;#39;s cursor aims at particular dropdown menu items. For making responsive mega dropdowns like Amazon&amp;#39;s.","jQuery plugin for dropdown menu navigation",0.3448275862068966,0.14814814814814814,0.27586206896551724
+"Set up a modern web app by running one command.","Create React Apps with No Build Configuration",0.11764705882352941,0.0,0.11764705882352941
+"Keep It Functional - An iOS Functional Testing Framework","KIF: iOS Integration Testing Framework",0.4615384615384615,0.18181818181818182,0.4615384615384615
+"Webkit based scriptable web browser for python.","ghost.py: A WebKit web client in Python.",0.39999999999999997,0.0,0.39999999999999997
+"Self hosted streaming media server. https://docs.streama-project.com/","Your personal Netflix for organizing shows and movies.",0.0,0.0,0.0
+"A curated list of awesome embedded programming.","A curated list of awesome embedded resources.",0.8571428571428571,0.8333333333333334,0.8571428571428571
+"The simple, stupid batch framework for Java","Easy Batch: Simplifying Batch Processing with Java",0.2857142857142857,0.0,0.2857142857142857
+"Curated list of links, references, books videos, tutorials (Free or Paid), Exploit, CTFs, Hacking Practices etc. which are related to AWS Security","A curated list of resources for AWS Security.",0.3333333333333333,0.21428571428571427,0.3333333333333333
+"Pytorch implementation of convolutional neural network visualization techniques","Convolutional Neural Network Visualization Techniques in PyTorch",0.7999999999999999,0.6153846153846153,0.6666666666666666
+"A wrapper executable that can run any executable as a Windows service, in a permissive license.","Windows Service Wrapper for Application Management",0.2727272727272727,0.1,0.18181818181818182
+"Delightful, performance-focused pure css loading animations.","Delightful pure CSS loading animations.",0.8333333333333333,0.6,0.8333333333333333
+"Distributed and fault-tolerant realtime computation: stream processing, continuous computation, distributed RPC, and more","Apache Storm GitHub Mirror",0.0,0.0,0.0
+"Study on the evolution of genetic modularity in the absence of recombination","Evolution of Genetic Modularity in Digital Organisms",0.5263157894736842,0.4705882352941177,0.5263157894736842
+"Format input text content when you are typing...","Cleave.js: Automatic input text formatting made easy.",0.375,0.14285714285714285,0.25
+"Distributed in-memory object store. It can be used both as an embedded Go library and as a language-independent service.","Olric: A Distributed, In-Memory Object Store",0.42857142857142855,0.30769230769230765,0.35714285714285715
+"Shower HTML presentation engine","Shower Presentation Template",0.5714285714285715,0.0,0.5714285714285715
+"Run MapReduce jobs on Hadoop or Amazon Web Services","mrjob: the Python MapReduce library",0.14285714285714285,0.0,0.14285714285714285
+"A simple way to create a UITableView for settings in Swift.","A simple way to create a table view for settings.",0.761904761904762,0.631578947368421,0.761904761904762
+"WunderGraph is a Backend for Frontend Framework to optimize frontend, fullstack and backend developer workflows through API Composition.","WunderGraph: A Backend for Frontend Framework for Simplified API Composition",0.5714285714285714,0.3846153846153846,0.5714285714285714
+"Support content for my blog","Support code and projects for a data science blog.",0.42857142857142855,0.0,0.42857142857142855
+"GoReplay is an open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data. It can be used to increase confidence in code deployments, configuration changes and infrastructure changes.","GoReplay: Open-source network monitoring tool for traffic recording and analysis.",0.2641509433962264,0.07843137254901962,0.2641509433962264
+"Fund Performance Attribution and Prediction","2016.M3.TQF-ML Fund Performance Attribution",0.5,0.4,0.5
+"a collection of simple demos of React.js","Simple React.js Demos for Easy Learning",0.5333333333333333,0.15384615384615383,0.39999999999999997
+"Discord API library written in Lua for the Luvit runtime environment","Discord API library for Lua (Luvit)",0.7058823529411764,0.26666666666666666,0.5882352941176471
+":clock8: The original jQuery plugin that makes it easy to support automatically updating fuzzy timestamps (e.g. &amp;#34;4 minutes ago&amp;#34;).","Timeago: A jQuery plugin for automatic fuzzy timestamps",0.35714285714285715,0.15384615384615385,0.35714285714285715
+"Web mining module for Python, with tools for scraping, natural language processing, machine learning, network analysis and visualization.","Web Mining Module for Python",0.4347826086956522,0.38095238095238093,0.4347826086956522
+"OSINT Swiss Army Knife","gOSINT: A Multiplatform OSINT Swiss Army Knife in Golang",0.6153846153846153,0.5454545454545454,0.6153846153846153
+"Highly scalable realtime pub/sub and RPC framework","SocketCluster: Toolset for Quickly Creating Systems Using SocketCluster",0.0,0.0,0.0
+"Midgard Create, a generic web editing interface for any CMS","Create - On-site web editing interface for Content Management Systems",0.5,0.3333333333333333,0.5
+"Draws simple SVG sequence diagrams from textual representation of the diagram","JS Sequence Diagrams: Generate UML sequence diagrams from simple text.",0.47619047619047616,0.2105263157894737,0.28571428571428564
+"Synthesizing and manipulating 2048x1024 images with conditional GANs","High-resolution photorealistic image-to-image translation using Pytorch.",0.11764705882352941,0.0,0.11764705882352941
+"Chrome Headless docker images built upon alpine official image","Tiny Headless Chrome in Alpine Docker Image",0.6250000000000001,0.14285714285714288,0.375
+"An Introduction to Statistical Learning (James, Witten, Hastie, Tibshirani, 2013): Python code","Python Implementation of Statistical Learning Concepts from ISLR",0.3,0.1111111111111111,0.2
+"A beautiful set of predefined colors and a set of color methods to make your iOS/OSX development life easier.","Colours: A color utility library for iOS and macOS",0.2758620689655173,0.0,0.20689655172413793
+"List of API&amp;#39;s for gathering information about phone numbers, addresses, domains etc","APIs for Automating OSINT Tasks",0.2222222222222222,0.0,0.2222222222222222
+"An increasingly less-brief guide to Mastodon","A Comprehensive Guide to Mastodon vs. Twitter",0.42857142857142855,0.3333333333333333,0.42857142857142855
+"WebGL2 powered visualization framework","deck.gl | High-performance WebGL data visualization for large datasets",0.14285714285714288,0.0,0.14285714285714288
+"A Mustache implementation in PHP.","Mustache template engine implementation in PHP.",0.7272727272727272,0.4444444444444445,0.7272727272727272
+"Deep Learning using Python","Deep Learning with Python &amp;amp; TensorFlow",0.6666666666666665,0.28571428571428575,0.6666666666666665
+"A light-weight, customizable lightbox plugin for jQuery","Customizable jQuery Lightbox Plugin",0.6666666666666666,0.2,0.5
+"Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.","Playwright: A framework for Web Testing and Automation across multiple browsers.",0.5161290322580645,0.41379310344827586,0.5161290322580645
+"A Swiss Army knife for developers.","DevToys: A Swiss Army knife for developers.",0.923076923076923,0.9090909090909091,0.923076923076923
+"A custom ViewPager title strip which gives continuous feedback to the user when scrolling","Custom ViewPager title strip with continuous scrolling feedback.",0.6363636363636364,0.3,0.5454545454545454
+"An Android app which provides design news &amp;amp; inspiration as well as being an example of implementing material design.","Plaid 2.0: Rewriting Plaid in Kotlin for a modular and maintainable architecture.",0.0,0.0,0.0
+"JavaScript 3D Library.","three.js: Easy-to-use JavaScript 3D library",0.5454545454545454,0.4444444444444445,0.5454545454545454
+"Analysis to identify features that lead to highly liked and commented posts, as well as highly subscribed blogs","Identifying Elements of Successful Blogging",0.1739130434782609,0.0,0.1739130434782609
+"LINE Messaging API SDK for Java","LINE Messaging API SDK for Java",1.0,1.0,1.0
+"The Penetration Testers Framework (PTF) is a way for modular support for up-to-date tools.","The PenTesters Framework (PTF) - A Python script for seamless Pentesting tool installation and management.",0.39999999999999997,0.07142857142857144,0.39999999999999997
+"Plupload is JavaScript API for building file uploaders. It supports multiple file selection, file filtering, chunked upload, client side image downsizing and when necessary can fallback to alternative runtimes, like Flash and Silverlight.","Cross-browser multi-runtime file uploading API",0.2,0.05263157894736842,0.1
+"A library to simplify iOS animations in Swift.","Spring: A library for easy iOS animations",0.5333333333333333,0.30769230769230765,0.5333333333333333
+"Repository containing source code for performing data analysis on Yelp reviews and tips","Yelp Data Analysis for Predicting Business Categories and User Ratings",0.4347826086956522,0.09523809523809525,0.2608695652173913
+"MVC framework making it easy to write realtime, collaborative applications that run in both Node.js and browsers","Derby: A real-time MVC framework for collaborative applications in Node.js and browsers.",0.5625000000000001,0.33333333333333337,0.5625000000000001
+"Data integration platform for ELT pipelines from APIs, databases &amp;amp; files to warehouses &amp;amp; lakes.","Open-source data integration platform for ELT pipelines",0.5714285714285714,0.5263157894736842,0.5714285714285714
+"MLeap: Deploy ML Pipelines to Production","MLeap: Portable Machine Learning Pipelines for Spark and Scikit-learn",0.25,0.0,0.25
+"A Memory Profiler, Debugger and Analyzer for Unity 2019.3 and newer.","Heap Explorer: Memory Profiler, Debugger, and Analyzer for Unity",0.6666666666666666,0.631578947368421,0.6666666666666666
+"http://zeroviscosity.com/category/d3-js-step-by-step","D3.js Step by Step Examples for v4",0.5882352941176471,0.5333333333333333,0.5882352941176471
+"A headless starter for WordPress powered by Next.js.","Headless WordPress Starter with Next.js",0.6666666666666667,0.15384615384615385,0.5333333333333333
+"Open standard for machine learning interoperability","&amp;#34;Open ecosystem for AI model interoperability&amp;#34;",0.5,0.0,0.5
+"pandas on AWS - Easy integration with Athena, Glue, Redshift, Timestream, Neptune, OpenSearch, QuickSight, Chime, CloudWatchLogs, DynamoDB, EMR, SecretManager, PostgreSQL, MySQL, SQLServer and S3 (Parquet, CSV, JSON and EXCEL).","AWS SDK for pandas (awswrangler) - Simplifying data integration with AWS services.",0.2051282051282051,0.05405405405405406,0.15384615384615383
+"This repository contains a detailed sample app that implements MVP architecture in Kotlin using Dagger2, Room, RxJava2, FastAndroidNetworking and PlaceholderView","Android Kotlin MVP Architecture Sample App",0.3846153846153846,0.16666666666666666,0.15384615384615383
+"Silly CLI micro-framework based on Symfony Console","Silly CLI micro-framework based on Symfony Console",1.0,1.0,1.0
+"Distributed code review system for Git repos","Distributed Code Review Tool for Git Repositories",0.7142857142857143,0.5,0.7142857142857143
+"SwiftLaTeX, a WYSIWYG Browser-based LaTeX Editor","SwiftLaTeX: LaTeX Engines in Browsers with optional WYSIWYG support",0.5,0.0,0.25
+"Commenting without the comments","Echochamber.js: A LocalStorage-based comment system for your blog or website.",0.125,0.0,0.125
+"Notepad++ official repository","Notepad++: A free source code editor and Notepad replacement for MS Windows.",0.13333333333333333,0.0,0.13333333333333333
+"Nydus - the Dragonfly image service, providing fast, secure and easy access to container images.","Nydus: Dragonfly Container Image Service for optimized container performance and efficiency.",0.4799999999999999,0.17391304347826086,0.4
+"A Unified Semi-Supervised Learning Codebase (NeurIPS&amp;#39;22)","USB: A Pytorch-based package for Semi-Supervised Learning",0.47058823529411764,0.26666666666666666,0.47058823529411764
+"The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.","Grafana: Open-Source Monitoring and Observability Platform",0.30303030303030304,0.0,0.24242424242424246
+"Fast persistent recoverable log and key-value store + cache, in C# and C++.","FASTER: High-Performance State Management for Cloud Applications",0.0,0.0,0.0
+"Python composable command line interface toolkit","Click: A Python package for creating beautiful command line interfaces.",0.5,0.2857142857142857,0.5
+"High-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently.","Ignite: A high-level library for training and evaluating neural networks in PyTorch.",0.6896551724137931,0.5925925925925926,0.6896551724137931
+"Laravel Sanctum provides a featherweight authentication system for SPAs and simple APIs.","Featherweight authentication for SPAs and APIs",0.6666666666666666,0.37499999999999994,0.6666666666666666
+"NVR with realtime local object detection for IP cameras","Frigate - NVR With Realtime Object Detection for IP Cameras",0.8888888888888888,0.75,0.8888888888888888
+"Curated collection of blockchain &amp;amp; cryptocurrency resources.","Curated collection of blockchain &amp;amp; cryptocurrency links.",0.8333333333333334,0.8000000000000002,0.8333333333333334
+"Modular and customizable Material Design UI components for Android","Material Components for Android - Build beautiful and functional Android apps.",0.5263157894736842,0.23529411764705882,0.4210526315789474
+"Language Savant. If your repository&amp;#39;s language is being reported incorrectly, send us a pull request!","Language detection and analysis library for GitHub",0.08695652173913043,0.0,0.08695652173913043
+"Deep Learning Tutorial notes and code. See the wiki for more info.","Deep Learning Tutorials: Exploring algorithms with Theano",0.3157894736842105,0.23529411764705885,0.3157894736842105
+"A simple PHP API extension for DateTime.","International PHP DateTime Extension",0.5454545454545454,0.0,0.36363636363636365
+"JSON output plugin for changeset extraction","wal2json: A PostgreSQL logical decoding output plugin for JSON-formatted data streaming.",0.4444444444444444,0.25000000000000006,0.3333333333333333
+"Create PowerPoint presentations with a powerful, concise JavaScript API.","PptxGenJS: Create PowerPoint Presentations with JavaScript",0.6666666666666667,0.4615384615384615,0.6666666666666667
+"Logic-less Ruby templates.","Mustache: A framework-agnostic way to render logic-free views.",0.14285714285714288,0.0,0.14285714285714288
+"A collection of hacking tools, resources and references to practice ethical hacking.","&amp;#34;Penetration Testing Resources and Tools for Ethical Hacking&amp;#34;",0.5,0.2222222222222222,0.4
+"Official home of the DB Browser for SQLite (DB4S) project. Previously known as &amp;#34;SQLite Database Browser&amp;#34; and &amp;#34;Database Browser for SQLite&amp;#34;. Website at:","Visual tool for creating and editing SQLite databases",0.25806451612903225,0.06896551724137931,0.19354838709677416
+"Fish shell like syntax highlighting for Zsh.","Fish shell-like syntax highlighting for Zsh",1.0,1.0,1.0
+"Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.","Select2: A jQuery-based replacement for select boxes with search and remote data support.",0.7647058823529412,0.4375,0.6470588235294117
+"A simple guide to x86 architecture, assembly, memory management, paging, segmentation, SMM, BIOS....","A simple guide to x86 architecture and assembly.",0.6666666666666667,0.5263157894736842,0.6666666666666667
+"Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.","Radically simple IT automation system",0.17857142857142855,0.1111111111111111,0.17857142857142855
+"Easy file attachment management for ActiveRecord","Paperclip: A Ruby on Rails gem for file attachments (deprecated)",0.37499999999999994,0.14285714285714285,0.25
+"A vintage 1980s DOS inspired Twitter Bootstrap theme","1980s Retro Bootstrap Theme",0.5,0.2,0.5
+"Material Design icons by Google","Material Icons and Material Symbols by Google",0.6666666666666666,0.2,0.6666666666666666
+":rocket: R package: future: Unified Parallel and Distributed Processing in R for Everyone","Unified Parallel and Distributed Processing in R",0.7000000000000001,0.6666666666666666,0.7000000000000001
+"Project documentation with Markdown.","Fast and simple static site generator for project documentation",0.30769230769230765,0.18181818181818182,0.30769230769230765
+"A secure, flexible, rapid Go web framework","A secure, flexible, rapid Go web framework for modern applications.",0.8235294117647058,0.8,0.8235294117647058
+"The MEAN stack uses Mongo, Express, Angular(6) and Node for simple and scalable fullstack js applications","A Simple Starting Point for Fullstack JavaScript Applications",0.31999999999999995,0.0,0.24
+"Pupy is an opensource, cross-platform (Windows, Linux, OSX, Android) C2 and post-exploitation framework written in python and C","Cross-platform multi-function RAT and post-exploitation tool",0.3448275862068966,0.22222222222222218,0.3448275862068966
+"Typer, build great CLIs. Easy to code. Based on Python type hints.","Typer: Build great CLIs with Python type hints.",0.7000000000000001,0.5555555555555556,0.7000000000000001
+"scheduler for Ruby (at, in, cron and every jobs)","Rufus-scheduler: In-process job scheduler for Ruby",0.5882352941176471,0.26666666666666666,0.35294117647058826
+"Deep Learning Specialization by Andrew Ng on Coursera.","Deep Learning Specialization Solutions and Resources",0.42857142857142855,0.3333333333333333,0.42857142857142855
+"A simple stack-based virtual machine that runs C in the browser.","A simple stack-based virtual machine that runs C in the browser.",1.0,1.0,1.0
+"Deezer source separation library including pretrained models.","Spleeter: A fast source separation library for audio using pretrained models.",0.5555555555555556,0.37499999999999994,0.5555555555555556
+"Data Exploration of Baseball Stats","Baseball Data Exploration with Python and Jupyter Notebook",0.4615384615384615,0.18181818181818182,0.3076923076923077
+"A python implementation of the sinaplot using matplotlib and seaborn","Sinaplot: A Python Implementation of Hybrid Scatter and Box Plots",0.6,0.3333333333333333,0.5
+"Effective June 1, 2021: Phabricator is no longer actively maintained.","Phabricator: A collection of web applications for software development.",0.10526315789473685,0.0,0.10526315789473685
+"tf test 1","TensorFlow Models for Machine Learning Applications",0.0,0.0,0.0
+"An enhanced Guava-based event bus with emphasis on Android support.","Otto - An event bus by Square for Android",0.4210526315789474,0.11764705882352941,0.4210526315789474
+"A server-side library for sending Push Notifications to iOS (iPhone/iPad APNS), Android (C2DM and GCM - Google Cloud Message), Windows Phone, Windows 8, Amazon, Blackberry, and (soon) FirefoxOS devices!","PushSharp: A server-side library for sending push notifications across multiple platforms",0.3809523809523809,0.35,0.3809523809523809
+"JavaScript framework for robotics, drones, and the Internet of Things (IoT)","nnCylon.js: A JavaScript framework for robotics and IoT solutions.",0.5714285714285713,0.3157894736842105,0.5714285714285713
+"A collection of beautiful full-stack components for Laravel. The perfect starting point for your next app. Using Livewire, Alpine.js and Tailwind CSS.","Filament: Accelerated Laravel Development Components",0.13793103448275862,0.0,0.06896551724137931
+"Ajenti Core and stock plugins","Ajenti: A modular server admin panel for Linux &amp;amp; BSD",0.14285714285714285,0.0,0.14285714285714285
+"A package manager for the web","Bower - A package manager for the web",0.923076923076923,0.9090909090909091,0.923076923076923
+"Official JavaScript implementation of the Nimiq protocol","Nimiq: A frictionless payment protocol for the web.",0.39999999999999997,0.0,0.26666666666666666
+"Fault tolerant job scheduler for Mesos which handles dependencies and ISO8601 based schedules","Chronos: A distributed, fault-tolerant job scheduler for Apache Mesos.",0.5217391304347826,0.380952380952381,0.5217391304347826
+"Affordable WiFi hacking platform for testing and learning","ESP8266 Deauther: test 802.11 networks and perform deauthentication attacks.",0.22222222222222224,0.0,0.22222222222222224
+"VimTeX: A modern Vim and neovim filetype plugin for LaTeX files.","Modern LaTeX filetype and syntax plugin for Vim",0.7368421052631579,0.11764705882352941,0.4210526315789474
+"a file-sharing tool that allows you to find the responsible person in case of a leakage","wholeaked: A file-sharing tool that tracks recipients to identify leak sources.",0.41379310344827586,0.2962962962962963,0.41379310344827586
+"Invoices, Expenses and Tasks built with Laravel, Flutter and React","Invoicing Application with Pro Features",0.26666666666666666,0.0,0.26666666666666666
+"React UI Components for macOS High Sierra and Windows 10","React UI Components for Native Desktop Experience",0.47058823529411764,0.4,0.47058823529411764
+"Robust, Ubiquitous and Massively Scalable Messaging Platform (XMPP, MQTT, SIP Server)","Ejabberd: Open-source realtime platform with XMPP, MQTT, and SIP services.",0.45454545454545453,0.10000000000000002,0.36363636363636365
+"openpilot is an open source driver assistance system. openpilot performs the functions of Automated Lane Centering and Adaptive Cruise Control for 250+ supported car makes and models.","openpilot: An open source driver assistance system",0.4117647058823529,0.3125,0.4117647058823529
+"Cross-platform lib for process and system monitoring in Python","psutil: Cross-platform library for process and system utilities in Python",0.761904761904762,0.5263157894736842,0.761904761904762
+"Clustered Forward/Deferred renderer with Physically Based Shading, Image Based Lighting and a whole lot of OpenGL.","HRE :: Hybrid (Clustered Forward/Deferred) Rendering Engine",0.3333333333333333,0.2727272727272727,0.3333333333333333
+"The Rick Roll programming language is a rickroll based, process oriented, dynamic, strong, esoteric programming language. All of the keywords/statements are from Rick Astley&amp;#39;s lyrics. Check our tutorial site, https://rick-lang.github.io/programming-language-explainer/","Rickroll Programming Language: An educational and humorous approach to programming.",0.163265306122449,0.0425531914893617,0.163265306122449
+"Human-friendly hierarchy for Unity.","Smart Hierarchy for Unity: Enhancing Unity workflow with intuitive features and visual organization.",0.33333333333333337,0.25,0.33333333333333337
+"JavaScript library for HTML5 &amp;amp; CSS3 time sheets","Simple JavaScript library for creating HTML time sheets.",0.6666666666666666,0.4615384615384615,0.6666666666666666
+"Modest is a fast HTML renderer implemented as a pure C99 library with no outside dependencies.","Modest — a pure C HTML renderer",0.45454545454545453,0.2,0.36363636363636365
+"Add a progress meter to your loops in a second","Instantly display progress meters for loops",0.37499999999999994,0.14285714285714285,0.37499999999999994
+"A comprehensive, easy-to-follow ebook to learn everything from the basics of JavaScript to ES2022. Read more on my blog https://inspiredwebdev.com or buy it here https://www.amazon.com/dp/B09FNNVY1Y?ref=inspiredwebde-20. Get the course here https://www.educative.io/courses/complete-guide-to-modern-javascript?aff=BqmB","&amp;#34;Master JavaScript and TypeScript: From Basics to ES2022 Features&amp;#34;",0.16129032258064518,0.03333333333333334,0.12903225806451613
+"A data aware UI components library for building realtime maps","Reactivemaps: UI Components for Real-Time Data-Driven Map Interfaces",0.5,0.1111111111111111,0.4000000000000001
+"The most advanced responsive front-end framework in the world. Quickly create prototypes and production code for sites that work on any kind of device.","Foundation: The most advanced responsive front-end framework.",0.42424242424242425,0.3870967741935483,0.42424242424242425
+"Python 3.9 to JavaScript compiler - Lean, fast, open! -","Python in the Browser: Precompiled for Speed",0.125,0.0,0.125
+"A simple and attractive code quality tool for CSS built on top of LESS","RECESS - A CSS code quality tool for LESS (no longer maintained)",0.56,0.2608695652173913,0.4799999999999999
+"A modern, portable, easy to use crypto library.","Easy-to-use cryptographic library for encryption, signatures, and password hashing.",0.4210526315789474,0.23529411764705882,0.4210526315789474
+":sparkles: :rocket: EasyTCP is a light-weight TCP framework written in Go (Golang), built with message router. EasyTCP helps you build a TCP server easily fast and less painful.","EasyTCP: A lightweight TCP server framework in Go",0.3783783783783784,0.1142857142857143,0.32432432432432434
+"Research notes, codes, deep learning","PhD Research Notes and Codes",0.6,0.25,0.6
+"Arduino Audio Tools (a powerful Audio library not only for Arduino)","Arduino Audio Processing Library",0.39999999999999997,0.15384615384615383,0.39999999999999997
+"Full stack, modern web application generator. Using FastAPI, PostgreSQL as database, Docker, automatic HTTPS and more.","Full Stack FastAPI and PostgreSQL - Base Project Generator",0.5,0.09090909090909091,0.3333333333333333
+"Detailed and tailored guide for undergraduate students or anybody want to dig deep into the field of AI with solid foundation.","Guide for Aspiring Deep Learning and NLP Research Scientists",0.26666666666666666,0.07142857142857144,0.2
+"Ongoing research training transformer models at scale","Megatron: Scalable Training of Large Transformer Language Models",0.39999999999999997,0.0,0.39999999999999997
+"Examples for reading and understanding Calibrated Enhanced-Resolution Brightness Temperature (CETB) files","Exploring CETB: Understanding Calibrated Enhanced-Resolution Brightness Temperature Files",0.761904761904762,0.5263157894736842,0.6666666666666666
+"Community-driven collection of Jetpack Compose example code and tutorials :rocket:  https://foso.github.io/compose","Jetpack Compose Example Project",0.3,0.2222222222222222,0.3
+"Machine Learning in Crystal","An sklearn-like machine-learning library for Crystal",0.5,0.2,0.5
+"The classic email sending library for PHP","PHPMailer – A full-featured email creation and transfer class for PHP",0.33333333333333326,0.125,0.33333333333333326
+"An Android library for managing images and the memory they use.","Fresco: A powerful image loading and display system for Android applications.",0.36363636363636365,0.0,0.18181818181818182
+"Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.","Packer: Build identical machine images for multiple platforms from a single source configuration.",0.8000000000000002,0.7142857142857143,0.8000000000000002
+"trace for PHP","Fiery: An APM for PHP",0.5,0.3333333333333333,0.5
+"Android Library to build a UI Card","Card Library for UI Cards in Android",0.5714285714285714,0.16666666666666666,0.42857142857142855
+"Tutorial created in collaboration with Enyel Sequeira, taught by JavaScript Mastery.","Advanced Travel Companion Application using Google Maps",0.0,0.0,0.0
+"Short-Term Plasticity in a Liquid State Machine Biomimetic Robot Arm Controller","Short-Term Plasticity in Liquid State Machine for Robotic Arm Control",0.8695652173913043,0.6666666666666666,0.8695652173913043
+"GraphQL starter progressive web application (PWA) with Realtime and Offline functionality using AWS AppSync","ChatQL: AWS AppSync Chat Starter App in Angular",0.2727272727272727,0.1,0.18181818181818182
+"node.js auth package (password, facebook, &amp;amp; more) for Connect and Express apps","Comprehensive Authentication and Authorization for Node.js Apps",0.5,0.1111111111111111,0.3
+"A simple, yet elegant HTTP library.","Simple and elegant HTTP library for Python.",0.6153846153846153,0.3636363636363636,0.6153846153846153
+"React Hooks for Data Fetching","SWR: A React Hooks library for efficient data fetching.",0.7142857142857143,0.3333333333333333,0.7142857142857143
+"Learning operating system development using Linux kernel and Raspberry Pi","Learning OS Development with Raspberry Pi OS",0.47058823529411764,0.13333333333333333,0.47058823529411764
+"A type-safe HTTP client for Android and the JVM","Type-safe HTTP client for Android and Java",0.7777777777777777,0.75,0.7777777777777777
+"The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis","CyberChef: Intuitive web app for performing various cyber operations.",0.33333333333333337,0.18181818181818182,0.25
+"Xbox 360 Emulator Research Project","Xenia - Experimental Xbox 360 Emulator",0.6,0.5,0.6
+"Parser for PHP written in Go","PHP Parser in Gonn",0.6,0.0,0.4
+"Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet.","&amp;#34;Easy and efficient distributed deep learning training framework.&amp;#34;",0.4444444444444445,0.125,0.33333333333333326
+"Python clone of Spark,  a MapReduce alike framework in Python","DPark: A Python clone of Spark for iterative MapReduce computing.",0.6,0.3333333333333333,0.5
+"The Web Application reference architecture is a general-purpose, event-driven, web application back-end that uses AWS Lambda, Amazon API Gateway for its business logic. It also uses Amazon DynamoDB as its database and Amazon Cognito for user management. All static content is hosted using AWS Amplify Console.","Serverless To Do App Reference Architecture",0.07272727272727272,0.03773584905660377,0.07272727272727272
+"Ruby Date Recurrence Library - Allows easy creation of recurrence rules and fast querying","ice_cube - Easy schedule expansion for handling repeated events in Ruby",0.16666666666666669,0.0,0.08333333333333334
+"Visual Docker Container Management on Mac &amp;amp; Windows","Kitematic: Deprecated GUI for managing Docker containers.",0.42857142857142855,0.16666666666666666,0.2857142857142857
+"A highly scalable real-time graphing system","Graphite-Web: A Django-based web application for rendering graphs and dashboards.",0.2105263157894737,0.0,0.2105263157894737
+"Tool for partial deblobbing of Intel ME/TXE firmware images","&amp;#34;Modify Intel ME firmware to enhance system privacy and reduce interaction.&amp;#34;",0.28571428571428564,0.10526315789473685,0.28571428571428564
+"Doom 3 GPL source release","Doom 3 GPL Source Release",1.0,1.0,1.0
+"Electrum Bitcoin Wallet","Lightweight Bitcoin client in pure Python.",0.2222222222222222,0.0,0.2222222222222222
+"Status, process, and documents for ECMA-262","ECMAScript Language Specification Draft",0.0,0.0,0.0
+"Build word recognizer for American Sign Language video sequences with Probabilistic Model","Sign Language Recognition System",0.25,0.14285714285714288,0.25
+"Command-line program to download videos from YouTube.com and other video sites","youtube-dl - download videos from youtube.com or other video platforms",0.5833333333333334,0.45454545454545453,0.5833333333333334
+"Develop Desktop, Embedded, Mobile and WebAssembly apps with C# and XAML. The most popular .NET Foundation community project.","Avalonia: Cross-platform UI framework for .NET",0.08,0.0,0.08
+"Predict near-term Capital Bikeshare availability using a random forest and Poisson regression. Display current status and predictions with leaflet.js map visualization.","Capital Bikeshare Demand and Outage Predictor",0.20689655172413793,0.07407407407407407,0.20689655172413793
+"A memory leak detection library for Android.","Memory Leak Detection Library for Android",0.923076923076923,0.9090909090909091,0.923076923076923
+"Scala combinator library for working with binary data","Scala combinator library for binary data encoding and decoding.",0.7058823529411765,0.5333333333333333,0.7058823529411765
+"This repo was mirrored from here: https://bitbucket.org/aquariusjay/deeplab-public-ver2","State-of-the-art deep learning system for semantic image segmentation.",0.0,0.0,0.0
+"Lightweight stream-based WebSocket implementation for Rust.","Lightweight WebSocket Implementation for Rust",0.8333333333333333,0.6,0.8333333333333333
+"Expose localhost servers to the Internet","Localtunnel v3: A minimal implementation for instant public tunnels to localhost.",0.23529411764705885,0.0,0.11764705882352942
+"A curated list of awesome TikZ documentations, libraries and resources","Awesome TikZn: A curated list of TikZ documentations, libraries, and resources for TeX/LaTeX/ConTeXt.",0.8,0.6086956521739131,0.7200000000000001
+":house: A lightweight, buildroot-based Linux operating system alternative for your CCU3, ELV-Charly or for running your &amp;#34;HomeMatic CCU&amp;#34; IoT central as a pure virtual appliance (using Proxmox VE, VirtualBox, Docker/OCI, Kubernetes/K8s, Home Assistant, vmWare ESXi, etc.) or on your own RaspberryPi, Tinkerboard, ODROID, etc. SBC device...","RaspberryMatic: An alternative open-source operating system for HomeMatic CCU.",0.19999999999999998,0.06896551724137931,0.16666666666666669
+"Fuzzy String Matching in Python","Renamed project thefuzznnn, version 0.19.0.",0.0,0.0,0.0
+"A library for efficient similarity search and clustering of dense vectors.","Efficient Similarity Search and Clustering Library for Dense Vectors",0.9,0.6666666666666665,0.7000000000000001
+"A font family with a great monospaced variant for programmers.","Fantasque Sans Mono: A Functional and Unique Programming Font",0.2105263157894737,0.0,0.2105263157894737
+"The Python package installer","Package installer for Python",0.75,0.3333333333333333,0.5
+"Open-source implementation of Google Vizier for hyper parameters tuning","Advisor: Hyperparameters Tuning System for Black Box Optimization",0.22222222222222224,0.0,0.11111111111111112
+"ZXing (&amp;#34;Zebra Crossing&amp;#34;) barcode scanning library for Java, Android","ZXing: Open-source multi-format barcode image processing library in maintenance mode",0.28571428571428575,0.0,0.28571428571428575
+"A tree explorer plugin for vim.","File System Explorer for Vim",0.5454545454545454,0.22222222222222224,0.5454545454545454
+"The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simulations to serve as environments for training intelligent agents using deep reinforcement learning and imitation learning.","Unity Machine Learning Agents Toolkit (ML-Agents)",0.35,0.3157894736842105,0.35
+"Modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS powered by PHP, Markdown, Twig, and Symfony","Fast and flexible file-based web platform",0.24,0.0,0.24
+"very currency","Dogecoin: Community-driven cryptocurrency inspired by a Shiba Inu meme.",0.0,0.0,0.0
+"Programmable completion functions for bash","Bash command line completion utilities",0.4000000000000001,0.0,0.20000000000000004
+"Local and offline-first npm mirror","Local npm Registry Server for Fast, Offline Module Management",0.4,0.0,0.26666666666666666
+"Sacred is a tool to help you configure, organize, log and reproduce experiments developed at IDSIA.","&amp;#34;Sacred: A tool for configuring, logging, and reproducing experiments.&amp;#34;",0.64,0.3478260869565218,0.64
+"A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app","WhatsApp API client using Puppeteer for WhatsApp Web.",0.45454545454545453,0.1,0.45454545454545453
+"A curated list of tools for incident response","Curated tools and resources for security incident response",0.625,0.14285714285714285,0.625
+"Open source RabbitMQ: core server and tier 1 (built-in) plugins","RabbitMQ: A multi-protocol messaging and streaming broker.",0.2105263157894737,0.0,0.2105263157894737
+"Distributed Task Queue (development branch)","Asynchronous Task Queue/Job Queue based on Distributed Message Passing",0.4,0.15384615384615383,0.26666666666666666
+"The Ethereum Improvement Proposal repository","Ethereum Improvement Proposals (EIPs) Documentation and Standards Repository",0.6153846153846154,0.36363636363636365,0.6153846153846154
+"An opinionated framework for creating REST-like APIs in Ruby.","A REST-like API framework for Ruby.",0.7058823529411764,0.4,0.47058823529411764
+"Macroeconomic Foundations for Asset Prices, an undergrad course at NYU","Materials for Macroeconomic Foundations for Asset Prices (ECON-UB-233) at NYU Stern",0.608695652173913,0.4761904761904762,0.608695652173913
+"Container Network Interface - networking for Linux containers","CNI - Container Network Interface for configuring Linux container networking.",0.8750000000000001,0.42857142857142855,0.75
+"Supervisor process control system for Unix (supervisord)","Supervisor: A process control system for UNIX-like OSs",0.75,0.5714285714285715,0.75
+"The eBPF tool and systems inspection framework for Kubernetes, containers and Linux hosts.","Inspektor Gadget: Tools for Debugging and Inspecting Kubernetes Resources",0.4545454545454546,0.0,0.3636363636363637
+"Deep learning framework to train, deploy, and ship AI products Lightning fast.","Lightning: The Deep Learning framework to train, deploy, and ship AI products Lightning fast.",0.923076923076923,0.9166666666666666,0.923076923076923
+"Ride The Lightning - A full function web browser app for LND, C-Lightning and Eclair","Ride The Lightning (RTL): A web UI for managing Lightning node operations.",0.5185185185185186,0.16,0.5185185185185186
+"R Notebooks for my PhD research","My PhD notebooks: A collection of Jupyter notebooks for PhD-related work.",0.4444444444444444,0.25000000000000006,0.3333333333333333
+"Practice with &amp;#34;Real&amp;#34; SQL Problems","Schemas, Questions &amp;amp; Solutions for SQL Exercising",0.1818181818181818,0.0,0.1818181818181818
+"Coursework ML Specialization","Machine Learning Specialization Projects",0.28571428571428575,0.0,0.28571428571428575
+"Turn your two-bit doodles into fine artworks with deep neural networks, generate seamless textures from photos, transfer style from one image to another, perform example-based upscaling, but wait... there&amp;#39;s more! (An implementation of Semantic Style Transfer.)","Neural Doodlen: Transform your doodles into masterpieces using deep neural networks!",0.24000000000000002,0.125,0.24000000000000002
+"The Meson Build System","Next-generation build system",0.5,0.3333333333333333,0.5
+"The CSS design system that powers GitHub","Primer CSS: The CSS implementation of GitHub&amp;#39;s Primer Design System.",0.5555555555555556,0.25,0.4444444444444444
+"Open source simulator for autonomous vehicles built on Unreal Engine / Unity, from Microsoft AI &amp;amp; Research","AirSim: An Open-Source Simulator for Drones and Cars",0.33333333333333337,0.2727272727272727,0.33333333333333337
+"Tools to measure activity on github for a set of orgs and repos","GitHub Activity Measurement Tools",0.47058823529411764,0.0,0.11764705882352941
+"Minimal authorization through OO design and pure Ruby classes","Pundit: A Ruby authorization system utilizing object-oriented design patterns.",0.3157894736842105,0.0,0.2105263157894737
+"A lightweight blog CMS for PHP","Super-simple, lightweight blog system",0.3636363636363636,0.22222222222222224,0.3636363636363636
+"Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it&amp;#39;s available for Android, BSD, Linux, macOS, iOS, tvOS and Windows.","Kodi Home Theater Software: The ultimate open-source media player for digital media.",0.37735849056603776,0.15686274509803919,0.2641509433962264
+"Next-generation ORM for Node.js &amp;amp; TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB","Prisma: Next-Generation ORM for Node.js &amp;amp; TypeScript",0.5833333333333334,0.5454545454545455,0.5833333333333334
+"Collection of useful data science topics along with articles, videos, and code","Data Science Resources Collection",0.375,0.14285714285714288,0.25
+"HAProxy Load Balancer&amp;#39;s development branch (mirror of git.haproxy.org)","HAProxy Documentation",0.15384615384615385,0.0,0.15384615384615385
+"High-level Elasticsearch Ruby framework based on the official elasticsearch-ruby client","Chewy: An ODM for Ruby on Rails with Elasticsearch integration",0.2727272727272727,0.0,0.2727272727272727
+"Finding Lane Lines on the Road","Detecting Lane Lines for Self-Driving Cars using Python and OpenCV",0.23529411764705885,0.13333333333333333,0.23529411764705885
+"GPT-powered chat for documentation, chat with your documents","Open-Source Documentation Assistant powered by GPT models",0.35294117647058826,0.0,0.11764705882352941
+"Files for the uDemy Complete Python Bootcamp","Files for the uDemy Complete Python Bootcamp",1.0,1.0,1.0
+"Full-featured library for writing Alfred 3 &amp;amp; 4 workflows","A Python helper library for creating Alfred workflows effortlessly.",0.4444444444444444,0.125,0.4444444444444444
+"The missing link between spreadsheets and data visualization","RAWGraphs: Custom Vector-Based Data Visualizations Tool",0.26666666666666666,0.15384615384615383,0.26666666666666666
+"EF Core is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations.","Entity Framework Core and Microsoft.Data.Sqlite Projects",0.14285714285714288,0.0,0.14285714285714288
+"Typhoeus wraps libcurl in order to make fast and reliable requests.","Typhoeus: Parallel HTTP requests with streamlined handling logic.",0.2105263157894737,0.0,0.2105263157894737
+"High-level Deep Learning Framework written in Kotlin and inspired by Keras","KotlinDL: High-level Deep Learning API in Kotlin",0.6,0.4444444444444444,0.6
+"Using the jedi autocompletion library for VIM.","jedi-vim - awesome Python autocompletion with VIM",0.42857142857142855,0.0,0.42857142857142855
+"[ab]using Unicode to create tragedy","**Using Unicode to create tragedy**",0.9090909090909091,0.888888888888889,0.9090909090909091
+"Static site generator for designers. Uses Python and Django templates.","Cactus: A powerful static website generator using Python and Django templates.",0.6666666666666666,0.4210526315789474,0.6666666666666666
+"An open source multi-tool for exploring and publishing data","Open source multi-tool for exploring and publishing data.",0.9473684210526316,0.9411764705882353,0.9473684210526316
+"DMVCFramework (for short) is a popular and powerful framework for WEB API in Delphi. Supports RESTful and JSON-RPC WEB APIs development.","&amp;#34;DMVCFramework: A scalable and flexible Delphi framework for building robust RESTful servers.&amp;#34;",0.4117647058823529,0.0625,0.3529411764705882
+"View components for Ruby and Rails.","CellsnnView: Encapsulate UI Components for Ruby on Rails",0.5714285714285715,0.3333333333333333,0.5714285714285715
+"Computing with Python functions.","Lightweight pipelining tools for efficient data processing in Python.",0.15384615384615383,0.0,0.15384615384615383
+"Capstone project for Udacity Machine Learning Engineer nanodegree","NFIRS Property Loss Prediction",0.0,0.0,0.0
+"Used to integrate the Facebook Platform with your iOS &amp;amp; tvOS apps.","Facebook SDK for iOS - Integrate Facebook into your iOS app",0.47619047619047616,0.10526315789473685,0.47619047619047616
+"A Ruby Library for dealing with money and currency conversion.","RubyMoney - A Ruby Library for Money and Currency Conversion",0.8421052631578948,0.7058823529411765,0.8421052631578948
+"Promises for Swift &amp;amp; ObjC.","&amp;#34;PromiseKit: Simplifying Asynchronous Programming with Promises&amp;#34;",0.2,0.0,0.2
+"Nuxt/WordPress development environment, combining the worlds biggest CMS with the most awesome front-end application framework yet.","&amp;#34;Ready-to-use WordPress development environment for front-end apps.&amp;#34;",0.35714285714285715,0.23076923076923078,0.35714285714285715
+"Render your Backbone.js apps on the client and the server, using Node.js.","Rendr: A library for seamless client-server web app development.",0.25,0.0,0.16666666666666666
+"A QoS-based scheduling system brings optimal layout and status to workloads such as microservices, web services, big data jobs, AI jobs, etc.","Koordinator: QoS-Based Scheduling for Kubernetes Workloads",0.26666666666666666,0.14285714285714288,0.26666666666666666
+"A high-performance, dependency-free library for animated filtering, sorting, insertion, removal and more","MixItUp: High-performance animated DOM manipulation library",0.38095238095238093,0.10526315789473684,0.2857142857142857
+"Vector illustration app for the iPad.","Inkpad: A powerful vector illustration app for iPad",0.7142857142857143,0.5,0.7142857142857143
+"The Easel Javascript library provides a full, hierarchical display list, a core interaction model, and helper classes to make working with the HTML5 Canvas element much easier.","EaselJS: A Library for High-Performance Interactive 2D Content in HTML5",0.21052631578947367,0.0,0.15789473684210525
+"Builds nice, normalized and easy to consume REST JSON responses for Laravel powered APIs.","REST API Response Builder for Laravel",0.5,0.1111111111111111,0.4
+"Chronic is a pure Ruby natural language date parser.","Chronic: A natural language date/time parser in Ruby",0.7777777777777778,0.25,0.6666666666666666
+"A customizable, open-source ecommerce platform built on WordPress. Build any commerce solution you can imagine.","WooCommerce Monorepo: All plugins, packages, and tools for WooCommerce development.",0.0,0.0,0.0
+":fire: 2D and 3D Face alignment library build using pytorch","Accurate 2D and 3D Facial Landmark Detection using Deep Learning",0.4000000000000001,0.2222222222222222,0.4000000000000001
+"felixge&amp;#39;s notes on the various go profiling methods that are available.","Go Profiling Insights and Resources",0.23529411764705882,0.13333333333333333,0.23529411764705882
+"Free and Open, Distributed, RESTful Search Engine","&amp;#34;Elasticsearch: A distributed, RESTful search engine for real-time data.&amp;#34;",0.47058823529411764,0.4,0.47058823529411764
+"JetCache is a Java cache framework.","JetCache: Java cache abstraction with advanced caching features",0.42857142857142855,0.16666666666666666,0.42857142857142855
+"wxPython&amp;#39;s Project Phoenix.  A new implementation of wxPython, better, stronger, faster than he was before.","wxPython Project Phoenix: The Next-Generation wxPython for Native GUIs",0.3076923076923077,0.08333333333333334,0.3076923076923077
+"The Symfony PHP framework","Symfony: A PHP framework for web and console applications",0.46153846153846156,0.18181818181818182,0.46153846153846156
+"A Deep Learning Python Toolkit for Healthcare Applications.","Comprehensive deep learning toolkit for clinical predictive modeling in healthcare.",0.5555555555555556,0.25,0.5555555555555556
+"This is **DEPRECATED**! Please go to https://github.com/docker/distribution","Deprecated Python Docker Registry for Historical Reference",0.2222222222222222,0.0,0.2222222222222222
+"Modern CSS framework based on Flexbox","Modern CSS Framework Based on Flexbox",1.0,1.0,1.0
+"Repo to gather all Gameplay Ability System content for UE4","GASContent: A comprehensive resource for implementing Gameplay Abilities in Unreal Engine 4.",0.2727272727272727,0.09999999999999999,0.1818181818181818
+"Dapp learning project for developers at all stages. Becoming and cultivating sovereign individuals. Nonprofit organization.","Definitive Guide for Decentralized-app (Dapp) Development on Blockchain",0.25,0.0,0.16666666666666669
+"Mirror of https://git.ffmpeg.org/ffmpeg.git","Multimedia processing library and tools",0.0,0.0,0.0
+"The hacker&amp;#39;s browser.","Vimium - The Hackers Browser: Keyboard-based web navigation inspired by Vim.",0.39999999999999997,0.15384615384615383,0.39999999999999997
+"LibRec: A Leading Java Library for Recommender Systems, see","Java Library for Recommender Systems",0.7142857142857143,0.6666666666666666,0.7142857142857143
+"Build a full-featured administrative interface in ten minutes","Laravel Admin Interface Builder",0.15384615384615383,0.0,0.15384615384615383
+"A modern and intuitive terminal-based text editor","Micro: An intuitive terminal-based text editor.",0.6666666666666666,0.6153846153846153,0.6666666666666666
+"Nmap on steroids. Simple CLI with the ability to run pure Nmap engine, 31 modules with 459 scan profiles.","Network and System Reconnaissance Tool with Nmap Integration",0.14814814814814814,0.0,0.14814814814814814
+"A library to try and extend Compose.jl to 3D.","Compose3D: A Julia package for 3D drawing in Jupyter notebooks using WebGL and Three.JS.",0.24,0.0,0.16
+"A React-based UI toolkit for the web","React-based UI toolkit for complex web interfaces",0.75,0.5714285714285714,0.75
+"CSS for clean and fast web apps","CSS for clean and fast web apps.",1.0,1.0,1.0
+"Kubernetes Operations (kOps) - Production Grade k8s Installation, Upgrades and Management","kOps - The easiest way to get a production-grade Kubernetes cluster up and running.",0.41666666666666663,0.09090909090909093,0.3333333333333333
+"A Java library that models spring dynamics and adds real world physics to your app.","Rebound: A Java library for modeling natural spring dynamics in animations.",0.4615384615384615,0.25,0.4615384615384615
+"Decorators/View-Models for Rails Applications","Draper: Object-oriented presentation logic for Rails applications.",0.42857142857142855,0.3333333333333333,0.42857142857142855
+"Automatically create and renew website certificates for free using the Let&amp;#39;s Encrypt certificate authority.","Automatically manage SSL certificates with Nginx and Certbot.",0.26086956521739135,0.0,0.1739130434782609
+"YouTube Center is a userscript designed to expand the functionality of YouTube. It includes the ability to download the video you&amp;#39;re watching, auto selecting your preferred video quality and much more.","YouTube Center: Enhancing Your YouTube Experience with New Features",0.1951219512195122,0.05128205128205128,0.14634146341463417
+"Test&amp;#39;em &amp;#39;Scripts! A test runner that makes Javascript unit testing fun.","&amp;#34;Testem: Simplifying Unit Testing in JavaScript&amp;#34;",0.3333333333333333,0.12500000000000003,0.2222222222222222
+"velocity selector for university physics II at RIT","Velocity selector for University Physics II at RIT",1.0,1.0,1.0
+"Run .NET and Node.js code in-process on Windows, MacOS, and Linux","Edge.js: .NET and Node.js in-process Integration",0.5454545454545455,0.4,0.5454545454545455
+"Content-Addressable Data Synchronization Tool","casync — Content Addressable Data Synchronizer for efficient backup and data synchronization",0.5000000000000001,0.4285714285714285,0.5000000000000001
+"A math-inspired CAD program in haskell. CSG, bevels, and shells; 2D &amp;amp; 3D geometry; 2D gcode generation...","ImplicitCAD: Programmatic CAD Inspired by Mathematics",0.1739130434782609,0.0,0.08695652173913045
+"Classy web framework for Go","Martini: A powerful package for quickly writing modular web applications/services in Golang.",0.2222222222222222,0.0,0.1111111111111111
+"Best Practices on Recommendation Systems","Comprehensive framework for building and deploying recommendation systems.",0.3076923076923077,0.18181818181818182,0.3076923076923077
+"A running-jumping-swordfighting game I made on the Apple II from 1985-89","Source code for the original Prince of Persia game on Apple II",0.3846153846153846,0.08333333333333334,0.30769230769230765
+"Vim-fork focused on extensibility and usability","&amp;#34;Neovim: A modern, extensible text editor with advanced UI support and multi-language plugin functionality.&amp;#34;",0.18181818181818182,0.0,0.18181818181818182
+"GraphQL is a query language and execution engine tied to any backend service.","GraphQL: A Specification for Query Language for APIs",0.380952380952381,0.10526315789473685,0.380952380952381
+"[DEPRECATED] Android floating action button","Deprecated Android Floating Action Button with scroll interaction.",0.7692307692307693,0.7272727272727273,0.7692307692307693
+"AngularJS implementation of the RDash admin dashboard theme","Responsive Bootstrap Admin Dashboard for AngularJS",0.42857142857142855,0.16666666666666666,0.28571428571428575
+"Caffe models in TensorFlow","Caffe to TensorFlow Converter",0.5,0.0,0.5
+"PathPicker accepts a wide range of input -- output from git commands, grep results, searches -- pretty much anything. After parsing the input, PathPicker presents you with a nice UI to select which files you&amp;#39;re interested in. After that you can open them in your favorite editor or execute arbitrary commands.","Facebook PathPicker: A command line tool for selecting files from bash output.",0.22580645161290325,0.0,0.16129032258064516
+"An open source smart contract platform","EOSIO - The Most Powerful Infrastructure for Decentralized Applications",0.0,0.0,0.0
+"Color framework for Swift &amp;amp; Objective-C (Gradient colors, hexcode support, colors from images &amp;amp; more).","Chameleon: A lightweight color framework for iOS",0.2857142857142857,0.21052631578947367,0.2857142857142857
+"Implement algorithms from scratch","Machine Learning Models on Titanic and Random Data",0.0,0.0,0.0
+"Reactive Extensions for Unity","UniRx - Reactive Extensions for Unity",0.888888888888889,0.8571428571428571,0.888888888888889
+"Backstage is an open platform for building developer portals","Backstage: An Open Platform for Building Developer Portals",0.9411764705882353,0.7999999999999999,0.9411764705882353
+":anchor: A curated list of awesome git hooks","Awesome Git Hooks: Automate tasks during git workflows.",0.375,0.2857142857142857,0.375
+"A book series on JavaScript. @YDKJS on twitter.","You Don&amp;#39;t Know JS Yet - 2nd Edition",0.0,0.0,0.0
+"An open-source tool for auditing your software supply chain stack for security compliance based on a new CIS Software Supply Chain benchmark.","Chain-bench: Open-source tool for auditing software supply chain security compliance.",0.6285714285714286,0.4242424242424242,0.5714285714285714
+"Exploring Neural Data @ Brown","Exploring Neural Data Course Solutions and Notes",0.5454545454545454,0.4444444444444444,0.5454545454545454
+"Fast image augmentation library and an easy-to-use wrapper around other libraries. Documentation:  https://albumentations.ai/docs/ Paper about the library: https://www.mdpi.com/2078-2489/11/2/125","Image Augmentation Library for Deep Learning",0.16216216216216214,0.1142857142857143,0.16216216216216214
+"ARCHIVE - Golang implementation of JSON Web Tokens (JWT). This project is now maintained at:","JWT library for Go (Golang)",0.21052631578947364,0.0,0.10526315789473682
+"Metal I/O library for Rust.","Mio – Fast, low-level I/O library for Rust",0.6666666666666667,0.6153846153846154,0.6666666666666667
+"A react native clothes shopping app UI.","Shop UI React-Native Template with Native Base",0.5333333333333333,0.15384615384615383,0.26666666666666666
+"The Guardian DotCom.","Frontend for The Guardian website",0.5,0.3333333333333333,0.5
+"Awesome npm resources and tips","Awesome npm: Resources and tips for the npm package manager.",0.6666666666666666,0.6153846153846153,0.6666666666666666
+"Photo Sharing. For Everyone.","Free and ethical photo sharing platform",0.4,0.25,0.4
+"A repository of different Algorithms and Data Structures implemented in many programming languages.","Clean example implementations of data structures and algorithms",0.5714285714285714,0.10526315789473685,0.2857142857142857
+"Simpsons characters in CSS","Simpsons characters in pure CSS",0.888888888888889,0.5714285714285715,0.888888888888889
+"a place to store my python machine learning scripts","Python Machine Learning Scripts Repository",0.5714285714285714,0.5,0.5714285714285714
+"Extension to mason.nvim that makes it easier to use lspconfig with mason.nvim.","Mason integration for LSP configuration in Neovim",0.09523809523809523,0.0,0.09523809523809523
+"A tool to download, compile, and install Ruby on Unix-like systems.","Ruby version installer for Unix-like systems",0.5263157894736842,0.23529411764705885,0.4210526315789474
+"An investigation into whether or not the same factors that are correlated with scoring runs are also correlated with player salaries","Investigating Correlations Between MLB Salaries and Player Contributions to Winning",0.25806451612903225,0.0,0.19354838709677416
+"Open-source JavaScript charting library behind Plotly and Dash","Standalone Javascript data visualization library",0.2857142857142857,0.0,0.2857142857142857
+"A collaborative list of awesome articles, talks, books, videos and code examples about SwiftUI.","SwiftUI and Combine Resources Collection",0.21052631578947364,0.0,0.10526315789473682
+"AppDevKit is an iOS development library that provides developers with useful features to fulfill their everyday iOS app development needs.","AppDevKit: Essential iOS Development Library",0.32000000000000006,0.17391304347826086,0.32000000000000006
+"All-in-one Toolbox for Computer Vision Research.","cvpods: A versatile codebase for efficient computer vision tasks.",0.35294117647058826,0.13333333333333333,0.35294117647058826
+"An interactive grid for sorting, filtering, and editing DataFrames in Jupyter notebooks","Interactive grid widget for pandas DataFrames in Jupyter notebooks.",0.6666666666666666,0.4210526315789474,0.6666666666666666
+"Contains notebook exercises for a Deep Learning course from Udacity","Deep Learning Course Exercises",0.5714285714285715,0.3333333333333333,0.4285714285714285
+"Resumes generated using the GitHub informations","GitHub Résumé: Create a résumé from your GitHub activity.",0.11764705882352942,0.0,0.11764705882352942
+"Highly customizable &amp;amp; feature rich notifications. Interactive dismiss. Custom Views. SwiftUI. Tap-to-hold. Progress.","Highly customizable &amp;amp; feature-rich iOS notifications below the status bar.",0.41666666666666663,0.27272727272727276,0.41666666666666663
+"Generic and easy-to-use serving service for machine learning models","Generic and easy-to-use serving service for machine learning models.",1.0,1.0,1.0
+"Boilerplate-free mocking framework for Swift!","Cuckoo: Mock your Swift objects!",0.3636363636363636,0.0,0.3636363636363636
+"Flexible authentication solution for Rails with Warden.","Flexible authentication solution for Rails based on Warden.",0.7999999999999999,0.6153846153846153,0.7999999999999999
+"lean &amp;amp; mean status/tabline for vim that&amp;#39;s light as air","Lean &amp;amp; mean status/tabline for Vim that’s light as air.",1.0,1.0,1.0
+"A strongly-typed language that compiles to JavaScript","A strongly typed programming language inspired by Haskell that compiles to JavaScript.",0.8,0.5555555555555556,0.8
+"AboutLibraries automatically collects all dependencies and licenses of any gradle project (Kotlin MultiPlatform), and provides easy to integrate UI components for Android and Compose-jb environments","&amp;#34;Dependency and License Management for Gradle Projects&amp;#34;",0.36363636363636365,0.1935483870967742,0.30303030303030304
+"Awesome Chatbot Projects,Corpus,Papers,Tutorials.Chinese Chatbot =&amp;gt;:","A curated collection of chatbot projects and frameworks.",0.25,0.14285714285714285,0.25
+"Friendly English-like interface for your command line. Don&amp;#39;t remember a command? Ask Betty.","&amp;#34;Natural Language Command Line Interface&amp;#34;",0.3,0.11111111111111112,0.2
+"Objective-C for Windows","Windows Bridge for iOS: Develop UWP apps using Objective-C and iOS APIs.",0.47058823529411764,0.13333333333333333,0.23529411764705882
+"A browser based code editor","Monaco Editor: The fully featured code editor from Microsoft, powering VS Code.",0.23529411764705882,0.13333333333333333,0.23529411764705882
+"Code for reproducing results in &amp;#34;Glow: Generative Flow with Invertible 1x1 Convolutions&amp;#34;","Glown: Interactive demo for manipulating pretrained CelebA-HQ model results.",0.1818181818181818,0.0,0.1818181818181818
+"The JavaScript Drag &amp;amp; Drop library your grandparents warned you about.","&amp;#34;Complete control over drag and drop behaviour with Draggable!&amp;#34;",0.2105263157894737,0.0,0.2105263157894737
+":zap: boilerplate template manager that generates files or directories from template repositories","Boilr: Simplify project setup with boilerplate templates.",0.2105263157894737,0.11764705882352942,0.2105263157894737
+"Private npm repository server","Private/caching npm repository server",0.888888888888889,0.5714285714285715,0.888888888888889
+"A swiss army knife for pentesting networks","CrackMapExec: An up-to-date tool for Active Directory attacks and defenses.",0.10526315789473685,0.0,0.10526315789473685
+"A graph-relational database with declarative schema, built-in migration system, and a next-generation query language","EdgeDB: A Graph-Relational Database with EdgeQL Query Language",0.5384615384615384,0.4166666666666667,0.5384615384615384
+"[ICML 2021, Long Talk] Delving into Deep Imbalanced Regression","Delving into Deep Imbalanced Regression: Learning from Imbalanced Data with Continuous Targets",0.4761904761904762,0.4210526315789474,0.4761904761904762
+"&amp;lt;/&amp;gt; htmx - high power tools for HTML","High power tools for HTML",0.9090909090909091,0.888888888888889,0.9090909090909091
+"A fast ImageView that supports rounded corners, ovals, and circles.","Fast Rounded ImageView for Android with multiple features and hardware acceleration.",0.380952380952381,0.0,0.28571428571428564
+"Simple wrapper for cross-browser usage of the JavaScript Fullscreen API","Cross-browser fullscreen JavaScript wrapper",0.625,0.14285714285714288,0.37499999999999994
+"MongoDB object modeling designed to work in an asynchronous environment.","Mongoose: An asynchronous object modeling tool for MongoDB.",0.5555555555555556,0.25,0.22222222222222224
+"A starter boilerplate for a universal webapp using express, react, redux, webpack, and react-transform","React Redux Universal Hot Example: A cutting-edge boilerplate for isomorphic web applications.",0.42857142857142855,0.15384615384615383,0.21428571428571427
+"RSpec cheatsheet &amp;amp; Rails app: Learn how to expertly test Rails apps from a model codebase","RSpec Cheatsheet for Rails Testing",0.4,0.11111111111111112,0.4
+"how to build modular applications with browserify","&amp;#34;Browserify: Compile CommonJS modules for the browser.&amp;#34;",0.14285714285714285,0.0,0.14285714285714285
+"Jupyter notebooks for teaching/learning Python 3","Learn Python 3",0.6,0.5,0.6
+"Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don&amp;#39;t work with pull requests on github. To contribute, please see https://wiki.postgresql.org/wiki/Submitting_a_Patch","PostgreSQL Database Management System",0.05128205128205128,0.0,0.05128205128205128
+"data structures and algorithms","Educational Collection of Data Structures and Algorithms in TypeScript",0.6153846153846153,0.5454545454545454,0.6153846153846153
+"A GitOps recipe for Progressive Delivery with Flux v2, Flagger and Istio","Hands-on GitOps and Progressive Delivery with Kubernetes and Istio",0.5454545454545454,0.3,0.5454545454545454
+"My Python Examples","Collection of Python Scripts for Learning and Automation",0.18181818181818182,0.0,0.18181818181818182
+"The official Firely .NET SDK for HL7 FHIR","Firely&amp;#39;s .NET SDK for HL7 FHIR",0.7999999999999999,0.6153846153846153,0.7999999999999999
+"An application / authentication starter kit frontend in Next.js for Laravel Breeze.","Laravel Breeze - Next.js Edition: Application/authentication starter kit for Next.js with Laravel backend.",0.6666666666666665,0.4,0.5185185185185186
+"a javascript static security analysis tool","JSPrime: A user-friendly static analysis tool for secure JavaScript coding.",0.7058823529411764,0.13333333333333333,0.4705882352941177
+"Container view controller that leverages UIKit Dynamics to provide a realistic drawer navigation paradigm.","MSDynamicsDrawerViewController: A UIKit Dynamics-driven drawer navigation controller.",0.5454545454545454,0.2,0.36363636363636365
+"Themes for Bootstrap","Open source themes for Bootstrap",0.7499999999999999,0.6666666666666666,0.7499999999999999
+"A curated list of awesome projects related to eBPF.","A curated list of awesome projects related to eBPF.",1.0,1.0,1.0
+"Lightweight and powerful data binding.","Lightweight Data Binding and Templating System",0.7272727272727272,0.22222222222222224,0.5454545454545454
+":fire: Seata is an easy-to-use, high-performance, open source distributed transaction solution.","Seata: A High-Performance Distributed Transaction Solution for Microservices",0.5217391304347826,0.2857142857142857,0.5217391304347826
+"Small tool to convert an IAM Policy in JSON format into a Terraform aws_iam_policy_document","IAM Policy JSON to Terraform Converter",0.5217391304347826,0.09523809523809523,0.3478260869565218
+"A React table component designed to allow presenting thousands of rows of data.","Fixed Data Tables for React: A flexible component for presenting large datasets with fixed headers and columns.",0.4000000000000001,0.0,0.20000000000000004
+"A jQuery UI theme based on Twitter Bootstrap","jQuery UI Bootstrap: Enhancing jQuery UI with Bootstrap&amp;#39;s Design",0.33333333333333326,0.125,0.33333333333333326
+"A set of utilities for building Redux applications in Web Extensions.","Utilities for building Redux applications in web extensions.",0.8421052631578948,0.8235294117647058,0.8421052631578948
+"Schema safe, type-safe, reactive Scala driver for Cassandra/Datastax Enterprise","Reactive type-safe Scala driver for Apache Cassandra",0.7368421052631579,0.3529411764705882,0.631578947368421
+"iOS, macOS, tvOS native ObjectiveC MQTT Client Framework","Native Objective-C iOS MQTT Client Framework",0.6666666666666666,0.30769230769230765,0.5333333333333333
+"Bootstrap TBC. Watch this space.","Bootstrap TBC. Watch this space.",1.0,1.0,1.0
+"A curated list of awesome Dash (plotly) resources","Awesome Dash: A curated list of awesome Dash (plotly) resources.",0.888888888888889,0.8750000000000001,0.888888888888889
+"pipreqs - Generate pip requirements.txt file based on imports of any project. Looking for maintainers to move this project forward.","Requirements.txt Generator",0.2608695652173913,0.09523809523809525,0.1739130434782609
+"A set of examples around pytorch in Vision, Text, Reinforcement Learning, etc.","Curated PyTorch Examples",0.26666666666666666,0.0,0.13333333333333333
+"A fully fledged audio module created for music apps. Provides audio playback, external media controls, background mode and more!","&amp;#34;Fully-fledged audio module for music apps&amp;#34;",0.5384615384615384,0.4166666666666667,0.5384615384615384
+"The &amp;#34;Python Machine Learning (2nd edition)&amp;#34; book code repository and info resource","Python Machine Learning, 2nd Ed. Code Repository",0.631578947368421,0.4705882352941177,0.631578947368421
+"A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically.","Automerge: Collaborative data structures for JavaScript applications",0.15384615384615385,0.08333333333333333,0.15384615384615385
+"[DEPRECATED] Please see https://github.com/brave/brave-browser for the current version of Brave","Deprecated Brave Browser (Muon Version) for macOS, Windows, and Linux.",0.4,0.08695652173913043,0.32
+"Collaborative JavaScript Debugging App","JS Bin: Collaborative web development debugging tool for JavaScript and CSS.",0.39999999999999997,0.0,0.26666666666666666
+"Fast Python Collaborative Filtering for Implicit Feedback Datasets","Fast Python Collaborative Filtering for Implicit Datasets",0.9333333333333333,0.7692307692307692,0.9333333333333333
+"Fully customizable pull-to-refresh control inspired by Storehouse iOS app","A fully customizable pull-to-refresh control for iOS.",0.7000000000000001,0.5555555555555556,0.7000000000000001
+"HTTP and WebSocket built on Boost.Asio in C++11","Beast: A C++ header-only library for interoperable networking with Boost.Asio.",0.2727272727272727,0.09999999999999999,0.1818181818181818
+"An extensible message tunneling chat bot framework. Delivers messages to and from multiple platforms and remotely control your accounts.","EH Forwarder Bot: An extensible message tunneling chatbot framework.",0.42857142857142855,0.23076923076923078,0.35714285714285715
+"Run compilers interactively from your web browser and interact with the assembly","Interactive Compiler Exploration Tool",0.25,0.0,0.125
+"Event detection, extraction, and analysis in micro and nano resistive pulse experiments.","pore_stats: Python library for analyzing experimental data with GUI support",0.0,0.0,0.0
+"Eclipse Theia is a cloud &amp;amp; desktop IDE framework implemented in TypeScript.","Eclipse Theia: Extensible Cloud &amp;amp; Desktop IDE Framework",0.6666666666666665,0.5,0.6666666666666665
+"A cloud-native database based on PostgreSQL developed by Alibaba Cloud.","Cloud-native PostgreSQL database by Alibaba Cloud",0.7777777777777778,0.37499999999999994,0.6666666666666665
+"Open source annotation tool for machine learning practitioners.","doccano: Open-source text annotation tool for creating labeled data",0.5555555555555556,0.375,0.5555555555555556
+"This is a code repository for the corresponding YouTube video. In this tutorial, we&amp;#39;re going to build and deploy a React Video Chat Application using WebRTC.","Realtime Video Chat Application with WebRTC",0.24242424242424243,0.12903225806451613,0.24242424242424243
+"Solidity, the Smart Contract Programming Language","Solidity: A Contract-Oriented Programming Language for Ethereum Smart Contracts",0.625,0.2857142857142857,0.5
+"Folding Tab Bar and Tab Bar Controller","Folding Tab Bar and Tab Bar Controller for iOS",0.8750000000000001,0.8571428571428571,0.8750000000000001
+"Use custom HTML components in your Blade views","Supercharged Blade components for Laravel 6 and below.",0.25,0.0,0.125
+"python parser for human readable dates","Python Date Parser for Human Readable Dates",0.923076923076923,0.7272727272727272,0.923076923076923
+"Simple Go HTTP client with Black Magic","Simple Go HTTP client with Black Magic",1.0,1.0,1.0
+"Simple to use, blazing fast and thoroughly tested WebSocket client and server for Node.js","ws: a fast and tested Node.js WebSocket library",0.5,0.18181818181818182,0.4166666666666667
+"An iOS and macOS audio visualization framework built upon Core Audio useful for anyone doing real-time, low-latency audio processing and visualizations.","EZAudio: A simple audio framework for iOS and OSX (deprecated in favor of AudioKit)",0.27027027027027023,0.05714285714285715,0.2162162162162162
+"This CSS file intends to warn developers about possible risks and mistakes that exist in HTML code. It can also be used to roughly evaluate a site&amp;#39;s quality by simply including it as an external stylesheet.","a11y.css: Simplifying HTML accessibility evaluations",0.13953488372093023,0.0,0.13953488372093023
+"Nim is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula. Its design focuses on efficiency, expressiveness, and elegance (in that order of priority).","Nim compiler and standard library",0.15384615384615385,0.0,0.15384615384615385
+"Modularized Implementation of Deep RL Algorithms in PyTorch","Modular Deep Reinforcement Learning Algorithms in PyTorch",0.6666666666666666,0.30769230769230765,0.6666666666666666
+"Fast init for Linux. Cookies included","Finit: Fast init for Linux systems focused on small and embedded environments.",0.4444444444444444,0.37499999999999994,0.4444444444444444
+"A platform to create documentation/wiki content built with PHP &amp;amp; Laravel","A platform for storing and organizing information and documentation.",0.3,0.11111111111111112,0.3
+"Efficiently computes derivatives of numpy code.","Automatic Differentiation for Python and Numpy",0.16666666666666666,0.0,0.16666666666666666
+"Specify what you want it to build, the AI asks for clarification, and then builds it.","GPT Engineer: Build code with AI through interactive prompts and feedback",0.2222222222222222,0.0,0.2222222222222222
+"The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.","OWASP Cheat Sheet Series: Best Security Practices for Application Builders",0.3870967741935483,0.20689655172413793,0.3225806451612903
+"AngularJS directives for the Google Maps Javascript API","AngularJS Directives for Google Maps (No Longer Actively Maintained)",0.5882352941176471,0.39999999999999997,0.5882352941176471
+"Flexible Flash notifications for Laravel","Laravel Notify: Custom Notification Package",0.4000000000000001,0.0,0.20000000000000004
+"CLI tool for spawning and running containers according to the OCI specification","runc: CLI tool for spawning and running containers on Linux",0.6363636363636365,0.6,0.6363636363636365
+"Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication.","Integrated Django authentication and account management system.",0.4,0.08695652173913045,0.4
