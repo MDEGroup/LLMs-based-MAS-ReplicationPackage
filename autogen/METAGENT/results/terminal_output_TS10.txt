@@ -1,366 +1,10 @@
-(thesis) mariamaoliveira@192 METAGENT % cd . 
-(thesis) mariamaoliveira@192 METAGENT % cd ..
-(thesis) mariamaoliveira@192 autogen % cd METAGENT 
-(thesis) mariamaoliveira@192 METAGENT % ls
-agent			data-experiment		evaluation.py		metric			optimizer		results
-data			data_prompts.txt	main.py			optimized_prompt.txt	prompt			utils
-(thesis) mariamaoliveira@192 METAGENT % python main.py      
-Data #0:
-- Description: A series of examples on how to TDD React
-[Extractor sent]: # react-tdd-guide  
-A series of examples on how to TDD React
+[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase introducing the repository. Prioritize using existing taglines, functional descriptions, purpose statements, or overviews that appear at the beginning of the text. If the initial section of the text includes specific functionalities, included data, language support, or media features like audio or video content, ensure to incorporate them. Highlight distinctive elements such as language support, media content, Indonesian Tafsir, or indexed querying techniques in the term/phrase. If an existing tagline or functional description is present, prioritize using it as the foundation for the generated description. Capture any specific details related to the content like Indonesia Tafsir or media audio, and ensure to mention key figures or contributors such as Syekh Mishary Rashid Alafasy if applicable.
 
-Extracted text: # react-tdd-guide  
-A series of examples on how to TDD React
-
-
--- Summarizer and Teacher Conversation -- 
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.2857142857142857
-Rouge2 Score: 0.0
-RougeL Score: 0.14285714285714285
-
-[Summarizer sent]: React Test-Driven Development Examples
-
-[Teacher sent]: Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository. If the extracted text contains an existing tagline, functional description, purpose statement, or overview, prioritize using it as the summary:  
 <EXTRACTED_README>  
 $extracted_text  
-</EXTRACTED_README>  
-
-The output should include only a short term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.3157894736842105
-Rouge2 Score: 0.0
-RougeL Score: 0.2105263157894737
-
-[Summarizer sent]: React TDD Guide: Examples for Test-Driven Development in React
-
-[Teacher sent]: Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository. Prioritize using any existing tagline, functional description, purpose statement, or overview present in the extracted text as the summary:  
-<EXTRACTED_README>  
-$extracted_text  
-</EXTRACTED_README>  
-
-The output should include only a short term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 1.0
-Rouge2 Score: 1.0
-RougeL Score: 1.0
-
-[Summarizer sent]: APPROVED
-
-Added Prompt #0: Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository. Prioritize using any existing tagline, functional description, purpose statement, or overview present in the extracted text as the summary:  
-<EXTRACTED_README>  
-$extracted_text  
-</EXTRACTED_README>  
-
-The output should include only a short term/phrase introducing the repository.
-Length data_prompt: 1
-Data #1:
-- Description: OpenMTP  - Advanced Android File Transfer Application for macOS
-[Extractor sent]: # OpenMTP | Android File Transfer for macOS
-
-## Introduction
-
-### Advanced Android File Transfer Application for macOS.
-
-Transferring files between macOS and Android or any other MTP devices has always been a nightmare. There are a few File Transfer MTP apps which are available online but most of them are either too expensive or come with bad UI/UX. The official "Android File Transfer" app for macOS from Google comes with bugs, innumerable limitations, some of which include - not being able to transfer files larger than 4GB, frequent disconnections, unable to rename the folders or files on the android/MTP devices. Most of the other apps available online uses either WiFi or ADB protocol to transfer the files, which is an extremely time-consuming process.
-
-Countless searches to find an app to solve these problems and failing to find one made me restless. So, I took the leap and decided to create an app for us that could help us have a smooth and hassle-free file transfer process from macOS to Android/MTP devices. Created with the objective of giving back to the community, we can all use this app for free in this lifetime.
-
-Extracted text: # OpenMTP | Android File Transfer for macOS
-
-## Introduction
-
-### Advanced Android File Transfer Application for macOS.
-
-Transferring files between macOS and Android or any other MTP devices has always been a nightmare. There are a few File Transfer MTP apps which are available online but most of them are either too expensive or come with bad UI/UX. The official "Android File Transfer" app for macOS from Google comes with bugs, innumerable limitations, some of which include - not being able to transfer files larger than 4GB, frequent disconnections, unable to rename the folders or files on the android/MTP devices. Most of the other apps available online uses either WiFi or ADB protocol to transfer the files, which is an extremely time-consuming process.
-
-Countless searches to find an app to solve these problems and failing to find one made me restless. So, I took the leap and decided to create an app for us that could help us have a smooth and hassle-free file transfer process from macOS to Android/MTP devices. Created with the objective of giving back to the community, we can all use this app for free in this lifetime.
-
-
--- Summarizer and Teacher Conversation -- 
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.7999999999999999
-Rouge2 Score: 0.4615384615384615
-RougeL Score: 0.7999999999999999
-
-[Summarizer sent]: APPROVED
-
-Added Prompt #1: 
-Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository:
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
- 
-The output should include only a short term/phrase introducing the repository.
-
-Length data_prompt: 2
-Data #2:
-- Description: NCRF++, a Neural Sequence Labeling Toolkit. Easy use to any sequence labeling tasks (e.g. NER, POS, Segmentation). It includes character LSTM/CNN, word LSTM/CNN and softmax/CRF components. 
-[Extractor sent]: # NCRF++: An Open-source Neural Sequence Labeling Toolkit
-
-## Introduction
-
-Sequence labeling models are quite popular in many NLP tasks, such as Named Entity Recognition (NER), part-of-speech (POS) tagging, and word segmentation. State-of-the-art sequence labeling models mostly utilize the CRF structure with input word features. LSTM (or bidirectional LSTM) is a popular deep learning-based feature extractor in sequence labeling tasks, and CNN can also be used due to faster computation. Features within words are also useful for representation, which can be captured by character LSTM or character CNN structures or human-defined neural features.
-
-NCRF++ is a PyTorch-based framework with flexible choices of input features and output structures. The design of neural sequence labeling models with NCRF++ is fully configurable through a configuration file, which does not require any code work. NCRF++ can be regarded as a neural network version of a famous statistical CRF framework.
-
-This framework has been accepted as a demonstration paper, and the detailed experiment report and analysis using NCRF++ has been accepted as the best paper.
-
-NCRF++ supports different structure combinations on three levels: character sequence representation, word sequence representation, and inference layer.
-
-* Character sequence representation: character LSTM, character GRU, character CNN, and handcrafted word features.
-* Word sequence representation: word LSTM, word GRU, word CNN.
-* Inference layer: Softmax, CRF.
-
-Extracted text: # NCRF++: An Open-source Neural Sequence Labeling Toolkit
-
-## Introduction
-
-Sequence labeling models are quite popular in many NLP tasks, such as Named Entity Recognition (NER), part-of-speech (POS) tagging, and word segmentation. State-of-the-art sequence labeling models mostly utilize the CRF structure with input word features. LSTM (or bidirectional LSTM) is a popular deep learning-based feature extractor in sequence labeling tasks, and CNN can also be used due to faster computation. Features within words are also useful for representation, which can be captured by character LSTM or character CNN structures or human-defined neural features.
-
-NCRF++ is a PyTorch-based framework with flexible choices of input features and output structures. The design of neural sequence labeling models with NCRF++ is fully configurable through a configuration file, which does not require any code work. NCRF++ can be regarded as a neural network version of a famous statistical CRF framework.
-
-This framework has been accepted as a demonstration paper, and the detailed experiment report and analysis using NCRF++ has been accepted as the best paper.
-
-NCRF++ supports different structure combinations on three levels: character sequence representation, word sequence representation, and inference layer.
-
-* Character sequence representation: character LSTM, character GRU, character CNN, and handcrafted word features.
-* Word sequence representation: word LSTM, word GRU, word CNN.
-* Inference layer: Softmax, CRF.
-
-
--- Summarizer and Teacher Conversation -- 
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.30769230769230765
-Rouge2 Score: 0.16216216216216217
-RougeL Score: 0.2564102564102564
-
-[Summarizer sent]: NCRF++: A Configurable PyTorch Toolkit for Neural Sequence Labeling
-
-[Teacher sent]: Summarize the following extracted text from a Github repository README into a concise term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it.
-
-<EXTRACTED_README>
-$extracted_text
 </EXTRACTED_README>
 
-The output should include only a concise term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.32432432432432434
-Rouge2 Score: 0.2285714285714286
-RougeL Score: 0.32432432432432434
-
-[Summarizer sent]: NCRF++: A Configurable Neural Sequence Labeling Toolkit
-
-[Teacher sent]: Summarize the following extracted text from a Github repository README into a concise term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it. Ensure to include key components and their applications mentioned in the text, such as specific models or tasks.
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should include only a concise term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.33333333333333337
-Rouge2 Score: 0.15
-RougeL Score: 0.28571428571428575
-
-[Summarizer sent]: NCRF++: A Configurable PyTorch Toolkit for Neural Sequence Labeling in NLP Tasks
-
-[Teacher sent]: Summarize the following extracted text from a Github repository README into a concise term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it. Ensure to include key components and their applications mentioned in the text, such as specific models (e.g., character LSTM/CNN, word LSTM/CNN) or tasks (e.g., NER, POS, Segmentation).
-
-<EXTRACTED_README> $extracted_text </EXTRACTED_README>
-
-The output should include only a concise term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.33333333333333337
-Rouge2 Score: 0.15
-RougeL Score: 0.28571428571428575
-
-[Summarizer sent]: NCRF++: A Configurable PyTorch Toolkit for Neural Sequence Labeling in NLP Tasks
-
-[Teacher sent]: Summarize the following extracted text from a Github repository README into a concise term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it exactly as it appears. Ensure to include key components and their applications mentioned in the text, such as specific models (e.g., character LSTM/CNN, word LSTM/CNN) or tasks (e.g., NER, POS, Segmentation). Avoid altering existing descriptive phrases if they effectively capture the repository's essence.
-
-<EXTRACTED_README> $extracted_text </EXTRACTED_README>
-
-The output should include only a concise term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.5106382978723405
-Rouge2 Score: 0.22222222222222224
-RougeL Score: 0.42553191489361697
-
-[Summarizer sent]: NCRF++: An Open-source Neural Sequence Labeling Toolkit for NER, POS, and Segmentation using LSTM/CNN models.
-
-[Teacher sent]: Summarize the following extracted text from a Github repository README into a concise term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it exactly as it appears. Make sure to include key components and their applications mentioned in the text, such as specific models (e.g., character LSTM/CNN, word LSTM/CNN) or tasks (e.g., NER, POS, Segmentation). Ensure the description captures the repository's main purpose and capabilities succinctly.
-
-<EXTRACTED_README> $extracted_text </EXTRACTED_README>
-
-The output should include only a concise term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.5199999999999999
-Rouge2 Score: 0.20833333333333334
-RougeL Score: 0.4
-
-[Summarizer sent]: NCRF++: An Open-source Neural Sequence Labeling Toolkit for NER, POS tagging, and word segmentation using flexible LSTM/CNN models.
-
-[Teacher sent]: Summarize the following extracted text from a Github repository README into a concise term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, use it exactly as it appears. Make sure to include key components and their applications mentioned in the text, such as specific models (e.g., character LSTM/CNN, word LSTM/CNN) or tasks (e.g., NER, POS, Segmentation). Ensure the description captures the repository's main purpose and capabilities succinctly. Highlight the ease of use or configurability if mentioned.
-
-<EXTRACTED_README> $extracted_text </EXTRACTED_README>
-
-The output should include only a concise term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.45833333333333326
-Rouge2 Score: 0.2173913043478261
-RougeL Score: 0.4166666666666667
-
-[Summarizer sent]: NCRF++: An Open-source Neural Sequence Labeling Toolkit for NER, POS, and Segmentation with Configurable LSTM/CNN Models.
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it as it appears. Include key components and their applications mentioned in the text, such as specific models (e.g., character LSTM/CNN, word LSTM/CNN) or tasks (e.g., NER, POS, Segmentation). Ensure the description captures the repository's main purpose and capabilities succinctly. Highlight the ease of use or configurability if mentioned.
-
-<EXTRACTED_README> $extracted_text </EXTRACTED_README>
-
-The output should include only a concise term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.33333333333333337
-Rouge2 Score: 0.15
-RougeL Score: 0.28571428571428575
-
-[Summarizer sent]: NCRF++: A Configurable PyTorch Toolkit for Neural Sequence Labeling in NLP Tasks
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase introducing the repository. Prioritize using any tagline, functional description, purpose statement, or overview if present at the beginning of the text. Include key components and their applications mentioned in the text, such as specific models (e.g., character LSTM/CNN, word LSTM/CNN) or tasks (e.g., NER, POS, Segmentation). Ensure the description captures the repository's main purpose and capabilities succinctly, highlighting the ease of use or configurability if mentioned.
-
-<EXTRACTED_README> $extracted_text </EXTRACTED_README>
-
-The output should include only a concise term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.4897959183673469
-Rouge2 Score: 0.2553191489361702
-RougeL Score: 0.44897959183673464
-
-[Summarizer sent]: NCRF++: A Configurable PyTorch Toolkit for Neural Sequence Labeling in NLP Tasks (NER, POS, Segmentation) with LSTM/CNN Models.
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it. Include key components and their applications mentioned in the text, such as specific models (e.g., character LSTM/CNN, word LSTM/CNN) or tasks (e.g., NER, POS, Segmentation). Ensure the description captures the repository's main purpose and capabilities succinctly, emphasizing ease of use or configurability if mentioned.
-
-<EXTRACTED_README> $extracted_text </EXTRACTED_README>
-
-The output should include only a concise term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.33333333333333337
-Rouge2 Score: 0.15
-RougeL Score: 0.28571428571428575
-
-[Summarizer sent]: NCRF++: A Configurable PyTorch Toolkit for Neural Sequence Labeling in NLP Tasks
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it. Ensure to include key components and their applications mentioned in the text, such as specific models (e.g., character LSTM/CNN, word LSTM/CNN) or tasks (e.g., NER, POS, Segmentation). Capture the repository's main purpose and capabilities succinctly, highlighting ease of use, configurability, and specific NLP tasks if mentioned.
-
-<EXTRACTED_README> $extracted_text </EXTRACTED_README>
-
-The output should include only a concise term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.4444444444444444
-Rouge2 Score: 0.23255813953488377
-RougeL Score: 0.4
-
-[Summarizer sent]: NCRF++: A Configurable PyTorch Toolkit for Neural Sequence Labeling in NLP Tasks (NER, POS, Segmentation)
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it. Ensure to include key components and their applications mentioned in the text, such as specific models (e.g., character LSTM/CNN, word LSTM/CNN) or tasks (e.g., NER, POS, Segmentation). Capture the repository's main purpose and capabilities succinctly, emphasizing ease of use, configurability, and the specific sequence labeling tasks supported.
-
-<EXTRACTED_README> $extracted_text </EXTRACTED_README>
-
-The output should include only a concise term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.4897959183673469
-Rouge2 Score: 0.2553191489361702
-RougeL Score: 0.44897959183673464
-
-[Summarizer sent]: NCRF++: A Configurable PyTorch Toolkit for Neural Sequence Labeling in NLP Tasks (NER, POS, Segmentation) with LSTM/CNN Models.
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it. Ensure to include key components and their applications mentioned in the text, such as specific models (e.g., character LSTM/CNN, word LSTM/CNN) or tasks (e.g., NER, POS, Segmentation). Capture the repository's main purpose and capabilities succinctly, emphasizing ease of use, configurability, and the specific sequence labeling tasks supported. If the extracted text contains an accepted paper or recognition, prioritize mentioning it as a notable achievement.
-
-<EXTRACTED_README> $extracted_text </EXTRACTED_README>
-
-The output should include only a concise term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.39215686274509803
-Rouge2 Score: 0.20408163265306123
-RougeL Score: 0.3529411764705882
-
-[Summarizer sent]: NCRF++: A Configurable PyTorch Toolkit for Neural Sequence Labeling in NLP Tasks (NER, POS, Segmentation) with State-of-the-Art Models.
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it verbatim. Ensure to include key components and their applications mentioned in the text, such as specific models (e.g., character LSTM/CNN, word LSTM/CNN) or tasks (e.g., NER, POS, Segmentation). Capture the repository's main purpose and capabilities succinctly, emphasizing ease of use, configurability, and the specific sequence labeling tasks supported. If the extracted text contains an accepted paper or recognition, include it as a notable achievement.
-
-<EXTRACTED_README> $extracted_text </EXTRACTED_README>
-
-The output should include only a concise term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.45833333333333326
-Rouge2 Score: 0.2173913043478261
-RougeL Score: 0.4166666666666667
-
-[Summarizer sent]: NCRF++: An Open-source Neural Sequence Labeling Toolkit for NER, POS, and Segmentation with Configurable LSTM/CNN Models.
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it verbatim. Ensure to include key components and their applications mentioned in the text, such as specific models (e.g., character LSTM/CNN, word LSTM/CNN) or tasks (e.g., NER, POS, Segmentation). Capture the repository's main purpose and capabilities succinctly, emphasizing ease of use, configurability, and the specific sequence labeling tasks supported. If the extracted text contains an accepted paper or recognition, mention it as a notable achievement.
-
-<EXTRACTED_README> $extracted_text </EXTRACTED_README>
-
-The output should be a concise term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.45833333333333326
-Rouge2 Score: 0.2173913043478261
-RougeL Score: 0.4166666666666667
-
-[Summarizer sent]: NCRF++: An Open-source Neural Sequence Labeling Toolkit for NER, POS, and Segmentation with Configurable LSTM/CNN Models.
-
-Length data_prompt: 2
-Data #3:
-- Description: Simple Quran API & Database with Indonesia Tafsir and media audio (murrotal) Syekh. Mishary Rashid Alafasy
-[Extractor sent]: # Quran - API
-
-This API data source comes from the combination of several parameters by merging its data to one JSON file with a new structure for better use and performance. Furthermore, this API uses indexed querying techniques with access time which greatly affects performance.
-
-Extracted text: # Quran - API
-
-This API data source comes from the combination of several parameters by merging its data to one JSON file with a new structure for better use and performance. Furthermore, this API uses indexed querying techniques with access time which greatly affects performance.
-
-
--- Summarizer and Teacher Conversation -- 
+The output should include only a concise term/phrase introducing the repository, focusing on distinctive elements like language support, media features, key contributors, or specific functionalities mentioned in the text.
 
 
 ROUGE Calculated inside Summarizer agent
@@ -368,236 +12,14 @@ Rouge1 Score: 0.26086956521739135
 Rouge2 Score: 0.09523809523809523
 RougeL Score: 0.26086956521739135
 
-[Summarizer sent]: Quran API for Enhanced Data Access and Performance
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase that introduces the repository. Prioritize using any existing tagline, functional description, purpose statement, or overview if present in the text:
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should include only a concise term/phrase that effectively introduces the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.26086956521739135
-Rouge2 Score: 0.09523809523809523
-RougeL Score: 0.26086956521739135
-
-[Summarizer sent]: Quran API for Enhanced Data Access and Performance
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase that introduces the repository. If a specific tagline, functional description, purpose statement, or overview is present in the text, prioritize using it for the summary. Ensure the output includes key concepts such as accessibility, performance, and any notable features like additional resources or functionalities:
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should include only a concise term/phrase that effectively introduces the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.33333333333333337
-Rouge2 Score: 0.09090909090909091
-RougeL Score: 0.33333333333333337
-
-[Summarizer sent]: "Optimized Quran API with Enhanced Performance and Indexed Querying"
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase that introduces the repository. If a specific tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it for the summary. Ensure the output includes key concepts such as accessibility, performance, additional resources, functionalities, and any notable features:
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should include only a concise term/phrase that effectively introduces the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.28571428571428575
-Rouge2 Score: 0.07692307692307691
-RougeL Score: 0.28571428571428575
-
-[Summarizer sent]: Quran API: Optimized Data Source with Indexed Querying for Enhanced Performance and Accessibility
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase that introduces the repository. If a specific tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it for the summary. Ensure the output includes key concepts such as accessibility, performance, additional resources, functionalities, notable features, and any specific media or cultural elements mentioned:
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should include only a concise term/phrase that effectively introduces the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.23076923076923075
-Rouge2 Score: 0.08333333333333333
-RougeL Score: 0.23076923076923075
-
-[Summarizer sent]: Quran API: Optimized Data Source with Indexed Querying for Enhanced Performance
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase that introduces the repository. If a specific tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it for the summary. Ensure the output includes key concepts such as accessibility, performance, additional resources, functionalities, notable features, specific media, cultural elements, and any language-specific content mentioned:
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should include only a concise term/phrase that effectively introduces the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.23076923076923075
-Rouge2 Score: 0.08333333333333333
-RougeL Score: 0.23076923076923075
-
-[Summarizer sent]: Quran API: Optimized Data Source with Indexed Querying for Enhanced Performance
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase that introduces the repository. If a specific tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it for the summary. Ensure the output includes key concepts such as accessibility, performance, additional resources, functionalities, notable features, specific media like audio, cultural elements, and any language-specific content mentioned:
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should include only a concise term/phrase that effectively introduces the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.22222222222222224
-Rouge2 Score: 0.08
-RougeL Score: 0.22222222222222224
-
-[Summarizer sent]: Quran API: Optimized JSON Data Source with Indexed Querying for Enhanced Performance
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase that introduces the repository. If a specific tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it for the summary. Ensure the output includes key concepts such as accessibility, performance, additional resources, functionalities, notable features, specific media like audio, cultural elements, language-specific content, and any mention of specific individuals or works:
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should include only a concise term/phrase that effectively introduces the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.30769230769230765
-Rouge2 Score: 0.08333333333333333
-RougeL Score: 0.30769230769230765
-
-[Summarizer sent]: Quran API: Optimized Data Source with Enhanced Performance and Indexed Querying
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase that introduces the repository. If a specific tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it for the summary. Ensure the output includes key concepts such as accessibility, performance, additional resources, functionalities, notable features, specific media like audio, cultural elements, language-specific content, any mention of specific individuals or works, and references to databases or tafsir:
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should include only a concise term/phrase that effectively introduces the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.23076923076923075
-Rouge2 Score: 0.08333333333333333
-RougeL Score: 0.23076923076923075
-
-[Summarizer sent]: Quran API: Optimized Data Source with Indexed Querying for Enhanced Performance
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase that introduces the repository. If a specific tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it for the summary. Ensure the output includes key concepts such as accessibility, performance, additional resources, functionalities, notable features, specific media like audio, cultural elements, language-specific content, any mention of specific individuals or works like "Syekh. Mishary Rashid Alafasy," and references to databases or tafsir:
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should include only a concise term/phrase that effectively introduces the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.25
-Rouge2 Score: 0.09090909090909091
-RougeL Score: 0.25
-
-[Summarizer sent]: Quran API: Enhanced Performance and Accessibility for Quran Data
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase that introduces the repository. If a specific tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it for the summary. Ensure the output includes key concepts such as accessibility, performance, additional resources, functionalities, notable features, specific media like audio, cultural elements, language-specific content, any mention of specific individuals or works like "Syekh. Mishary Rashid Alafasy," references to databases or tafsir, and any specific mentions of language-specific content like "Indonesia Tafsir":
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should include only a concise term/phrase that effectively introduces the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.24
-Rouge2 Score: 0.08695652173913043
-RougeL Score: 0.24
-
-[Summarizer sent]: Quran API: Enhanced Performance and Accessibility for Structured Data Retrieval
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase that introduces the repository. If a specific tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it for the summary. Ensure the output includes key concepts such as accessibility, performance, additional resources, functionalities, notable features, specific media like audio, cultural elements, language-specific content, any mention of specific individuals or works like "Syekh. Mishary Rashid Alafasy," references to databases or tafsir, and any specific mentions of language-specific content like "Indonesia Tafsir." If the ground truth description is already present as a tagline or overview, prioritize using it as is for accuracy and relevance:
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should include only a concise term/phrase that effectively introduces the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.26086956521739135
-Rouge2 Score: 0.09523809523809523
-RougeL Score: 0.26086956521739135
-
-[Summarizer sent]: Quran API for Enhanced Data Access and Performance
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase that introduces the repository. If a specific tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it for the summary. Ensure the output includes key concepts such as accessibility, performance, additional resources, functionalities, notable features, specific media like audio, cultural elements, language-specific content, any mention of specific individuals or works like "Syekh. Mishary Rashid Alafasy," references to databases or tafsir, and any specific mentions of language-specific content like "Indonesia Tafsir." If a tagline or overview is present and matches the content of the README, use it directly to ensure accuracy and relevance:
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should include only a concise term/phrase that effectively introduces the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.25
-Rouge2 Score: 0.09090909090909091
-RougeL Score: 0.25
-
-[Summarizer sent]: Quran API: Enhanced Performance and Accessibility for Quran Data
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase that introduces the repository. If a specific tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it for the summary. Ensure the output includes key concepts such as accessibility, performance, additional resources, functionalities, notable features, specific media like audio, cultural elements, language-specific content, any mention of specific individuals or works like "Syekh. Mishary Rashid Alafasy," references to databases or tafsir, and any specific mentions of language-specific content like "Indonesia Tafsir." If a tagline or overview is present and matches the content of the README, use it directly to ensure accuracy and relevance. Prioritize capturing all relevant details to encompass the repository's scope and unique elements:
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should include only a concise term/phrase that effectively introduces the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.26086956521739135
-Rouge2 Score: 0.09523809523809523
-RougeL Score: 0.26086956521739135
-
-[Summarizer sent]: "Optimized Quran API for Enhanced Performance and Accessibility"
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term/phrase that introduces the repository. If a specific tagline, functional description, purpose statement, or overview is present at the beginning of the text, and it matches the content of the README, use it directly to ensure accuracy and relevance. Ensure the output includes key concepts such as accessibility, performance, additional resources, functionalities, notable features, specific media like audio, cultural elements, language-specific content, any mention of specific individuals or works like "Syekh. Mishary Rashid Alafasy," references to databases or tafsir, and any specific mentions of language-specific content like "Indonesia Tafsir." Prioritize capturing all relevant details to encompass the repository's scope and unique elements:
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should include only a concise term/phrase that effectively introduces the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.2962962962962963
-Rouge2 Score: 0.08
-RougeL Score: 0.22222222222222224
-
-[Summarizer sent]: Quran API: Enhanced Performance and Accessibility for Quran Data with Indexed Querying
+[Summarizer sent]: "Quran API with Indexed Querying for Enhanced Performance"
 
 Length data_prompt: 2
 Data #4:
 - Description: Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.
-[Extractor sent]: Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.
+[Extractor sent]: Consul
+
+Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.
 
 Consul provides several key features:
 
@@ -613,7 +35,9 @@ Consul provides several key features:
 
 * Dynamic App Configuration - An HTTP API that allows users to store indexed objects within Consul, for storing configuration parameters and application metadata.
 
-Extracted text: Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.
+Extracted text: Consul
+
+Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.
 
 Consul provides several key features:
 
@@ -638,15 +62,31 @@ Rouge1 Score: 0.41379310344827586
 Rouge2 Score: 0.14814814814814814
 RougeL Score: 0.3448275862068966
 
-[Summarizer sent]: "Consul: A Distributed Service Mesh and Configuration Management Solution"
+[Summarizer sent]: Consul: A Distributed Service Mesh and Configuration Management Solution
 
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a short term/phrase introducing the repository, prioritizing any existing tagline, functional description, purpose statement, or overview if present at the beginning of the text:
+[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a short term or phrase introducing the repository. If the text contains a tagline, functional description, purpose statement, or overview, prioritize using it as the description. 
 
 <EXTRACTED_README>
 $extracted_text
 </EXTRACTED_README>
 
-The output should include only a short term/phrase introducing the repository.
+The output should include only a short term or phrase introducing the repository.
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.4285714285714285
+Rouge2 Score: 0.15384615384615385
+RougeL Score: 0.35714285714285715
+
+[Summarizer sent]: Consul: A Distributed Service Mesh and Configuration Solution
+
+[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a short term or phrase introducing the repository. Prioritize using any existing tagline, functional description, purpose statement, or overview found at the beginning of the text as the description. 
+
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+
+The output should include only a short term or phrase introducing the repository.
 
 
 ROUGE Calculated inside Summarizer agent
@@ -656,71 +96,87 @@ RougeL Score: 0.6874999999999999
 
 [Summarizer sent]: Consul: A distributed solution for connecting and configuring applications across dynamic infrastructure.
 
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a short term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it:
+[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a short term or phrase introducing the repository. Prioritize using any existing tagline, functional description, purpose statement, or overview found at the beginning of the text as the description. Ensure the description captures key concepts and avoids omitting important details.
 
 <EXTRACTED_README>
 $extracted_text
 </EXTRACTED_README>
 
-The output should include only a short term/phrase introducing the repository.
+The output should include only a short term or phrase introducing the repository.
 
 
 ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.48275862068965514
-Rouge2 Score: 0.22222222222222218
-RougeL Score: 0.48275862068965514
+Rouge1 Score: 0.6874999999999999
+Rouge2 Score: 0.39999999999999997
+RougeL Score: 0.6874999999999999
 
-[Summarizer sent]: Consul: A Distributed Solution for Service Connectivity and Configuration
+[Summarizer sent]: Consul: A distributed solution for connecting and configuring applications across dynamic infrastructure.
 
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise description of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text and matches the repository's core purpose, prioritize using it:
+[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a short term or phrase introducing the repository. Prioritize using any existing tagline, functional description, purpose statement, or overview found at the beginning of the text as the description. Ensure the description captures key concepts and avoids omitting important details. If a suitable tagline or description is present at the start of the text, use it directly to ensure accuracy and completeness.
 
 <EXTRACTED_README>
 $extracted_text
 </EXTRACTED_README>
 
-The output should include only a concise description of the repository.
+The output should include only a short term or phrase introducing the repository.
 
 
 ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.45333333333333325
-Rouge2 Score: 0.3561643835616438
-RougeL Score: 0.4266666666666667
+Rouge1 Score: 0.6874999999999999
+Rouge2 Score: 0.39999999999999997
+RougeL Score: 0.6874999999999999
 
-[Summarizer sent]: Consul is a distributed, highly available solution designed to connect and configure applications across dynamic, distributed infrastructure. It features multi-datacenter support, a service mesh for secure communication, an API gateway for traffic management, service discovery for easy registration and access, health checking for monitoring cluster health, and dynamic app configuration through an HTTP API.
+[Summarizer sent]: Consul: A distributed solution for connecting and configuring applications across dynamic infrastructure.
 
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise description of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text and matches the repository's core purpose, prioritize using it verbatim:
+[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a short term or phrase introducing the repository. Prioritize using any existing tagline, functional description, purpose statement, or overview found at the beginning of the text as the description. Ensure the description captures key concepts and avoids omitting important details. If a suitable tagline or description is present at the start of the text, use it directly to ensure accuracy and completeness. Focus on maintaining the original wording of the tagline or description if it effectively introduces the repository.
 
 <EXTRACTED_README>
 $extracted_text
 </EXTRACTED_README>
 
-Ensure the output includes only a concise description of the repository. Avoid adding additional feature details unless they are essential to understanding the core purpose.
+The output should include only a short term or phrase introducing the repository.
 
 
 ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 1.0
-Rouge2 Score: 1.0
-RougeL Score: 1.0
+Rouge1 Score: 0.6874999999999999
+Rouge2 Score: 0.39999999999999997
+RougeL Score: 0.6874999999999999
+
+[Summarizer sent]: Consul: A distributed solution for connecting and configuring applications across dynamic infrastructure.
+
+[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a short term or phrase introducing the repository. Prioritize using any existing tagline, functional description, purpose statement, or overview found at the beginning of the text as the description. If a suitable tagline or description is present at the start of the text, use it directly to ensure accuracy and completeness. Ensure the description captures key concepts and maintains the original wording of the tagline or description if it effectively introduces the repository. Focus on preserving essential details that convey the repository's purpose.
+
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+
+The output should include only a short term or phrase introducing the repository.
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.7647058823529412
+Rouge2 Score: 0.5
+RougeL Score: 0.7647058823529412
 
 [Summarizer sent]: APPROVED
 
-Added Prompt #4: Summarize the following extracted text from a GitHub repository README into a concise description of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text and matches the repository's core purpose, prioritize using it verbatim:
+Added Prompt #4: Summarize the following extracted text from a GitHub repository README into a short term or phrase introducing the repository. Prioritize using any existing tagline, functional description, purpose statement, or overview found at the beginning of the text as the description. If a suitable tagline or description is present at the start of the text, use it directly to ensure accuracy and completeness. Ensure the description captures key concepts and maintains the original wording of the tagline or description if it effectively introduces the repository. Focus on preserving essential details that convey the repository's purpose.
 
 <EXTRACTED_README>
 $extracted_text
 </EXTRACTED_README>
 
-Ensure the output includes only a concise description of the repository. Avoid adding additional feature details unless they are essential to understanding the core purpose.
+The output should include only a short term or phrase introducing the repository.
 Length data_prompt: 3
 Data #5:
 - Description: Interactive, thoroughly customizable maps in the browser, powered by vector tiles and WebGL
 [Extractor sent]: Mapbox GL JS is a JavaScript library for interactive, customizable vector maps on the web. It takes map styles that conform to the Mapbox style specification, applies them to vector tiles that conform to the Mapbox vector tile specification, and renders them using WebGL.
 
-Mapbox GL JS is part of the Mapbox platform, which also includes compatible native SDKs for applications on various platforms. Mapbox provides building blocks to add location features like maps, search, and navigation into any experience you create. In addition to GL JS, this repository contains code, issues, and test fixtures that are common to both GL JS and the native SDKs.
+Mapbox GL JS is part of the Mapbox Web SDK, which also includes compatible native SDKs for applications on various platforms. Mapbox provides building blocks to add location features like maps, search, and navigation into any experience you create. In addition to GL JS, this repository contains code, issues, and test fixtures that are common to both GL JS and the native SDKs.
 
 Extracted text: Mapbox GL JS is a JavaScript library for interactive, customizable vector maps on the web. It takes map styles that conform to the Mapbox style specification, applies them to vector tiles that conform to the Mapbox vector tile specification, and renders them using WebGL.
 
-Mapbox GL JS is part of the Mapbox platform, which also includes compatible native SDKs for applications on various platforms. Mapbox provides building blocks to add location features like maps, search, and navigation into any experience you create. In addition to GL JS, this repository contains code, issues, and test fixtures that are common to both GL JS and the native SDKs.
+Mapbox GL JS is part of the Mapbox Web SDK, which also includes compatible native SDKs for applications on various platforms. Mapbox provides building blocks to add location features like maps, search, and navigation into any experience you create. In addition to GL JS, this repository contains code, issues, and test fixtures that are common to both GL JS and the native SDKs.
 
 
 -- Summarizer and Teacher Conversation -- 
@@ -733,45 +189,20 @@ RougeL Score: 0.2
 
 [Summarizer sent]: Interactive Vector Maps with Mapbox GL JS
 
-[Teacher sent]: Summarize the following extracted text from a Github repository README into a concise and informative term/phrase that highlights the key concepts and features of the repository. Prioritize using any existing tagline, functional description, purpose statement, or overview if present in the beginning of the text. 
-
-<EXTRACTED_README>  
-$extracted_text  
-</EXTRACTED_README>  
-
-The output should be a clear and brief term/phrase introducing the repository.
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a short term/phrase that captures the key concept or idea of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it. The output should include only a short term/phrase introducing the repository.
+<EXTRACTED_README>$extracted_text</EXTRACTED_README>
 
 
 ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.4347826086956522
+Rouge1 Score: 0.42105263157894735
 Rouge2 Score: 0.0
-RougeL Score: 0.34782608695652173
+RougeL Score: 0.3157894736842105
 
-[Summarizer sent]: "Mapbox GL JS: Interactive, Customizable Vector Maps for the Web"
+[Summarizer sent]: Interactive Vector Maps for the Web
 
-[Teacher sent]: Summarize the following extracted text from a Github repository README into a concise and informative term/phrase that highlights the key concepts and features of the repository. Prioritize using any existing tagline, functional description, purpose statement, or overview if present in the beginning of the text. Focus on capturing the interactive and customizable nature of the maps, as well as their use of vector tiles and WebGL.
+[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it. The output should succinctly reflect the repository's main purpose, focusing on interactivity, customization, vector maps, and WebGL. 
 
-<EXTRACTED_README>  
-$extracted_text  
-</EXTRACTED_README>  
-
-The output should be a clear and brief term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.4999999999999999
-Rouge2 Score: 0.0
-RougeL Score: 0.33333333333333337
-
-[Summarizer sent]: "Interactive and Customizable Vector Maps with WebGL using Mapbox GL JS"
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise and informative term/phrase that highlights the key concepts and features of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it. Focus on capturing the interactive and customizable nature of the maps, as well as their use of vector tiles and WebGL.
-
-<EXTRACTED_README>  
-$extracted_text  
-</EXTRACTED_README>
-
-The output should be a clear and brief term/phrase introducing the repository.
+<EXTRACTED_README>$extracted_text</EXTRACTED_README>
 
 
 ROUGE Calculated inside Summarizer agent
@@ -779,15 +210,77 @@ Rouge1 Score: 0.5263157894736842
 Rouge2 Score: 0.0
 RougeL Score: 0.42105263157894735
 
-[Summarizer sent]: "Interactive Customizable Vector Maps with WebGL"
+[Summarizer sent]: Interactive Customizable Vector Maps with WebGL
 
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise and informative term/phrase that highlights the key concepts and features of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it as the description. Focus on capturing the interactive, thoroughly customizable nature of the maps, as well as their use of vector tiles and WebGL.
+[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it verbatim. The output should succinctly reflect the repository's main purpose, incorporating elements of interactivity, thorough customization, vector tiles, and WebGL. 
 
-<EXTRACTED_README>  
-$extracted_text  
-</EXTRACTED_README>
+<EXTRACTED_README>$extracted_text</EXTRACTED_README>
 
-The output should be a clear and brief term/phrase introducing the repository.
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.5454545454545455
+Rouge2 Score: 0.0
+RougeL Score: 0.4545454545454546
+
+[Summarizer sent]: "Interactive, customizable vector maps on the web using WebGL."
+
+[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it verbatim. The output should succinctly reflect the repository's main purpose, incorporating elements of interactivity, thorough customization, vector tiles, and WebGL. Ensure the description matches closely with any existing functional descriptions found in the initial sentences of the README.
+
+<EXTRACTED_README>$extracted_text</EXTRACTED_README>
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.5454545454545455
+Rouge2 Score: 0.0
+RougeL Score: 0.4545454545454546
+
+[Summarizer sent]: "Interactive, customizable vector maps on the web using WebGL."
+
+[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it verbatim. The output should succinctly reflect the repository's main purpose, ensuring the inclusion of elements such as interactivity, thorough customization, vector tiles, and WebGL. Pay close attention to existing functional descriptions in the initial sentences of the README, and prioritize them in the summary.
+<EXTRACTED_README>$extracted_text</EXTRACTED_README>
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.5454545454545455
+Rouge2 Score: 0.0
+RougeL Score: 0.4545454545454546
+
+[Summarizer sent]: "Interactive, customizable vector maps on the web using WebGL."
+
+[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it verbatim. The output should succinctly reflect the repository's main purpose, ensuring the inclusion of elements such as interactivity, thorough customization, vector tiles, and WebGL. Pay close attention to existing functional descriptions in the initial sentences of the README, and prioritize them in the summary. Make sure the summary comprehensively represents the repository's key features and technological aspects.
+<EXTRACTED_README>$extracted_text</EXTRACTED_README>
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.5454545454545455
+Rouge2 Score: 0.0
+RougeL Score: 0.4545454545454546
+
+[Summarizer sent]: "Interactive, customizable vector maps on the web using WebGL."
+
+[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. Prioritize using any tagline, functional description, purpose statement, or overview present at the beginning of the text verbatim, especially if it matches the main purpose. The output should succinctly reflect the repository's main purpose, ensuring the inclusion of elements such as interactivity, thorough customization, vector tiles, and WebGL. Pay close attention to existing functional descriptions in the initial sentences of the README, and prioritize them in the summary. Ensure the summary comprehensively represents the repository's key features and technological aspects. <EXTRACTED_README>$extracted_text</EXTRACTED_README>
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.5454545454545455
+Rouge2 Score: 0.0
+RougeL Score: 0.4545454545454546
+
+[Summarizer sent]: "Interactive, customizable vector maps on the web using WebGL."
+
+[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. Prioritize using any tagline, functional description, purpose statement, or overview present at the beginning of the text verbatim, especially if it closely aligns with the main purpose. The output should succinctly reflect the repository's main purpose, ensuring the inclusion of elements such as interactivity, thorough customization, vector tiles, and WebGL. Pay close attention to existing functional descriptions in the initial sentences of the README, and prioritize them in the summary. Ensure the summary comprehensively represents the repository's key features and technological aspects, maintaining fidelity to the original text.
+<EXTRACTED_README>$extracted_text</EXTRACTED_README>
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.41379310344827586
+Rouge2 Score: 0.0
+RougeL Score: 0.3448275862068966
+
+[Summarizer sent]: "Mapbox GL JS: A JavaScript library for interactive, customizable vector maps on the web using WebGL."
+
+[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. Prioritize using any tagline, functional description, purpose statement, or overview present at the beginning of the text verbatim, especially if it closely aligns with the main purpose. The output should succinctly reflect the repository's main purpose, ensuring the inclusion of elements such as interactivity, thorough customization, vector tiles, and WebGL. Pay close attention to existing functional descriptions in the initial sentences of the README, and prioritize them in the summary. Ensure the summary comprehensively represents the repository's key features and technological aspects, maintaining fidelity to the original text. Emphasize key functionalities like interactive and customizable maps, vector tiles, and WebGL.
+<EXTRACTED_README>$extracted_text</EXTRACTED_README>
 
 
 ROUGE Calculated inside Summarizer agent
@@ -795,167 +288,62 @@ Rouge1 Score: 0.6
 Rouge2 Score: 0.0
 RougeL Score: 0.4
 
-[Summarizer sent]: "Interactive and Customizable Vector Maps with WebGL"
+[Summarizer sent]: **Interactive and customizable vector maps using WebGL**
 
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise and informative term/phrase that highlights the key concepts and features of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it as the description. Focus on capturing the interactive, customizable nature of the maps, their use of vector tiles, and WebGL.
-
-<EXTRACTED_README>  
-$extracted_text  
-</EXTRACTED_README>
-
-The output should be a clear and brief term/phrase introducing the repository.
+[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text and closely aligns with the main purpose, use it verbatim. The output should succinctly reflect the repository's main purpose, ensuring the inclusion of elements such as interactivity, thorough customization, vector tiles, and WebGL. Pay close attention to existing functional descriptions in the initial sentences of the README, and prioritize them in the summary. Ensure the summary comprehensively represents the repository's key features and technological aspects, maintaining fidelity to the original text. Emphasize key functionalities like interactive and customizable maps, vector tiles, and WebGL.
+<EXTRACTED_README>$extracted_text</EXTRACTED_README>
 
 
 ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.5263157894736842
+Rouge1 Score: 0.5454545454545455
 Rouge2 Score: 0.0
-RougeL Score: 0.42105263157894735
+RougeL Score: 0.4545454545454546
 
-[Summarizer sent]: "Interactive Customizable Vector Maps with WebGL"
+[Summarizer sent]: "Interactive, customizable vector maps on the web using WebGL."
 
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise and informative term/phrase that highlights the key concepts and features of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it as the description. Focus on capturing the interactive, thoroughly customizable nature of the maps, their use of vector tiles, and WebGL.
-
-<EXTRACTED_README>  
-$extracted_text  
-</EXTRACTED_README>
-
-The output should be a clear and brief term/phrase introducing the repository.
+[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text and closely aligns with the main purpose, use it verbatim. The output should succinctly reflect the repository's main purpose, ensuring the inclusion of elements such as interactivity, thorough customization, vector tiles, and WebGL. Pay close attention to existing functional descriptions in the initial sentences of the README, and prioritize them in the summary. Ensure the summary comprehensively represents the repository's key features and technological aspects, maintaining fidelity to the original text. Emphasize key functionalities like interactive and thoroughly customizable maps, vector tiles, and WebGL.
+<EXTRACTED_README>$extracted_text</EXTRACTED_README>
 
 
 ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.6
+Rouge1 Score: 0.5454545454545455
 Rouge2 Score: 0.0
-RougeL Score: 0.4
+RougeL Score: 0.4545454545454546
 
-[Summarizer sent]: "Interactive and Customizable Vector Maps with WebGL"
+[Summarizer sent]: "Interactive, customizable vector maps on the web using WebGL."
 
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise and informative term/phrase that highlights the key concepts and features of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it as the description. Focus on capturing the interactive, thoroughly customizable nature of the maps, their use of vector tiles, and WebGL, ensuring the description reflects the ability to render maps in the browser.
-
-<EXTRACTED_README>  
-$extracted_text  
-</EXTRACTED_README>
-
-The output should be a clear and brief term/phrase introducing the repository.
+[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text and closely aligns with the main purpose, use it verbatim. The output should succinctly reflect the repository's main purpose, ensuring the inclusion of elements such as interactivity, thorough customization, vector tiles, and WebGL. Pay close attention to existing functional descriptions in the initial sentences of the README, and prioritize them in the summary. Ensure the summary comprehensively represents the repository's key features and technological aspects, maintaining fidelity to the original text. Emphasize key functionalities like interactive and thoroughly customizable maps, vector tiles, and WebGL. If the beginning of the extracted text contains a functional description that matches the ground truth description, prioritize using that exact phrasing.
+<EXTRACTED_README>$extracted_text</EXTRACTED_README>
 
 
 ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.6
+Rouge1 Score: 0.5454545454545455
 Rouge2 Score: 0.0
-RougeL Score: 0.4
+RougeL Score: 0.4545454545454546
 
-[Summarizer sent]: "Interactive and Customizable Vector Maps with WebGL"
+[Summarizer sent]: "Interactive, customizable vector maps on the web using WebGL."
 
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise and informative term/phrase that highlights the key concepts and features of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it as the description. Focus on capturing the interactive and customizable nature of the maps, their use of vector tiles, and WebGL, ensuring the description reflects the ability to render maps in the browser. 
-
-<EXTRACTED_README>  
-$extracted_text  
-</EXTRACTED_README>
-
-The output should be a clear and brief term/phrase introducing the repository.
+[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text and closely aligns with the main purpose, use it verbatim. The output should succinctly reflect the repository's main purpose, ensuring the inclusion of elements such as interactivity, thorough customization, vector tiles, and WebGL. Pay close attention to existing functional descriptions in the initial sentences of the README, and prioritize them in the summary. Ensure the summary comprehensively represents the repository's key features and technological aspects, maintaining fidelity to the original text. Emphasize key functionalities like interactive and thoroughly customizable maps, vector tiles, and WebGL. Prioritize using any existing tagline or functional description that closely matches with the repository's main purpose if present at the beginning of the extracted text.
+<EXTRACTED_README>$extracted_text</EXTRACTED_README>
 
 
 ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.608695652173913
-Rouge2 Score: 0.28571428571428575
-RougeL Score: 0.5217391304347826
-
-[Summarizer sent]: "Interactive Web Maps with Customizable Vector Tiles and WebGL Rendering"
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise and informative term/phrase that highlights the key concepts and features of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it as the description. Focus on capturing the interactive, thoroughly customizable nature of the maps, their use of vector tiles, and WebGL, ensuring the description reflects the ability to render maps in the browser.
-
-<EXTRACTED_README>  
-$extracted_text  
-</EXTRACTED_README>
-
-The output should be a clear and brief term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.6
+Rouge1 Score: 0.5454545454545455
 Rouge2 Score: 0.0
-RougeL Score: 0.4
+RougeL Score: 0.4545454545454546
 
-[Summarizer sent]: "Interactive and Customizable Vector Maps with WebGL"
+[Summarizer sent]: "Interactive, customizable vector maps on the web using WebGL."
 
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise and informative term/phrase that highlights the key concepts and features of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it as the description. Focus on capturing the interactive, customizable nature of the maps, their use of vector tiles, and WebGL, ensuring the description reflects the ability to render maps in the browser and includes the aspect of thorough customization and interactivity.
-
-<EXTRACTED_README>  
-$extracted_text  
-</EXTRACTED_README>
-
-The output should be a clear and brief term/phrase introducing the repository.
+[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text and closely aligns with the main purpose, use it verbatim. The output should succinctly reflect the repository's main purpose, ensuring the inclusion of elements such as interactivity, thorough customization, vector tiles, and WebGL. Pay close attention to existing functional descriptions in the initial sentences of the README, and prioritize them in the summary. Ensure the summary comprehensively represents the repository's key features and technological aspects, maintaining fidelity to the original text. Emphasize key functionalities like interactive and thoroughly customizable maps, vector tiles, and WebGL. Prioritize using any existing tagline or functional description that aligns closely with the repository's main purpose if present at the beginning of the extracted text.
+<EXTRACTED_README>$extracted_text</EXTRACTED_README>
 
 
 ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.5263157894736842
+Rouge1 Score: 0.5454545454545455
 Rouge2 Score: 0.0
-RougeL Score: 0.42105263157894735
+RougeL Score: 0.4545454545454546
 
-[Summarizer sent]: "Interactive Customizable Vector Maps with WebGL"
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise and informative term/phrase that highlights the key concepts and features of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it as the description. Focus on capturing the interactive, thoroughly customizable nature of the maps, their use of vector tiles, and WebGL, ensuring the description reflects the ability to render maps in the browser. Emphasize both customization and interactivity as core aspects.
-
-<EXTRACTED_README>  
-$extracted_text  
-</EXTRACTED_README>
-
-The output should be a clear and brief term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.6
-Rouge2 Score: 0.0
-RougeL Score: 0.4
-
-[Summarizer sent]: "Interactive and Customizable Vector Maps with WebGL"
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise and informative term/phrase that highlights the key concepts and features of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it as the description. Focus on capturing the interactive and customizable nature of the maps, their use of vector tiles, and WebGL, ensuring the description reflects the ability to render maps in the browser. Emphasize both customization and interactivity as core aspects, and ensure the description aligns closely with the initial overview provided in the text.
-
-<EXTRACTED_README>  
-$extracted_text  
-</EXTRACTED_README>
-
-The output should be a clear and brief term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.6
-Rouge2 Score: 0.0
-RougeL Score: 0.4
-
-[Summarizer sent]: "Interactive and Customizable Vector Maps with WebGL"
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise and informative term/phrase that highlights the key concepts and features of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it as the description. Focus on capturing the interactive and customizable nature of the maps, their use of vector tiles, and WebGL, ensuring the description reflects the ability to render maps in the browser. Emphasize both customization and interactivity as core aspects, and ensure the description aligns closely with the initial overview provided in the text. If the text mentions the ability to create maps in the browser, ensure this is included.
-
-<EXTRACTED_README>  
-$extracted_text  
-</EXTRACTED_README>
-
-The output should be a clear and brief term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.64
-Rouge2 Score: 0.2608695652173913
-RougeL Score: 0.48000000000000004
-
-[Summarizer sent]: "Interactive and Customizable Vector Maps in the Browser with Mapbox GL JS"
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise and informative term/phrase that highlights the key concepts and features of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it as the description. Focus on capturing the interactive and customizable nature of the maps, their use of vector tiles, and WebGL, ensuring the description reflects the ability to render maps in the browser. Emphasize both customization and interactivity as core aspects, and ensure the description aligns closely with the initial overview provided in the text. If the text mentions the ability to create maps in the browser, ensure this is included. Additionally, ensure the output reflects the repository's connection to the Mapbox platform and its compatibility with native SDKs, if mentioned.
-
-<EXTRACTED_README>  
-$extracted_text  
-</EXTRACTED_README>
-
-The output should be a clear and brief term/phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.48000000000000004
-Rouge2 Score: 0.0
-RougeL Score: 0.32
-
-[Summarizer sent]: **Interactive and Customizable Vector Maps for the Web with Mapbox GL JS**
+[Summarizer sent]: "Interactive, customizable vector maps on the web using WebGL."
 
 Length data_prompt: 3
 Data #6:
@@ -1007,7 +395,7 @@ RougeL Score: 0.2222222222222222
 
 [Summarizer sent]: Modern C++ Library for XLSX Spreadsheet Manipulation
 
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a short term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the extracted text, prioritize using it in your summary.
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository. Prioritize using any existing tagline, functional description, purpose statement, or overview found at the beginning of the extracted text:
 
 <EXTRACTED_README>
 $extracted_text
@@ -1017,195 +405,19 @@ The output should include only a short term/phrase introducing the repository.
 
 
 ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.4444444444444444
-Rouge2 Score: 0.125
-RougeL Score: 0.2222222222222222
+Rouge1 Score: 0.39999999999999997
+Rouge2 Score: 0.11111111111111112
+RougeL Score: 0.19999999999999998
 
-[Summarizer sent]: Modern C++ library for XLSX spreadsheet manipulation
+[Summarizer sent]: "Modern C++ library for manipulating spreadsheets and XLSX files."
 
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. If a tagline, functional description, purpose statement, or overview is present in the extracted text, prioritize using it in your summary.
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should be a brief term or phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.4444444444444444
-Rouge2 Score: 0.125
-RougeL Score: 0.2222222222222222
-
-[Summarizer sent]: "Modern C++ Library for XLSX Spreadsheet Manipulation"
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. Prioritize using any existing tagline, functional description, purpose statement, or overview found at the beginning of the extracted text.
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a concise phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the extracted text, prioritize using it:
 
 <EXTRACTED_README>
 $extracted_text
 </EXTRACTED_README>
 
-The output should be a brief term or phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.4444444444444444
-Rouge2 Score: 0.125
-RougeL Score: 0.2222222222222222
-
-[Summarizer sent]: "Modern C++ Library for XLSX Spreadsheet Manipulation"
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. Prioritize using any existing tagline, functional description, purpose statement, or overview found at the beginning of the extracted text. If a cross-platform or user-friendly aspect is mentioned, ensure it is reflected in the description.
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should be a brief term or phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.631578947368421
-Rouge2 Score: 0.23529411764705882
-RougeL Score: 0.4210526315789474
-
-[Summarizer sent]: "Cross-platform C++ library for XLSX spreadsheet manipulation"
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. Prioritize using any existing tagline, functional description, purpose statement, or overview found at the beginning of the extracted text. Ensure that aspects such as cross-platform compatibility and user-friendliness are reflected in the description if mentioned.
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should be a brief term or phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.631578947368421
-Rouge2 Score: 0.23529411764705882
-RougeL Score: 0.4210526315789474
-
-[Summarizer sent]: "Cross-platform C++ library for XLSX spreadsheet manipulation"
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. Prioritize using any existing tagline, functional description, purpose statement, or overview found at the beginning of the extracted text. Ensure that aspects such as cross-platform compatibility, user-friendliness, and the target C++ version are reflected in the description if mentioned.
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should be a brief term or phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.4444444444444444
-Rouge2 Score: 0.16
-RougeL Score: 0.2962962962962963
-
-[Summarizer sent]: "xlnt: A modern, user-friendly C++ library for in-memory spreadsheet manipulation and XLSX file handling."
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. Prioritize using any existing tagline, functional description, purpose statement, or overview found at the beginning of the extracted text. Ensure that aspects such as cross-platform compatibility, user-friendliness, and the target C++ version are reflected in the description if mentioned. Emphasize capturing any unique aspects such as specific file formats or in-memory operations if applicable.
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should be a brief term or phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.32
-Rouge2 Score: 0.08695652173913043
-RougeL Score: 0.16
-
-[Summarizer sent]: "xlnt: A modern C++ library for in-memory spreadsheet manipulation and XLSX file handling."
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the extracted text and matches closely with the repository's main description, prioritize using it. Ensure that aspects such as cross-platform compatibility, user-friendliness, and the target C++ version are reflected in the description if mentioned. Highlight any unique aspects such as specific file formats or in-memory operations if applicable.
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should be a brief term or phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.4444444444444444
-Rouge2 Score: 0.125
-RougeL Score: 0.2222222222222222
-
-[Summarizer sent]: Modern C++ Library for XLSX Spreadsheet Manipulation
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the extracted text, and it matches closely with the repository's main description, use it directly. Ensure that aspects such as cross-platform compatibility, user-friendliness, and the target C++ version are reflected in the description if mentioned. Highlight any unique aspects such as specific file formats or in-memory operations if applicable.
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should be a brief term or phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.4999999999999999
-Rouge2 Score: 0.1818181818181818
-RougeL Score: 0.33333333333333337
-
-[Summarizer sent]: "Cross-platform C++ library for in-memory spreadsheet manipulation and XLSX file handling."
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. Prioritize using a tagline, functional description, purpose statement, or overview from the beginning of the extracted text if it closely matches the repository's main description. Ensure that aspects such as cross-platform compatibility, user-friendliness, and the target C++ version are reflected in the description if mentioned. Highlight any unique aspects such as specific file formats or in-memory operations if applicable.
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should be a brief term or phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.631578947368421
-Rouge2 Score: 0.23529411764705882
-RougeL Score: 0.4210526315789474
-
-[Summarizer sent]: "Cross-Platform C++ Library for XLSX Spreadsheet Manipulation"
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. Prioritize using a tagline, functional description, purpose statement, or overview from the beginning of the extracted text if it closely matches the repository's main description. Ensure that aspects such as cross-platform compatibility, user-friendliness, and the target C++ version are reflected in the description if mentioned. Highlight any unique aspects such as specific file formats or in-memory operations if applicable. If the ground truth description matches a statement from the beginning of the extracted text, prioritize using that statement.
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should be a brief term or phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.32
-Rouge2 Score: 0.08695652173913043
-RougeL Score: 0.16
-
-[Summarizer sent]: "xlnt: A modern C++ library for in-memory spreadsheet manipulation and XLSX file handling."
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. Prioritize using a tagline, functional description, purpose statement, or overview from the beginning of the extracted text if it closely matches the repository's main description. Ensure that aspects such as cross-platform compatibility, user-friendliness, and the target C++ version are reflected in the description if mentioned. Highlight any unique aspects such as specific file formats or in-memory operations if applicable. If the beginning of the extracted text already contains a tagline or functional description, prioritize using that statement.
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should be a brief term or phrase introducing the repository.
-
-
-ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.32
-Rouge2 Score: 0.08695652173913043
-RougeL Score: 0.16
-
-[Summarizer sent]: "xlnt: A modern C++ library for in-memory spreadsheet manipulation and XLSX file handling."
-
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. Prioritize using a tagline, functional description, purpose statement, or overview from the beginning of the extracted text if it closely matches the repository's main description. Ensure that aspects such as cross-platform compatibility, user-friendliness, and the target C++ version are reflected in the description if mentioned. Highlight any unique aspects such as specific file formats or in-memory operations if applicable. If the beginning of the extracted text already contains a tagline or functional description that closely matches the repository's main description, prioritize using that statement.
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
-The output should be a brief term or phrase introducing the repository.
+The output should be a short, descriptive phrase introducing the repository.
 
 
 ROUGE Calculated inside Summarizer agent
@@ -1213,32 +425,208 @@ Rouge1 Score: 0.34782608695652173
 Rouge2 Score: 0.09523809523809525
 RougeL Score: 0.17391304347826086
 
-[Summarizer sent]: "Modern C++ Library for In-Memory Spreadsheet Manipulation and XLSX File Handling"
+[Summarizer sent]: xlnt: A modern C++ library for manipulating spreadsheets and handling XLSX files.
 
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a concise term or phrase that captures the key concept or idea of the repository. If the extracted text includes a tagline, functional description, purpose statement, or overview at the beginning that closely matches the repository's main description, prioritize using it. Ensure that aspects such as cross-platform compatibility, user-friendliness, and the target C++ version are reflected in the description if mentioned. Highlight any unique aspects such as specific file formats or in-memory operations if applicable.
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a concise phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the extracted text, prioritize using it. Ensure to capture key features such as cross-platform compatibility and user-friendliness when applicable:
 
 <EXTRACTED_README>
 $extracted_text
 </EXTRACTED_README>
 
-The output should be a brief term or phrase introducing the repository.
+The output should be a short, descriptive phrase introducing the repository.
 
 
 ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.4999999999999999
-Rouge2 Score: 0.1818181818181818
-RougeL Score: 0.33333333333333337
+Rouge1 Score: 0.4444444444444444
+Rouge2 Score: 0.17647058823529413
+RougeL Score: 0.2222222222222222
 
-[Summarizer sent]: "Cross-platform C++ library for in-memory spreadsheet manipulation and XLSX file handling"
+[Summarizer sent]: xlnt: A modern, user-friendly C++ library for in-memory spreadsheet manipulation and XLSX file handling, with a focus on cross-platform compatibility and performance.
+
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a concise phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the extracted text, prioritize using it verbatim. Ensure to capture key features such as cross-platform compatibility, user-friendliness, and relevant programming language versions when applicable:
+
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+
+The output should be a short, descriptive phrase introducing the repository.
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.25
+Rouge2 Score: 0.06666666666666667
+RougeL Score: 0.125
+
+[Summarizer sent]: xlnt is a modern C++ library for manipulating spreadsheets in memory and reading/writing XLSX files, focusing on compatibility and performance.
+
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a concise phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the extracted text, prioritize using it verbatim. Ensure to capture key features such as cross-platform compatibility, user-friendliness, relevant programming language versions (such as C++11+), and any notable icons or symbols when applicable:
+
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+
+The output should be a short, descriptive phrase introducing the repository.
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.29411764705882354
+Rouge2 Score: 0.06250000000000001
+RougeL Score: 0.1764705882352941
+
+[Summarizer sent]: xlnt is a modern C++ library (C++11+) for manipulating spreadsheets in memory and reading/writing XLSX files, focused on compatibility and performance.
+
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a concise phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the extracted text, prioritize using it verbatim. Ensure to capture key features such as cross-platform compatibility, user-friendliness, relevant programming language versions (such as C++11+), and any notable icons or symbols when applicable. Include any relevant symbols or emojis that can represent the repository's functionality or features:
+
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+
+The output should be a short, descriptive phrase introducing the repository.
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.5454545454545455
+Rouge2 Score: 0.19354838709677416
+RougeL Score: 0.24242424242424246
+
+[Summarizer sent]: **xlnt**: A modern C++ library (C++11+) for manipulating spreadsheets and handling XLSX files, designed for cross-platform compatibility and user-friendliness. 📊✨
+
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a concise phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the extracted text, prioritize using it verbatim. Ensure to capture key features such as cross-platform compatibility, user-friendliness, relevant programming language versions (such as C++11+), and any notable icons or symbols when applicable. When a suitable tagline or description is not present, create a new one that encapsulates these features. Include any relevant symbols or emojis that can represent the repository's functionality or features:
+
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+
+The output should be a short, descriptive phrase introducing the repository.
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.3846153846153846
+Rouge2 Score: 0.08333333333333333
+RougeL Score: 0.23076923076923075
+
+[Summarizer sent]: **xlnt: A modern C++ library (C++11+) for seamless spreadsheet manipulation and XLSX file handling 📊✨**
+
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a concise phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the extracted text, prioritize using it verbatim. Ensure to capture key features such as cross-platform compatibility, user-friendliness, relevant programming language versions (such as C++11+), and any notable icons or symbols when applicable. When a suitable tagline or description is not present, create a new one that encapsulates these features. Include any relevant symbols or emojis that can represent the repository's functionality or features. Prioritize capturing the repository's main purpose or unique attributes:
+
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+
+The output should be a short, descriptive phrase introducing the repository.
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.33333333333333337
+Rouge2 Score: 0.0909090909090909
+RougeL Score: 0.16666666666666669
+
+[Summarizer sent]: **xlnt: A modern C++ library for seamless spreadsheet manipulation and XLSX file handling 📊✨**
+
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a concise phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the extracted text, prioritize using it verbatim. Ensure to capture key features such as cross-platform compatibility, user-friendliness, relevant programming language versions (such as C++11+), and any notable icons or symbols when applicable. Utilize existing taglines or descriptions when they match the repository's main purpose. When a suitable tagline or description is not present, create a new one that encapsulates these features. Include any relevant symbols or emojis that can represent the repository's functionality or features. Prioritize capturing the repository's main purpose or unique attributes:
+
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+
+The output should be a short, descriptive phrase introducing the repository.
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.3846153846153846
+Rouge2 Score: 0.08333333333333333
+RougeL Score: 0.23076923076923075
+
+[Summarizer sent]: **xlnt: A modern C++ library (C++11+) for seamless spreadsheet manipulation and XLSX file handling. 📊**
+
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a concise phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the extracted text, prioritize using it verbatim. Ensure to capture key features such as cross-platform compatibility, user-friendliness, relevant programming language versions (such as C++11+), and any notable icons or symbols when applicable. Utilize existing taglines or descriptions when they match the repository's main purpose. When a suitable tagline or description is not present, create a new one that encapsulates these features. Include any relevant symbols or emojis that can represent the repository's functionality or features. Prioritize capturing the repository's main purpose or unique attributes, and emphasize any concepts related to handling XLSX files and spreadsheet manipulation:
+
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+
+The output should be a short, descriptive phrase introducing the repository.
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.33333333333333337
+Rouge2 Score: 0.0909090909090909
+RougeL Score: 0.16666666666666669
+
+[Summarizer sent]: **xlnt: A modern C++ library for seamless XLSX file manipulation and spreadsheet management. 📊**
+
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a concise phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the extracted text, prioritize using it verbatim. Ensure to capture key features such as cross-platform compatibility, user-friendliness, relevant programming language versions (such as C++11+), and any notable icons or symbols when applicable. Utilize existing taglines or descriptions when they match the repository's main purpose. When a suitable tagline or description is not present, create a new one that encapsulates these features. Include any relevant symbols or emojis that can represent the repository's functionality or features. Prioritize capturing the repository's main purpose or unique attributes, and emphasize any concepts related to handling XLSX files and spreadsheet manipulation. Additionally, ensure to capture any relevant icons or symbols like ":bar_chart:" that reflect the repository's functionality:
+
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+
+The output should be a short, descriptive phrase introducing the repository.
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.33333333333333337
+Rouge2 Score: 0.0909090909090909
+RougeL Score: 0.16666666666666669
+
+[Summarizer sent]: **xlnt: A modern C++ library for seamless XLSX file manipulation and spreadsheet management. 📊**
+
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a concise phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the extracted text, prioritize using it verbatim. Ensure to capture key features such as cross-platform compatibility, user-friendliness, relevant programming language versions (such as C++11+), and any notable icons or symbols when applicable. Utilize existing taglines or descriptions when they match the repository's main purpose. When a suitable tagline or description is not present, create a new one that encapsulates these features. Include any relevant symbols or emojis that can represent the repository's functionality or features. Prioritize capturing the repository's main purpose or unique attributes, and emphasize any concepts related to handling XLSX files and spreadsheet manipulation. Additionally, ensure to capture any relevant icons or symbols like ":bar_chart:" that reflect the repository's functionality. If the README contains a description similar to the ground truth description, prioritize using it verbatim:
+
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+
+The output should be a short, descriptive phrase introducing the repository.
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.4444444444444444
+Rouge2 Score: 0.16
+RougeL Score: 0.14814814814814814
+
+[Summarizer sent]: "xlnt: A modern C++ library for manipulating spreadsheets and handling XLSX files with cross-platform compatibility. 📊"
+
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a concise phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the extracted text, prioritize using it verbatim. Ensure to capture key features such as cross-platform compatibility, user-friendliness, relevant programming language versions (such as C++11+), and any notable icons or symbols when applicable. Utilize existing taglines or descriptions when they match the repository's main purpose. When a suitable tagline or description is not present, create a new one that encapsulates these features. Include any relevant symbols or emojis that can represent the repository's functionality or features. Prioritize capturing the repository's main purpose or unique attributes, and emphasize any concepts related to handling XLSX files and spreadsheet manipulation. Additionally, ensure to capture any relevant icons or symbols like ":bar_chart:" that reflect the repository's functionality.
+
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+
+The output should be a short, descriptive phrase introducing the repository.
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.4444444444444444
+Rouge2 Score: 0.16
+RougeL Score: 0.14814814814814814
+
+[Summarizer sent]: **xlnt**: A modern C++ library for manipulating spreadsheets and handling XLSX files with cross-platform compatibility. 📊
+
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a concise phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the extracted text, prioritize using it verbatim. Ensure to capture key features such as cross-platform compatibility, user-friendliness, relevant programming language versions (such as C++11+), and any notable icons or symbols when applicable. Use existing taglines or descriptions when they match the repository's main purpose. When a suitable tagline or description is not present, create a new one that encapsulates these features. Include any relevant symbols or emojis that can represent the repository's functionality or features. Prioritize capturing the repository's main purpose or unique attributes, and emphasize any concepts related to handling XLSX files and spreadsheet manipulation. Additionally, ensure to capture any relevant icons or symbols like ":bar_chart:" that reflect the repository's functionality, and prioritize using these symbols if they are mentioned in the extracted text.
+
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+
+The output should be a short, descriptive phrase introducing the repository.
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.32
+Rouge2 Score: 0.08695652173913043
+RougeL Score: 0.16
+
+[Summarizer sent]: **xlnt: A modern C++ library for manipulating spreadsheets and handling XLSX files with ease. 📊**
 
 Length data_prompt: 4
 Data #8:
 - Description: things that I might want to share with others in TQM
 [Extractor sent]: # TQM-demostrations  
-Things that I might want to share with others in TQM.
+Things that I might want to share with others in TQM
 
 Extracted text: # TQM-demostrations  
-Things that I might want to share with others in TQM.
+Things that I might want to share with others in TQM
 
 
 -- Summarizer and Teacher Conversation -- 
@@ -1251,7 +639,7 @@ RougeL Score: 0.13333333333333333
 
 [Summarizer sent]: TQM Demonstrations and Resources
 
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a short term/phrase introducing the repository. If the extracted text includes a tagline, functional description, purpose statement, or overview, prioritize using it as the description.
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository. If the extracted text contains a tagline, functional description, purpose statement, or overview, prioritize using it as the description.
 
 <EXTRACTED_README>
 $extracted_text
@@ -1267,7 +655,7 @@ RougeL Score: 0.13333333333333333
 
 [Summarizer sent]: TQM Demonstrations and Resources
 
-[Teacher sent]: Summarize the following extracted text from a GitHub repository README into a short term/phrase introducing the repository. If the extracted text includes an exact tagline, functional description, purpose statement, or overview, prioritize using it verbatim as the description.
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository. If the extracted text contains a tagline, functional description, purpose statement, or overview, and it matches the text exactly, prioritize using it as the description.
 
 <EXTRACTED_README>
 $extracted_text
@@ -1277,13 +665,93 @@ The output should include only a short term/phrase introducing the repository.
 
 
 ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.9166666666666666
-Rouge2 Score: 0.9090909090909091
-RougeL Score: 0.9166666666666666
+Rouge1 Score: 0.15384615384615385
+Rouge2 Score: 0.0
+RougeL Score: 0.15384615384615385
+
+[Summarizer sent]: TQM Demonstrations
+
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository. If the extracted text contains a tagline, functional description, purpose statement, or overview, and it matches the text exactly at the beginning of the extracted text, prioritize using it as the description.
+
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+
+The output should include only a short term/phrase introducing the repository.
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.15384615384615385
+Rouge2 Score: 0.0
+RougeL Score: 0.15384615384615385
+
+[Summarizer sent]: TQM Demonstrations
+
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository. If the extracted text contains a tagline, functional description, purpose statement, or overview, and it matches the text exactly as it appears in the extracted text, prioritize using it as the description.
+
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+
+The output should include only a short term/phrase introducing the repository.
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.15384615384615385
+Rouge2 Score: 0.0
+RougeL Score: 0.15384615384615385
+
+[Summarizer sent]: TQM Demonstrations
+
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a short term/phrase that introduces the repository. If the extracted text contains a tagline, functional description, purpose statement, or overview at the beginning, and it matches the text exactly, prioritize using it as the description.
+
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+
+The output should include only a short term/phrase introducing the repository.
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.15384615384615385
+Rouge2 Score: 0.0
+RougeL Score: 0.15384615384615385
+
+[Summarizer sent]: TQM Demonstrations
+
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a short term/phrase that introduces the repository. If the extracted text contains a tagline, functional description, purpose statement, or overview at the beginning, prioritize using it as the description.
+
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+
+The output should include only a short term/phrase introducing the repository.
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 0.13333333333333333
+Rouge2 Score: 0.0
+RougeL Score: 0.13333333333333333
+
+[Summarizer sent]: TQM Demonstrations and Resources
+
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a short term/phrase that introduces the repository. If the extracted text contains a tagline, functional description, purpose statement, or overview at the beginning, prioritize using the exact wording as the description. Ensure the description aligns closely with the original text.
+
+<EXTRACTED_README>
+$extracted_text
+</EXTRACTED_README>
+
+The output should include only a short term/phrase introducing the repository.
+
+
+ROUGE Calculated inside Summarizer agent
+Rouge1 Score: 1.0
+Rouge2 Score: 1.0
+RougeL Score: 1.0
 
 [Summarizer sent]: APPROVED
 
-Added Prompt #8: Summarize the following extracted text from a GitHub repository README into a short term/phrase introducing the repository. If the extracted text includes an exact tagline, functional description, purpose statement, or overview, prioritize using it verbatim as the description.
+Added Prompt #8: Summarize the following extracted text from a Github repository README into a short term/phrase that introduces the repository. If the extracted text contains a tagline, functional description, purpose statement, or overview at the beginning, prioritize using the exact wording as the description. Ensure the description aligns closely with the original text.
 
 <EXTRACTED_README>
 $extracted_text
@@ -1310,12 +778,11 @@ RougeL Score: 0.36363636363636365
 
 [Summarizer sent]: Advanced Predictive Modeling Insights
 
-[Teacher sent]: Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository. If the extracted text contains a tagline, functional description, purpose statement, or overview, prioritize using it as the description:
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it as the description:  
+<EXTRACTED_README>  
+$extracted_text  
+</EXTRACTED_README>  
+  
 The output should include only a short term/phrase introducing the repository.
 
 
@@ -1326,43 +793,41 @@ RougeL Score: 0.36363636363636365
 
 [Summarizer sent]: Advanced Predictive Modeling Insights
 
-[Teacher sent]: Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository. If the extracted text contains a tagline, functional description, purpose statement, or overview that matches the extracted text exactly, prioritize using it as the description:
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
+[Teacher sent]: Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it exactly as the description:  
+<EXTRACTED_README>  
+$extracted_text  
+</EXTRACTED_README>  
+  
 The output should include only a short term/phrase introducing the repository.
 
 
 ROUGE Calculated inside Summarizer agent
-Rouge1 Score: 0.8235294117647058
-Rouge2 Score: 0.8
-RougeL Score: 0.8235294117647058
+Rouge1 Score: 1.0
+Rouge2 Score: 1.0
+RougeL Score: 1.0
 
 [Summarizer sent]: APPROVED
 
-Added Prompt #9: Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository. If the extracted text contains a tagline, functional description, purpose statement, or overview that matches the extracted text exactly, prioritize using it as the description:
-
-<EXTRACTED_README>
-$extracted_text
-</EXTRACTED_README>
-
+Added Prompt #9: Summarize the following extracted text from a Github repository README into a short term/phrase introducing the repository. If a tagline, functional description, purpose statement, or overview is present at the beginning of the text, prioritize using it exactly as the description:  
+<EXTRACTED_README>  
+$extracted_text  
+</EXTRACTED_README>  
+  
 The output should include only a short term/phrase introducing the repository.
 Length data_prompt: 6
-[Combiner sent]: Summarize the following extracted text from a GitHub repository README into a short term/phrase introducing the repository. If the extracted text includes a tagline, functional description, purpose statement, or overview that matches the repository's core purpose, prioritize using it verbatim:
+[Combiner sent]: Summarize the following extracted text from a GitHub repository README into a short term or phrase introducing the repository. If the extracted text contains a tagline, functional description, purpose statement, or overview at the beginning, prioritize using it word-for-word as the description to ensure accuracy and completeness. Ensure the description captures key concepts and aligns closely with the original text.
 
 <EXTRACTED_README>
 $extracted_text
 </EXTRACTED_README>
 
-The output should include only a short term/phrase introducing the repository.
+The output should include only a short term or phrase introducing the repository.
 
-Extracted text: Summarize the following extracted text from a GitHub repository README into a short term/phrase introducing the repository. If the extracted text includes a tagline, functional description, purpose statement, or overview that matches the repository's core purpose, prioritize using it verbatim:
+Extracted text: Summarize the following extracted text from a GitHub repository README into a short term or phrase introducing the repository. If the extracted text contains a tagline, functional description, purpose statement, or overview at the beginning, prioritize using it word-for-word as the description to ensure accuracy and completeness. Ensure the description captures key concepts and aligns closely with the original text.
 
 <EXTRACTED_README>
 $extracted_text
 </EXTRACTED_README>
 
-The output should include only a short term/phrase introducing the repository.
+The output should include only a short term or phrase introducing the repository.
 (thesis) mariamaoliveira@192 METAGENT % 
