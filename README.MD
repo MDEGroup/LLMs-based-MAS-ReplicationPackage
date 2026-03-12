@@ -32,7 +32,7 @@ For each tested MAS frameworks, we report the prompt files and tuned/optimized p
 ## Running the Experiments
 
 Each framework implementation is located in its corresponding directory (e.g., `semantic_kernel/`, `autogen/`, `dify/`).  
-All frameworks follow the same setup procedure described below.
+The frameworks which depend on third libraries or APIs to run follow the same setup procedure described below.
 
 ### Python Environment
 
@@ -58,12 +58,13 @@ Some frameworks require API credentials to access large language models.
 Where applicable, an .env.example file is provided.
 Create your configuration file by copying it:
 
-cp .env.example .env
+```cp .env.example .env```
 
 Then edit .env and provide the required API keys:
 
-OPENAI_API_KEY=your_api_key_here
+```OPENAI_API_KEY=your_api_key_here```
 
+---
 ### Framework Implementations
 
 #### AutoGen
@@ -82,16 +83,22 @@ For evaluation workflow
 python evaluation.py
 ```
 
+---
+
 #### AutoGPT
 
 The implementation related to the AutoGPT framework could not be fully exported due to limitations in exporting configured agents from the platform.
 
 To ensure transparency and replication of the experiments, the repository provides:
 
-- Screenshots illustrating the agent workflow configuration in `images_pipelines` folder.
-- The prompts used during the experiments in `prompts` folder.
+- Screenshots illustrating the agent workflow configuration in the `images_pipelines/` folder.
+- The prompts used during the experiments in the `prompts/` folder.
 
-These materials allow readers to understand the experimental setup and replicate the workflow configuration within the AutoGPT platform.
+These materials allow readers to understand the experimental setup and replicate the workflow configuration within the AutoGPT platform. 
+To run AutoGen locally,  the official repository (which provides the Docker configuration) is available at: 
+https://github.com/Significant-Gravitas/AutoGPT
+
+---
 
 #### Dify
 
@@ -110,6 +117,7 @@ Before running the workflow, start the API service locally after installing the 
 cd dify_API
 uvicorn rouge_api:app --host 127.0.0.1 --port 8000 --reload
 ```
+---
 
 #### Semantic Kernel
 
