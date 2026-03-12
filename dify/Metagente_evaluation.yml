@@ -1,0 +1,693 @@
+app:
+  description: ''
+  icon: 🤖
+  icon_background: '#FFEAD5'
+  mode: workflow
+  name: Metagente_evaluation
+  use_icon_as_answer_icon: false
+dependencies:
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/openai:0.0.22@fa668d0ec3b434270453ede311196acaad0531ad9e3d5561cd622e6508cd3254
+kind: app
+version: 0.1.5
+workflow:
+  conversation_variables: []
+  environment_variables: []
+  features:
+    file_upload:
+      allowed_file_extensions:
+      - .JPG
+      - .JPEG
+      - .PNG
+      - .GIF
+      - .WEBP
+      - .SVG
+      allowed_file_types:
+      - image
+      allowed_file_upload_methods:
+      - local_file
+      - remote_url
+      enabled: false
+      fileUploadConfig:
+        audio_file_size_limit: 50
+        batch_count_limit: 5
+        file_size_limit: 15
+        image_file_size_limit: 10
+        video_file_size_limit: 100
+        workflow_file_upload_limit: 10
+      image:
+        enabled: false
+        number_limits: 3
+        transfer_methods:
+        - local_file
+        - remote_url
+      number_limits: 3
+    opening_statement: ''
+    retriever_resource:
+      enabled: true
+    sensitive_word_avoidance:
+      enabled: false
+    speech_to_text:
+      enabled: false
+    suggested_questions: []
+    suggested_questions_after_answer:
+      enabled: false
+    text_to_speech:
+      enabled: false
+      language: ''
+      voice: ''
+  graph:
+    edges:
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1743693703395'
+        sourceType: iteration-start
+        targetType: code
+      id: 1743693703395start-source-1743693726423-target
+      source: 1743693703395start
+      sourceHandle: source
+      target: '1743693726423'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: iteration
+        targetType: template-transform
+      id: 1743693703395-source-1743693796877-target
+      source: '1743693703395'
+      sourceHandle: source
+      target: '1743693796877'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: start
+        targetType: document-extractor
+      id: 1742476544067-source-1743692977763-target
+      source: '1742476544067'
+      sourceHandle: source
+      target: '1743692977763'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: document-extractor
+        targetType: code
+      id: 1743692977763-source-1743695647296-target
+      source: '1743692977763'
+      sourceHandle: source
+      target: '1743695647296'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: code
+        targetType: iteration
+      id: 1743695647296-source-1743693703395-target
+      source: '1743695647296'
+      sourceHandle: source
+      target: '1743693703395'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1743693703395'
+        sourceType: code
+        targetType: llm
+      id: 1743693726423-source-1743699615763-target
+      source: '1743693726423'
+      sourceHandle: source
+      target: '1743699615763'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1743693703395'
+        sourceType: llm
+        targetType: code
+      id: 1743699615763-source-1743699992610-target
+      source: '1743699615763'
+      sourceHandle: source
+      target: '1743699992610'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1743693703395'
+        sourceType: code
+        targetType: llm
+      id: 1743699992610-source-1743700060818-target
+      source: '1743699992610'
+      sourceHandle: source
+      target: '1743700060818'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1743693703395'
+        sourceType: llm
+        targetType: code
+      id: 1743700060818-source-1743700141166-target
+      source: '1743700060818'
+      sourceHandle: source
+      target: '1743700141166'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1743693703395'
+        sourceType: code
+        targetType: template-transform
+      id: 1743700141166-source-1745856286949-target
+      source: '1743700141166'
+      sourceHandle: source
+      target: '1745856286949'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInLoop: false
+        sourceType: template-transform
+        targetType: end
+      id: 1743693796877-source-1743693040087-target
+      source: '1743693796877'
+      sourceHandle: source
+      target: '1743693040087'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    nodes:
+    - data:
+        desc: ''
+        selected: false
+        title: Start
+        type: start
+        variables:
+        - label: initial_prompt
+          max_length: 1000
+          options: []
+          required: true
+          type: paragraph
+          variable: initial_prompt
+        - allowed_file_extensions: []
+          allowed_file_types:
+          - document
+          allowed_file_upload_methods:
+          - local_file
+          label: train_data
+          max_length: 5
+          options: []
+          required: true
+          type: file-list
+          variable: train_data
+      height: 116
+      id: '1742476544067'
+      position:
+        x: 942
+        y: 210.4817763197682
+      positionAbsolute:
+        x: 942
+        y: 210.4817763197682
+      selected: true
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        desc: ''
+        is_array_file: true
+        selected: false
+        title: Doc Extractor
+        type: document-extractor
+        variable_selector:
+        - '1742476544067'
+        - train_data
+      height: 92
+      id: '1743692977763'
+      position:
+        x: 1216.091585675011
+        y: 210.4817763197682
+      positionAbsolute:
+        x: 1216.091585675011
+        y: 210.4817763197682
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        desc: ''
+        outputs:
+        - value_selector:
+          - '1743693796877'
+          - output
+          variable: result
+        selected: false
+        title: prompt output
+        type: end
+      height: 90
+      id: '1743693040087'
+      position:
+        x: 2528.151115102602
+        y: 483.24191635041916
+      positionAbsolute:
+        x: 2528.151115102602
+        y: 483.24191635041916
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        desc: ''
+        error_handle_mode: terminated
+        height: 372
+        is_parallel: false
+        iterator_selector:
+        - '1743695647296'
+        - result
+        output_selector:
+        - '1745856286949'
+        - output
+        output_type: array[string]
+        parallel_nums: 10
+        selected: false
+        start_node_id: 1743693703395start
+        title: Iteration
+        type: iteration
+        width: 1549
+      height: 372
+      id: '1743693703395'
+      position:
+        x: 942
+        y: 386
+      positionAbsolute:
+        x: 942
+        y: 386
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 1549
+      zIndex: 1
+    - data:
+        desc: ''
+        isInIteration: true
+        selected: false
+        title: ''
+        type: iteration-start
+      draggable: false
+      height: 48
+      id: 1743693703395start
+      parentId: '1743693703395'
+      position:
+        x: 24
+        y: 68
+      positionAbsolute:
+        x: 966
+        y: 454
+      selectable: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom-iteration-start
+      width: 44
+      zIndex: 1002
+    - data:
+        code: "\ndef main(arg1: str, index: int) -> dict:\n\n    return {\n      \
+          \  \"description\": arg1[\"description\"], \"readme\": arg1[\"readme\"]\n\
+          \    }\n"
+        code_language: python3
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1743693703395'
+        outputs:
+          description:
+            children: null
+            type: string
+          readme:
+            children: null
+            type: string
+        selected: false
+        title: input
+        type: code
+        variables:
+        - value_selector:
+          - '1743693703395'
+          - item
+          variable: arg1
+        - value_selector:
+          - '1743693703395'
+          - index
+          variable: index
+      height: 54
+      id: '1743693726423'
+      parentId: '1743693703395'
+      position:
+        x: 98.3608613089549
+        y: 65
+      positionAbsolute:
+        x: 1040.360861308955
+        y: 451
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        desc: ''
+        selected: false
+        template: 'Description,Generated About,ROUGE-1,ROUGE-2,ROUGE-L
+
+          {{ arg1 | join(''\n'') }}'
+        title: all prompts
+        type: template-transform
+        variables:
+        - value_selector:
+          - '1743693703395'
+          - output
+          variable: arg1
+      height: 54
+      id: '1743693796877'
+      position:
+        x: 2522.5069948141154
+        y: 386
+      positionAbsolute:
+        x: 2522.5069948141154
+        y: 386
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        code: "\ndef main(csv_text: str) -> dict:\n\n    import csv\n    from io import\
+          \ StringIO\n\n    # Assuming csv_text is a long string with the full CSV\
+          \ content\n    # Don't split it — let csv.reader handle it\n\n    f = StringIO(csv_text[0].strip())\n\
+          \n    # Skip header + separator lines\n    _ = f.readline()\n    _ = f.readline()\n\
+          \n    reader = csv.reader(f, delimiter='|')\n    data_array = []\n\n   \
+          \ for row in reader:\n        # Skip invalid/empty rows\n        if len(row)\
+          \ < 3:\n            continue\n\n        # row[0] is empty (pipe before description)\n\
+          \        # row[-1] is empty (pipe after readme)\n        # row[1] = description\n\
+          \        # row[2:-1] = everything between description and last pipe => full\
+          \ readme\n        description = row[1].strip()\n        readme_parts = row[2:-1]\n\
+          \        readme = '|'.join(part.strip() for part in readme_parts)\n\n  \
+          \      data_array.append({\n            \"description\": description,\n\
+          \            \"readme\": readme\n        })\n\n\n    return {\"result\"\
+          : data_array}\n\n\n\n"
+        code_language: python3
+        desc: ''
+        outputs:
+          result:
+            children: null
+            type: array[object]
+        selected: false
+        title: csv extrator
+        type: code
+        variables:
+        - value_selector:
+          - '1743692977763'
+          - text
+          variable: csv_text
+      height: 54
+      id: '1743695647296'
+      position:
+        x: 1502.089716579602
+        y: 210.4817763197682
+      positionAbsolute:
+        x: 1502.089716579602
+        y: 210.4817763197682
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        context:
+          enabled: false
+          variable_selector: []
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1743693703395'
+        model:
+          completion_params:
+            temperature: 0
+          mode: chat
+          name: gpt-4o-mini
+          provider: langgenius/openai/openai
+        prompt_template:
+        - edition_type: basic
+          id: ab73118f-e2c7-4657-9056-ba4364fc5ec5
+          role: system
+          text: "Your task is to shorten and extract only the introduction and description\
+            \ information from the README of a Github repository. You are given the\
+            \ following README text from a GitHub repository:\n<README>\n{{#1743693726423.readme#}}\n\
+            </README>\n \n# Steps\n- **Identify the structure of the repository**:\
+            \ The README file is a structure text file that might contains many sections\
+            \ such as introduction, description, installation, contributing, license,...\n\
+            - **Remove all sections that are not relevant to the introduction or description\
+            \ of the repository**: Irrelevant sections might include technical guidance\
+            \ (installing/running/specification... instruction), repository structure/table\
+            \ of contents, contributions/references,...\n- **Remove all unnecessary\
+            \ links/tags**: Identify all links/tags that DO NOT contribute to the\
+            \ description of the repository. You must remove all of these reference\
+            \ links and tags.\n- **Return only text that is relevant to the description\
+            \ of the repository**: The output should only contains the text that is\
+            \ relevant to the introduction/description of the repository, including\
+            \ the project name/title, project tagline/functional description/purpose\
+            \ statement/overview. DO NOT include any output identifications such as:\
+            \ \"Here's the ...\" or \"Extracted README:\""
+        selected: false
+        title: extractor agent
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 90
+      id: '1743699615763'
+      parentId: '1743693703395'
+      position:
+        x: 88.84209793886112
+        y: 143.34254111126825
+      positionAbsolute:
+        x: 1030.8420979388611
+        y: 529.3425411112682
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        code: "\ndef main(prompt: str, extracted_text: str) -> dict:\n    from string\
+          \ import Template\n\n    if \"$extracted_text\" not in prompt:\n       \
+          \ prompt += \"\\n<EXTRACTED_README>$extracted_text</EXTRACTED_README>\"\n\
+          \        \n    prompt = Template(prompt)\n    prompt = prompt.substitute(extracted_text=extracted_text)\n\
+          \    return {\n        \"summarizer_prompt\": prompt,\n    }\n"
+        code_language: python3
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1743693703395'
+        outputs:
+          summarizer_prompt:
+            children: null
+            type: string
+        selected: false
+        title: 1 prompt builder summary
+        type: code
+        variables:
+        - value_selector:
+          - '1742476544067'
+          - initial_prompt
+          variable: prompt
+        - value_selector:
+          - '1743699615763'
+          - text
+          variable: extracted_text
+      height: 54
+      id: '1743699992610'
+      parentId: '1743693703395'
+      position:
+        x: 387.8605628541168
+        y: 154.75305660641277
+      positionAbsolute:
+        x: 1329.8605628541168
+        y: 540.7530566064128
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        context:
+          enabled: false
+          variable_selector: []
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1743693703395'
+        model:
+          completion_params:
+            temperature: 0
+          mode: chat
+          name: gpt-4o-mini
+          provider: langgenius/openai/openai
+        prompt_template:
+        - id: 7ab2507e-c560-4c2d-9e2c-4fbf0ea89c57
+          role: system
+          text: '{{#1743699992610.summarizer_prompt#}}'
+        selected: false
+        title: Summarizer agent
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 90
+      id: '1743700060818'
+      parentId: '1743693703395'
+      position:
+        x: 684.277389360793
+        y: 155.39329946420423
+      positionAbsolute:
+        x: 1626.277389360793
+        y: 541.3932994642042
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        code: "def main(ground_truth_summary: str, summary: str) -> dict:\n    import\
+          \ requests\n    import re\n\n    # Define API headers (Ensure correct API\
+          \ key)\n    headers = {\n        \"Authorization\": \"Bearer 123456\",\n\
+          \        \"Content-Type\": \"application/json\"\n    }\n\n    api_url= \"\
+          http://host.docker.internal:8000/rouge\"\n    \n    # Prepare the API request\
+          \ payload\n    payload = {\n        \"point\": \"app.external_data_tool.query\"\
+          ,\n        \"params\": {\n            \"ground_truth\": ground_truth_summary,\n\
+          \            \"generated\": summary\n        }\n    }\n    \n    # Send\
+          \ the request to FastAPI\n    response = requests.post(api_url, json=payload,\
+          \ headers=headers)\n    \n    # Raise an error if request failed\n    response.raise_for_status()\n\
+          \    \n    response_score = response.json()\n    rouge_l = response_score[\"\
+          result\"][\"rougeL\"]\n    rouge_1 = response_score[\"result\"][\"rouge1\"\
+          ]\n    rouge_2 = response_score[\"result\"][\"rouge2\"]\n\n    # Parse the\
+          \ JSON response\n    return {\n        'result_rouge_l': rouge_l,\n    \
+          \    'result_rouge_1': rouge_1,\n        'result_rouge_2': rouge_2\n   \
+          \ }\n\n\n"
+        code_language: python3
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1743693703395'
+        outputs:
+          result_rouge_1:
+            children: null
+            type: number
+          result_rouge_2:
+            children: null
+            type: number
+          result_rouge_l:
+            children: null
+            type: number
+        selected: false
+        title: rouge
+        type: code
+        variables:
+        - value_selector:
+          - '1743693726423'
+          - description
+          variable: ground_truth_summary
+        - value_selector:
+          - '1743700060818'
+          - text
+          variable: summary
+      height: 54
+      id: '1743700141166'
+      parentId: '1743693703395'
+      position:
+        x: 989.7321172913253
+        y: 155.55827600604277
+      positionAbsolute:
+        x: 1931.7321172913253
+        y: 541.5582760060428
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1743693703395'
+        selected: false
+        template: '"{{ description }}","{{ generated_about }}",{{ rouge_1 }},{{ rouge_2
+          }},{{ rouge_l }}
+
+          '
+        title: rouges
+        type: template-transform
+        variables:
+        - value_selector:
+          - '1743700141166'
+          - result_rouge_l
+          variable: rouge_l
+        - value_selector:
+          - '1743700141166'
+          - result_rouge_1
+          variable: rouge_1
+        - value_selector:
+          - '1743700141166'
+          - result_rouge_2
+          variable: rouge_2
+        - value_selector:
+          - '1743693726423'
+          - description
+          variable: description
+        - value_selector:
+          - '1743700060818'
+          - text
+          variable: generated_about
+      height: 54
+      id: '1745856286949'
+      parentId: '1743693703395'
+      position:
+        x: 1281.8351900361208
+        y: 155.55827600604277
+      positionAbsolute:
+        x: 2223.835190036121
+        y: 541.5582760060428
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    viewport:
+      x: -580.5677883547842
+      y: -26.382434909482015
+      zoom: 0.6422688249584408
