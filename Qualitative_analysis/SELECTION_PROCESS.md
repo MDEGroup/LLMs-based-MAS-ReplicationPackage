@@ -83,7 +83,7 @@ As filter criteria, we emplöoyed traditional GitHub popularity metrics. e.g., s
 
 ### Literature Filtering
 
-We start from 47 papers, ending up into 18 after the application of the criteria. Although we acknowledge that the field is fast-evolving, we created a "quasi-gold" set to indetify pivotal functionalities. 
+We start from 47 papers, ending up into 18 after the application of the criteria. Although we acknowledge that the field is fast-evolving, we created a "quasi-gold" set to indetify pivotal functionalities. The full list of the papers, including the rationale for inclusion/exclusion, is reported in Survey_all_papers.csv file. 
 
 
 
