@@ -92,9 +92,10 @@ We start from 47 papers, ending up into 18 after the application of the criteria
 
 1. Initial pool: **20 frameworks**
 2. Excluded:
-   - 4 frameworks (<10k stars)
-   - 3 frameworks (subscription required)
-3. Final set: **13 frameworks**
+   - 2 frameworks (<10k stars)
+   - 2 frameworks (subscription required)
+3. Final set: **16 frameworks**
+4. Analyzed frameworks in the qualitative analysis: **8 frameworks** 
 
 ---
 
